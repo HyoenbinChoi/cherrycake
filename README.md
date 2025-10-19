@@ -240,7 +240,7 @@ MIT License - 자유롭게 사용, 수정, 배포 가능
 *Resonant Architecture*
 
 - Website: [cherrycake.me](https://cherrycake.me)
-- Email: contact@cherrycake.me
+- Email: hyeonbinofficial@gmail.com
 
 ---
 
