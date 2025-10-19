@@ -31,6 +31,7 @@ export default function HomePage() {
       description: '데이터와 감성이 만나는 새로운 실험들',
       tags: ['TBA'],
       status: 'Coming Soon',
+      link: '#',
       year: '2025',
       isPlaceholder: true
     }
