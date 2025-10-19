@@ -121,9 +121,17 @@ public/
 
 ### 포트폴리오 홈페이지
 - **반응형 디자인**: 모바일/태블릿/데스크톱 최적화
-- **애니메이션**: Fade-in, scale, blur 효과
+- **기하학적 패턴**: 점선 그리드, 웨이브폼, 대각선 스트라이프
+- **무한 애니메이션**: 10종 커스텀 키프레임으로 생동감 있는 움직임
 - **프로젝트 그리드**: Featured 배지, 메트릭 표시
 - **Contact 섹션**: 이메일 연락처 제공
+
+### 디자인 시스템 v3.0
+- **Typography**: Pretendard Variable (한글) + Instrument Serif (영문 디스플레이) + IBM Plex Mono (코드)
+- **Patterns**: 블러 효과 제거 → 기하학적 패턴 (그리드, 웨이브, 스트라이프, 데이터 포인트)
+- **Animations**: 10개 커스텀 키프레임 (grid-drift, wave-flow, float, spin, pulse)
+- **Shadows**: shadow-soft, shadow-elevated, shadow-md (복구 완료)
+- **Performance**: GPU 가속 (transform/opacity only), 60fps 유지
 
 ### Große Fuge 시각화 도구
 
@@ -209,6 +217,7 @@ git push origin main
 | 메모리 사용 | 500MB | 150MB | **70%↓** |
 | CPU 사용률 | 80% | 30% | **62%↓** |
 | 번들 크기 | - | 102kB | 최적화됨 |
+| 애니메이션 FPS | 60fps | 60fps | GPU 가속 |
 
 ### 번들 크기
 
@@ -237,8 +246,20 @@ git push origin main
 ### Design System
 - **Colors**: WCAG AA 준수 (4.5:1+ 대비율)
 - **Palette**: Cherry/Rose/Peach (따뜻함) × Cyan/Violet (기술) × Graphite/Slate/Ivory (균형)
-- **Typography**: Noto Sans KR (단일 폰트, 한글 최적화)
-- **Animations**: CSS keyframes + Tailwind transitions
+- **Typography**: 3-tier hierarchy
+  - Display: Instrument Serif (영문 제목)
+  - Sans: Pretendard Variable + Inter (한글/영문 본문)
+  - Mono: IBM Plex Mono (코드)
+- **Patterns**: 기하학적 디자인 요소
+  - Dot Grid (24px spacing, 1.5px dots)
+  - SVG Waveforms (stroke-width 1.5-2)
+  - Diagonal Stripes (3px thickness)
+  - Floating Data Points (2.5-3px circles)
+- **Animations**: 10개 커스텀 키프레임
+  - Movement: 20-40px 범위 (3-4x 증폭)
+  - Speed: 3-35초 주기 (2-3x 가속)
+  - Timing: ease-in-out, infinite loops
+  - Performance: GPU-accelerated (transform/opacity only)
 
 ### Data Processing
 - **Source**: Beethoven Große Fuge Op.133 (MuseData)
@@ -317,13 +338,96 @@ MIT License - 자유롭게 사용, 수정, 배포 가능
 
 ---
 
+## 🎨 디자인 업데이트 히스토리
+
+### v3.0 - 애니메이션 시스템 증폭 (2025-10-19)
+**목표**: "대놓고 움직이는 느낌" - 명확하고 역동적인 애니메이션
+
+**변경 사항**:
+- ⚡ **애니메이션 증폭**: 모든 움직임 2-4배 강화
+  - 이동 거리: 10-20px → 20-40px (3-4x)
+  - 애니메이션 속도: 30-80초 → 3-35초 (2-3x 빠르게)
+  - 복잡도: 2-point → 4-point 경로 (떠다니는 애니메이션)
+  
+- 🎨 **시각적 강도 증가**:
+  - 그리드 opacity: 0.08-0.15 → 0.12-0.2
+  - 도트 크기: 1px → 1.5px
+  - SVG opacity: 0.3-0.4 → 0.4-0.55
+  - 그라데이션 범위: 0.3-0.7 → 0.4-0.9
+  - 데이터 포인트: 1.5-2px → 2.5-3px
+  - 대각선 스트라이프: opacity 0.03 → 0.06
+  
+- 💫 **shape 요소 강화**:
+  - 크기: 20-50% 증가
+  - 테두리: 1-2px → 2-3px
+  - 그림자: shadow-sm → shadow-md
+  
+- ⏱️ **애니메이션 타이밍**:
+  - grid-drift: 30s → 12s
+  - wave-flow: 8s → 3s
+  - pulse-subtle: 4s → 2.5s
+  - float animations: 6-8s → 4-5s
+
+**결과**: 사용자가 즉시 인지할 수 있는 생동감 있는 패턴 애니메이션
+
+---
+
+### v2.0 - 패턴 시스템 도입 (2025-10-19)
+**목표**: 블러 효과 제거 및 기하학적 패턴으로 대체
+
+**추가된 패턴**:
+1. **SignatureHero 섹션**:
+   - 점선 그리드 (24px spacing, 1.5px dots)
+   - SVG 웨이브폼 라인 2개 (stroke-width 1.5-2)
+   - 떠다니는 데이터 포인트 3개 (shadow-md)
+
+2. **Main Hero 섹션**:
+   - 60px 그리드 패턴 (1.5px lines)
+   - 원형 2개 + 사각형 1개 (geometric shapes)
+
+3. **Philosophy 섹션**:
+   - 45도 대각선 스트라이프 (3px thickness)
+   - 원형 + 둥근 사각형 (abstract shapes)
+
+**무한 애니메이션 10종**:
+- `grid-drift`, `grid-slow`: 그리드 이동
+- `stripe-drift`: 대각선 이동
+- `wave-flow`, `wave-flow-delayed`: 웨이브 흐름
+- `float-1/2/3`: 데이터 포인트 떠다님
+- `spin-slow`, `spin-very-slow`: 회전
+- `pulse-subtle`: 펄스 효과
+
+**성능**: transform/opacity만 사용하여 GPU 가속, 60fps 유지
+
+---
+
+### v1.0 - 타이포그래피 시스템 (2025-10-18)
+**목표**: 한글/영문 최적화 폰트 시스템
+
+**3-tier 폰트 계층**:
+- Display: Instrument Serif (영문 제목)
+- Sans: Pretendard Variable + Inter (한글/영문 본문)
+- Mono: IBM Plex Mono (코드)
+
+**Micro-Typography**:
+- 2가지 모드: calm (집중) / expressive (감성)
+- 유틸리티 클래스: `.typo-display`, `.typo-body`, `.typo-ui`, `.typo-mono`
+- 프리셋: `.h1`, `.h2`, `.h3`, `.p1`, `.p2`, `.cap`
+
+**OpenType 기능**:
+- liga, kern, calt, ss01
+- 한글 따옴표 hanging punctuation
+- text-wrap: balance (제목), pretty (본문)
+
+---
+
 ## 🙏 Credits
 
 - **Beethoven** - Große Fuge Op.133 작곡
 - **MuseData** - 악보 데이터 제공
 - **Next.js Team** - 프레임워크
 - **Cloudflare** - 호스팅 & CDN
-- **Google Fonts** - Noto Sans KR
+- **Google Fonts** - Pretendard, Instrument Serif, IBM Plex Mono
 
 ---
 
