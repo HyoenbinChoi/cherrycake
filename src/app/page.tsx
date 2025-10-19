@@ -207,6 +207,37 @@ export default function HomePage() {
           </blockquote>
         </div>
       </section>
+
+      {/* Contact Section */}
+      <section id="contact" className="py-24 md:py-32 bg-ivory">
+        <div className="container mx-auto px-[4%]">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-4xl md:text-5xl font-display font-bold mb-6 tracking-tight">
+              Get in Touch
+            </h2>
+            <p className="text-xl text-neutral-600 leading-relaxed mb-12">
+              프로젝트 협업, 문의, 또는 그냥 인사라도 환영합니다.
+            </p>
+            
+            <div className="inline-flex items-center gap-4 px-8 py-6 rounded-2xl bg-gradient-to-br from-white to-ivory border-2 border-neutral-200 hover:border-cherry/40 transition-all duration-300 shadow-soft hover:shadow-elevated">
+              <div className="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-br from-cherry/10 to-peach/10">
+                <svg className="w-6 h-6 text-cherry" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+              </div>
+              <div className="text-left">
+                <div className="text-sm font-medium text-neutral-500 mb-1">Email</div>
+                <a 
+                  href="mailto:hyeonbinofficial@gmail.com"
+                  className="text-lg font-semibold text-neutral-900 hover:text-cherry transition-colors duration-200"
+                >
+                  hyeonbinofficial@gmail.com
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
