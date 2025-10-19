@@ -46,9 +46,25 @@ export default function HomePage() {
 
       {/* Main Hero Section */}
       <section className="relative min-h-[70vh] flex items-center justify-center bg-gradient-to-br from-ivory via-ivory to-rose/10">
-        <div className="absolute inset-0 opacity-20 pointer-events-none">
-          <div className="absolute top-[10%] left-[5%] w-[400px] h-[400px] bg-cyan/60 rounded-full blur-3xl animate-pulse" style={{ animationDuration: '4s' }} />
-          <div className="absolute bottom-[10%] right-[5%] w-[500px] h-[500px] bg-violet/50 rounded-full blur-3xl animate-pulse" style={{ animationDuration: '6s', animationDelay: '1s' }} />
+        {/* 기하학적 패턴 배경 */}
+        <div className="absolute inset-0 opacity-[0.08] pointer-events-none">
+          <div 
+            className="absolute inset-0"
+            style={{
+              backgroundImage: `
+                linear-gradient(to right, #E14A5C 1px, transparent 1px),
+                linear-gradient(to bottom, #E14A5C 1px, transparent 1px)
+              `,
+              backgroundSize: '60px 60px',
+            }}
+          />
+        </div>
+        
+        {/* 추상적 색상 악센트 */}
+        <div className="absolute inset-0 pointer-events-none">
+          <div className="absolute top-[20%] right-[10%] w-32 h-32 border-2 border-cherry/10 rounded-full" />
+          <div className="absolute bottom-[25%] left-[8%] w-24 h-24 border-2 border-violet/10 rounded-full" />
+          <div className="absolute top-[50%] right-[25%] w-16 h-16 bg-gradient-to-br from-peach/5 to-transparent rounded-lg rotate-12" />
         </div>
 
         <div className={`container mx-auto px-[4%] relative z-10 text-center transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
@@ -181,9 +197,27 @@ export default function HomePage() {
 
       {/* Philosophy Section */}
       <section id="philosophy" className="py-20 md:py-28 bg-gradient-to-b from-graphite to-slate text-ivory relative">
-        <div className="absolute inset-0 opacity-5 pointer-events-none">
-          <div className="absolute top-[10%] left-[5%] w-[400px] h-[400px] bg-cherry/60 rounded-full blur-3xl" />
-          <div className="absolute bottom-[10%] right-[5%] w-[500px] h-[500px] bg-violet/50 rounded-full blur-3xl" />
+        {/* 대각선 패턴 */}
+        <div className="absolute inset-0 opacity-[0.03] pointer-events-none">
+          <div 
+            className="absolute inset-0"
+            style={{
+              backgroundImage: `repeating-linear-gradient(
+                45deg,
+                transparent,
+                transparent 40px,
+                rgba(255, 173, 198, 0.5) 40px,
+                rgba(255, 173, 198, 0.5) 42px
+              )`,
+            }}
+          />
+        </div>
+        
+        {/* 추상적 도형 악센트 */}
+        <div className="absolute inset-0 pointer-events-none">
+          <div className="absolute top-[15%] left-[5%] w-40 h-40 border border-rose/10 rounded-full" />
+          <div className="absolute bottom-[20%] right-[8%] w-32 h-32 border border-violet/10 rotate-45" 
+               style={{ borderRadius: '20%' }} />
         </div>
         
         <div className="container mx-auto px-[4%] relative z-10">
