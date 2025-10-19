@@ -671,65 +671,80 @@ a:hover {
 }
 
 /* 애니메이션 클래스 - 속도 2-3배 빠르게 */
+/* !important를 추가하여 prefers-reduced-motion 무시 */
 .animate-grid-drift {
-  animation: grid-drift 12s ease-in-out infinite;
+  animation: grid-drift 12s ease-in-out infinite !important;
+  will-change: transform;
 }
 
 .animate-grid-slow {
-  animation: grid-slow 15s ease-in-out infinite;
+  animation: grid-slow 15s ease-in-out infinite !important;
+  will-change: transform;
 }
 
 .animate-stripe-drift {
-  animation: stripe-drift 14s ease-in-out infinite;
+  animation: stripe-drift 14s ease-in-out infinite !important;
+  will-change: transform;
 }
 
 .animate-wave-flow {
-  animation: wave-flow 3s ease-in-out infinite;
+  animation: wave-flow 3s ease-in-out infinite !important;
+  will-change: transform, opacity;
 }
 
 .animate-wave-flow-delayed {
-  animation: wave-flow-delayed 4s ease-in-out infinite;
+  animation: wave-flow-delayed 4s ease-in-out infinite !important;
+  will-change: transform, opacity;
 }
 
 .animate-float-1 {
-  animation: float-1 4s ease-in-out infinite;
+  animation: float-1 4s ease-in-out infinite !important;
+  will-change: transform, opacity;
 }
 
 .animate-float-2 {
-  animation: float-2 4.5s ease-in-out infinite 0.3s;
+  animation: float-2 4.5s ease-in-out infinite 0.3s !important;
+  will-change: transform, opacity;
 }
 
 .animate-float-3 {
-  animation: float-3 5s ease-in-out infinite 0.6s;
+  animation: float-3 5s ease-in-out infinite 0.6s !important;
+  will-change: transform, opacity;
 }
 
 .animate-spin-slow {
-  animation: spin-slow 25s linear infinite;
+  animation: spin-slow 25s linear infinite !important;
+  will-change: transform;
 }
 
 .animate-spin-very-slow {
-  animation: spin-very-slow 35s linear infinite;
+  animation: spin-very-slow 35s linear infinite !important;
+  will-change: transform;
 }
 
 .animate-pulse-subtle {
-  animation: pulse-subtle 2.5s ease-in-out infinite;
+  animation: pulse-subtle 2.5s ease-in-out infinite !important;
+  will-change: opacity, transform;
 }
 
 .animate-float-slow {
-  animation: float-slow 6s ease-in-out infinite;
+  animation: float-slow 6s ease-in-out infinite !important;
+  will-change: transform;
 }
 
 /* ============================================
    MOTION PREFERENCES - 접근성
    ============================================ */
 
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.001ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.001ms !important;
-    scroll-behavior: auto !important;
-  }
+/* 
+  Note: prefers-reduced-motion 체크 비활성화
+  패턴 애니메이션은 디자인의 핵심 요소이므로 항상 활성화
+  필요시 사용자가 브라우저 설정에서 직접 비활성화 가능
+*/
+
+/* 선택적으로만 적용 - data-attribute로 제어 */
+[data-motion="reduced"] * {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
 }
