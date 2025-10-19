@@ -1,31 +1,13 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import Header from "@/components/Header";
-import { Inter, Noto_Sans_KR, Space_Grotesk, JetBrains_Mono } from "next/font/google";
+import { Noto_Sans_KR } from "next/font/google";
 
-// 폰트 설정
-const inter = Inter({ 
-  subsets: ["latin"],
-  variable: "--font-inter",
-  display: "swap",
-});
-
+// 폰트 설정 - Noto Sans KR 단일 폰트 사용
 const notoSansKR = Noto_Sans_KR({ 
   subsets: ["latin"],
   weight: ["400", "500", "700", "900"],
   variable: "--font-noto-sans-kr",
-  display: "swap",
-});
-
-const spaceGrotesk = Space_Grotesk({ 
-  subsets: ["latin"],
-  variable: "--font-space-grotesk",
-  display: "swap",
-});
-
-const jetbrainsMono = JetBrains_Mono({ 
-  subsets: ["latin"],
-  variable: "--font-jetbrains-mono",
   display: "swap",
 });
 
@@ -36,7 +18,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="ko" className={`${inter.variable} ${notoSansKR.variable} ${spaceGrotesk.variable} ${jetbrainsMono.variable}`}>
+    <html lang="ko" className={notoSansKR.variable}>
       <body className="font-sans antialiased">
         <Header />
         <main id="main">{children}</main>
