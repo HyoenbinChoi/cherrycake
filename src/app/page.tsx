@@ -45,10 +45,10 @@ export default function HomePage() {
       <SignatureHero />
 
       {/* Main Hero Section */}
-      <section className="relative min-h-[70vh] flex items-center justify-center bg-gradient-to-br from-ivory via-ivory to-rose/10 overflow-hidden">
-        <div className="absolute inset-0 opacity-30">
-          <div className="absolute top-20 left-10 w-64 h-64 bg-cyan rounded-full blur-3xl animate-pulse" style={{ animationDuration: '4s' }} />
-          <div className="absolute bottom-20 right-10 w-96 h-96 bg-violet rounded-full blur-3xl animate-pulse" style={{ animationDuration: '6s', animationDelay: '1s' }} />
+      <section className="relative min-h-[70vh] flex items-center justify-center bg-gradient-to-br from-ivory via-ivory to-rose/10">
+        <div className="absolute inset-0 opacity-20 pointer-events-none">
+          <div className="absolute top-[10%] left-[5%] w-[400px] h-[400px] bg-cyan/60 rounded-full blur-3xl animate-pulse" style={{ animationDuration: '4s' }} />
+          <div className="absolute bottom-[10%] right-[5%] w-[500px] h-[500px] bg-violet/50 rounded-full blur-3xl animate-pulse" style={{ animationDuration: '6s', animationDelay: '1s' }} />
         </div>
 
         <div className={`container mx-auto px-[4%] relative z-10 text-center transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
@@ -82,18 +82,12 @@ export default function HomePage() {
             </a>
           </div>
         </div>
-
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
-          <svg className="w-6 h-6 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-          </svg>
-        </div>
       </section>
 
       {/* Projects Grid */}
-      <section id="projects" className="py-24 md:py-32 bg-gradient-to-b from-slate via-slate to-graphite text-ivory">
+      <section id="projects" className="py-20 md:py-28 bg-gradient-to-b from-slate via-slate to-graphite text-ivory">
         <div className="container mx-auto px-[4%]">
-          <div className="mb-12 text-center">
+          <div className="mb-16 text-center">
             <h2 className="text-4xl md:text-5xl font-display font-bold mb-4 tracking-tight">Projects</h2>
             <p className="text-ivory/70 text-lg leading-relaxed max-w-3xl mx-auto">
               각 프로젝트는 독립적인 예술 작품이자 실험입니다.
@@ -186,19 +180,19 @@ export default function HomePage() {
       </section>
 
       {/* Philosophy Section */}
-      <section id="philosophy" className="section--alt bg-gradient-to-b from-graphite to-slate text-ivory relative overflow-hidden">
-        <div className="absolute inset-0 opacity-5">
-          <div className="absolute top-20 left-10 w-64 h-64 bg-cherry rounded-full blur-3xl" />
-          <div className="absolute bottom-20 right-10 w-96 h-96 bg-violet rounded-full blur-3xl" />
+      <section id="philosophy" className="py-20 md:py-28 bg-gradient-to-b from-graphite to-slate text-ivory relative">
+        <div className="absolute inset-0 opacity-5 pointer-events-none">
+          <div className="absolute top-[10%] left-[5%] w-[400px] h-[400px] bg-cherry/60 rounded-full blur-3xl" />
+          <div className="absolute bottom-[10%] right-[5%] w-[500px] h-[500px] bg-violet/50 rounded-full blur-3xl" />
         </div>
         
         <div className="container mx-auto px-[4%] relative z-10">
           <h2 className="text-4xl md:text-5xl font-display font-bold tracking-tight mb-4">
             The Logic of Feeling
           </h2>
-          <p className="text-xl text-ivory/70 mb-8">감성에도 패턴은 존재합니다.</p>
-          <blockquote className="relative pl-6 py-4 border-l-4 border-gradient-to-b from-rose to-peach italic text-lg md:text-xl leading-relaxed max-w-3xl">
-            <div className="absolute -left-2 top-0 w-4 h-4 bg-rose rounded-full" />
+          <p className="text-xl text-ivory/70 mb-10">감성에도 패턴은 존재합니다.</p>
+          <blockquote className="relative pl-8 py-2 border-l-[3px] border-rose italic text-lg md:text-xl leading-relaxed max-w-3xl">
+            <div className="absolute -left-[7px] top-0 w-3 h-3 bg-rose rounded-full ring-2 ring-graphite" />
             <p className="mb-4">
               체리케이크는 그 패턴을 찾아내고,
             </p>
@@ -208,31 +202,40 @@ export default function HomePage() {
             <p>
               데이터를 감성으로, 데이터를 새로운 예술로 창조합니다.
             </p>
-            <div className="absolute -left-2 bottom-0 w-4 h-4 bg-peach rounded-full" />
+            <div className="absolute -left-[7px] bottom-0 w-3 h-3 bg-peach rounded-full ring-2 ring-graphite" />
           </blockquote>
         </div>
       </section>
 
-      {/* Signature Cards Section - 새 디자인 적용 */}
-      <section className="section bg-ivory">
-        <div className="container mx-auto px-5 grid md:grid-cols-3 gap-6">
-          <Card className="hover:shadow-elevated transition-all duration-300 hover:-translate-y-1">
-            <CardTitle>The Logic of Feeling</CardTitle>
-            <CardText>숫자 너머의 리듬과 톤, 패턴을 포착하는 연구 노트.</CardText>
-          </Card>
-          <Card className="hover:shadow-elevated transition-all duration-300 hover:-translate-y-1">
-            <CardTitle>Structures</CardTitle>
-            <CardText>3D 네트워크 / Tonnetz / 타임라인 — 대표 1–2개만 전면 강조.</CardText>
-          </Card>
-          <Card className="hover:shadow-elevated transition-all duration-300 hover:-translate-y-1">
-            <CardTitle>Start a Project</CardTitle>
-            <CardText>간단 메모 + 이메일 → 성공 토스트/감사 페이지로 전환.</CardText>
-          </Card>
+      {/* Approach Section */}
+      <section className="py-20 md:py-28 bg-ivory">
+        <div className="container mx-auto px-[4%]">
+          <div className="mb-12 text-center">
+            <h2 className="text-4xl md:text-5xl font-display font-bold mb-4 tracking-tight text-textGraphite">Approach</h2>
+            <p className="text-neutral-600 text-lg leading-relaxed max-w-2xl mx-auto">
+              데이터 분석, AI 해석, 시각화를 통해 감정의 구조를 드러냅니다.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            <Card className="hover:shadow-elevated transition-all duration-300 hover:-translate-y-1">
+              <CardTitle>Pattern Recognition</CardTitle>
+              <CardText>음악, 텍스트, 행동 데이터에서 반복되는 구조와 리듬을 추출합니다.</CardText>
+            </Card>
+            <Card className="hover:shadow-elevated transition-all duration-300 hover:-translate-y-1">
+              <CardTitle>AI Interpretation</CardTitle>
+              <CardText>LLM과 분석 알고리즘을 통해 감정의 언어를 해독하고 내러티브를 생성합니다.</CardText>
+            </Card>
+            <Card className="hover:shadow-elevated transition-all duration-300 hover:-translate-y-1">
+              <CardTitle>Visual Synthesis</CardTitle>
+              <CardText>3D 네트워크, 타임라인, Tonnetz 등 다층적 시각화로 추상을 구체화합니다.</CardText>
+            </Card>
+          </div>
         </div>
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-24 md:py-32 bg-ivory">
+      <section id="contact" className="py-20 md:py-28 bg-ivory">
         <div className="container mx-auto px-[4%]">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl md:text-5xl font-display font-bold mb-6 tracking-tight">

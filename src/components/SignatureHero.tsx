@@ -29,16 +29,13 @@ export default function SignatureHero() {
 
         {/* 질감/형태로 '사람 손'의 느낌 */}
         <div
-          className="relative h-64 md:h-80 rounded-2xl overflow-hidden"
+          className="relative h-64 md:h-80 rounded-2xl"
           style={{
             background:
-              "radial-gradient(120px 90px at 20% 30%, rgba(225, 74, 92, 0.3), transparent 60%), radial-gradient(220px 180px at 80% 70%, rgba(225, 74, 92, 0.5), transparent 60%), linear-gradient(145deg, #F3EFEA, transparent)",
+              "radial-gradient(circle at 25% 30%, rgba(225, 74, 92, 0.25) 0%, transparent 50%), radial-gradient(circle at 75% 70%, rgba(193, 169, 255, 0.2) 0%, transparent 50%), linear-gradient(145deg, #F3EFEA 0%, rgba(243, 239, 234, 0.8) 100%)",
           }}
         >
-          <div className="absolute inset-0 mix-blend-multiply opacity-60 bg-[radial-gradient(circle_at_30%_20%,white_0%,transparent_45%)]" />
-          <div className="absolute bottom-4 right-4 text-sm font-mono opacity-70 text-textGraphite">
-            🍒 Signature Field No.01
-          </div>
+          <div className="absolute inset-0 mix-blend-soft-light opacity-40 bg-[radial-gradient(circle_at_35%_25%,white_0%,transparent_40%)]" />
         </div>
       </div>
     </section>
