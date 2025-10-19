@@ -1,0 +1,71 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradient -->
+  <rect width="180" height="180" rx="40" fill="url(#bgGradient)"/>
+  
+  <!-- Dot pattern -->
+  <g opacity="0.15">
+    <circle cx="30" cy="30" r="2" fill="#FFFFFF"/>
+    <circle cx="60" cy="30" r="2" fill="#FFFFFF"/>
+    <circle cx="90" cy="30" r="2" fill="#FFFFFF"/>
+    <circle cx="120" cy="30" r="2" fill="#FFFFFF"/>
+    <circle cx="150" cy="30" r="2" fill="#FFFFFF"/>
+    
+    <circle cx="30" cy="60" r="2" fill="#FFFFFF"/>
+    <circle cx="60" cy="60" r="2" fill="#FFFFFF"/>
+    <circle cx="90" cy="60" r="2" fill="#FFFFFF"/>
+    <circle cx="120" cy="60" r="2" fill="#FFFFFF"/>
+    <circle cx="150" cy="60" r="2" fill="#FFFFFF"/>
+    
+    <circle cx="30" cy="90" r="2" fill="#FFFFFF"/>
+    <circle cx="60" cy="90" r="2" fill="#FFFFFF"/>
+    <circle cx="90" cy="90" r="2" fill="#FFFFFF"/>
+    <circle cx="120" cy="90" r="2" fill="#FFFFFF"/>
+    <circle cx="150" cy="90" r="2" fill="#FFFFFF"/>
+    
+    <circle cx="30" cy="120" r="2" fill="#FFFFFF"/>
+    <circle cx="60" cy="120" r="2" fill="#FFFFFF"/>
+    <circle cx="90" cy="120" r="2" fill="#FFFFFF"/>
+    <circle cx="120" cy="120" r="2" fill="#FFFFFF"/>
+    <circle cx="150" cy="120" r="2" fill="#FFFFFF"/>
+    
+    <circle cx="30" cy="150" r="2" fill="#FFFFFF"/>
+    <circle cx="60" cy="150" r="2" fill="#FFFFFF"/>
+    <circle cx="90" cy="150" r="2" fill="#FFFFFF"/>
+    <circle cx="120" cy="150" r="2" fill="#FFFFFF"/>
+    <circle cx="150" cy="150" r="2" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Main "c" letter -->
+  <path d="M90 50C68.5 50 51 67.5 51 89C51 110.5 68.5 128 90 128C100.5 128 110 124 117 117.5" 
+        stroke="#FFFFFF" 
+        stroke-width="14" 
+        stroke-linecap="round"
+        fill="none"
+        opacity="0.95"/>
+  
+  <!-- Decorative dot with glow -->
+  <g filter="url(#glow)">
+    <circle cx="115" cy="65" r="10" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Small accent dots -->
+  <circle cx="45" cy="135" r="4" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="65" cy="140" r="3" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="125" cy="140" r="4" fill="#FFFFFF" opacity="0.6"/>
+  
+  <!-- Definitions -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="180" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF6B9D"/>
+      <stop offset="100%" stop-color="#FF8C6B"/>
+    </linearGradient>
+    
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+</svg>

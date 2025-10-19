@@ -5,7 +5,48 @@ import { display, sansKR, sansLAT, mono } from "./fonts";
 
 export const metadata: Metadata = {
   title: "cherrycake.me — Data meets Emotion",
-  description: "Timeless interface.",
+  description: "패턴의 시대, 감각을 해석하다. 문화의 결을 분석하고, 추상화하고, 다시 조형화합니다.",
+  keywords: ["Data Visualization", "AI", "Music Analysis", "Beethoven", "Große Fuge", "Portfolio", "Art", "Culture Analysis"],
+  authors: [{ name: "cherrycake" }],
+  creator: "cherrycake",
+  metadataBase: new URL('https://cherrycake.me'),
+  openGraph: {
+    type: 'website',
+    locale: 'ko_KR',
+    url: 'https://cherrycake.me',
+    siteName: 'cherrycake.me',
+    title: 'cherrycake.me — Data × Emotion × AI',
+    description: '패턴의 시대, 감각을 해석하다. 문화의 결을 분석하고, 추상화하고, 다시 조형화합니다.',
+    images: [
+      {
+        url: '/api/og',
+        width: 1200,
+        height: 630,
+        alt: 'cherrycake.me - Data meets Emotion',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'cherrycake.me — Data × Emotion × AI',
+    description: '패턴의 시대, 감각을 해석하다',
+    images: ['/api/og'],
+    creator: '@cherrycake',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  icons: {
+    icon: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
