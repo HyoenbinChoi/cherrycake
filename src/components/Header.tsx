@@ -10,35 +10,36 @@ export default function Header() {
   const closeMenu = () => setIsMenuOpen(false);
 
   return (
-    <header className="sticky top-0 z-50 backdrop-blur bg-ivory/90 border-b border-black/5">
+    <header className="sticky top-0 z-50 glass border-b border-black/5 transition-all duration-300">
       <div className="container mx-auto px-[4%] flex h-16 md:h-20 items-center justify-between">
-        <Link className="font-semibold tracking-tight text-lg z-50" href="/" onClick={closeMenu}>
-          cherrycake<span className="text-cherry">.</span>me
+        <Link 
+          className="font-display font-bold tracking-tight text-xl z-50 group" 
+          href="/" 
+          onClick={closeMenu}
+        >
+          cherrycake<span className="text-gradient transition-all duration-300 group-hover:scale-110 inline-block">.</span>me
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center gap-6">
-          <a href="#projects" className="hover:underline underline-offset-4">
+        <nav className="hidden md:flex items-center gap-8">
+          <a 
+            href="#projects" 
+            className="relative text-sm font-medium hover:text-cherry transition-colors duration-200 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-cherry after:transition-all after:duration-300"
+          >
             Projects
           </a>
-          <a href="#philosophy" className="hover:underline underline-offset-4">
-            Philosophy
-          </a>
-          <a href="#about" className="hover:underline underline-offset-4">
-            About
-          </a>
           <a 
-            href="#contact" 
-            className="rounded-xl bg-gradient-to-r from-cherry to-peach text-white px-4 py-2 font-medium hover:brightness-105 transition-all"
+            href="#philosophy" 
+            className="relative text-sm font-medium hover:text-cherry transition-colors duration-200 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-cherry after:transition-all after:duration-300"
           >
-            Start a Project
+            Philosophy
           </a>
         </nav>
 
         {/* Mobile Menu Button */}
         <button
           onClick={toggleMenu}
-          className="md:hidden z-50 w-10 h-10 flex flex-col items-center justify-center gap-1.5 hover:opacity-70 transition-opacity"
+          className="md:hidden z-50 w-10 h-10 flex flex-col items-center justify-center gap-1.5 hover:opacity-70 transition-all duration-200"
           aria-label="메뉴 토글"
         >
           <span 
@@ -48,7 +49,7 @@ export default function Header() {
           />
           <span 
             className={`w-6 h-0.5 bg-textGraphite transition-all duration-300 ${
-              isMenuOpen ? "opacity-0" : ""
+              isMenuOpen ? "opacity-0 scale-0" : ""
             }`}
           />
           <span 
@@ -60,44 +61,30 @@ export default function Header() {
 
         {/* Mobile Navigation Menu */}
         <div
-          className={`fixed inset-0 bg-ivory/95 backdrop-blur-lg md:hidden transition-all duration-300 ${
+          className={`fixed inset-0 glass-dark md:hidden transition-all duration-500 ${
             isMenuOpen ? "opacity-100 visible" : "opacity-0 invisible"
           }`}
           onClick={closeMenu}
         >
           <nav 
-            className={`flex flex-col items-center justify-center h-full gap-8 text-2xl transition-transform duration-300 ${
-              isMenuOpen ? "scale-100" : "scale-95"
+            className={`flex flex-col items-center justify-center h-full gap-10 text-2xl transition-all duration-500 ${
+              isMenuOpen ? "scale-100 opacity-100" : "scale-95 opacity-0"
             }`}
             onClick={(e) => e.stopPropagation()}
           >
             <a 
               href="#projects" 
-              className="hover:text-cherry transition-colors"
+              className="font-display font-bold hover:text-cherry transition-all duration-200 hover:scale-110"
               onClick={closeMenu}
             >
               Projects
             </a>
             <a 
               href="#philosophy" 
-              className="hover:text-cherry transition-colors"
+              className="font-display font-bold hover:text-cherry transition-all duration-200 hover:scale-110"
               onClick={closeMenu}
             >
               Philosophy
-            </a>
-            <a 
-              href="#about" 
-              className="hover:text-cherry transition-colors"
-              onClick={closeMenu}
-            >
-              About
-            </a>
-            <a 
-              href="#contact" 
-              className="rounded-xl bg-gradient-to-r from-cherry to-peach text-white px-6 py-3 font-medium hover:brightness-105 transition-all"
-              onClick={closeMenu}
-            >
-              Start a Project
             </a>
           </nav>
         </div>
