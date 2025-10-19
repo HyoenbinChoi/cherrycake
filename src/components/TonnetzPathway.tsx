@@ -465,9 +465,9 @@ export default function TonnetzPathway() {
         className="w-full h-full object-contain"
       />
       {!isEmbed && (
-        <div className="absolute bottom-8 right-8 text-white text-lg font-mono bg-black/70 px-6 py-4 rounded-lg">
-          <div className="font-bold mb-2 text-xl">Visual Encoding</div>
-          <div className="space-y-1 text-base text-gray-400">
+        <div className="absolute bottom-4 right-4 md:bottom-8 md:right-8 text-white text-xs md:text-lg font-mono bg-black/70 px-3 py-2 md:px-6 md:py-4 rounded-lg max-w-[200px] md:max-w-none">
+          <div className="font-bold mb-1 md:mb-2 text-sm md:text-xl">Visual Encoding</div>
+          <div className="space-y-0.5 md:space-y-1 text-[10px] md:text-base text-gray-400">
             <div>• Blue: Major chords</div>
             <div>• Pink: Minor chords</div>
             <div>• Size: Occurrence freq.</div>
@@ -478,8 +478,8 @@ export default function TonnetzPathway() {
         </div>
       )}
       {!isEmbed && (
-        <div className="absolute top-8 right-8 text-white text-base font-mono bg-black/70 px-6 py-4 rounded-lg">
-          <div className="text-sm text-gray-500">4K • 60fps • 90s loop</div>
+        <div className="absolute top-4 right-4 md:top-8 md:right-8 text-white text-xs md:text-base font-mono bg-black/70 px-3 py-2 md:px-6 md:py-4 rounded-lg">
+          <div className="text-[10px] md:text-sm text-gray-500">4K • 60fps • 90s loop</div>
         </div>
       )}
     </div>

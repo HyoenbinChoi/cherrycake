@@ -39,7 +39,6 @@ export default function NarrativesPage() {
   const src = '/output/narratives.json';
   const [data, setData] = useState<NarrativesData | null>(null);
   const [err, setErr] = useState<string | null>(null);
-  const [lang, setLang] = useState<'ko' | 'en'>('ko');
   const [searchTerm, setSearchTerm] = useState('');
   const [activeTab, setActiveTab] = useState<'clusters' | 'segments'>('clusters');
 
@@ -102,40 +101,21 @@ export default function NarrativesPage() {
       <header className="px-6 pt-8 pb-4 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
         <div>
           <h1 className="text-2xl font-semibold tracking-tight">
-            {lang === 'ko' ? 'Große Fuge — 서사 분석' : 'Große Fuge — Narratives'}
+            Große Fuge — Narratives
           </h1>
           <p className="text-neutral-400 text-sm">
-            {lang === 'ko' 
-              ? '클러스터(모듈)와 세그먼트별 해석을 자동 생성' 
-              : 'Auto-generated cluster and segment narratives for exhibition.'}
+            Auto-generated cluster and segment narratives for exhibition.
           </p>
         </div>
         <div className="flex items-center gap-3">
           <input
             type="text"
-            placeholder={lang === 'ko' ? '검색: 반행, 모듈, tension, measures...' : 'Search: inversion, module, tension...'}
+            placeholder="Search: inversion, module, tension, measures..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
             className="px-3 py-2 bg-neutral-900 border border-neutral-700 rounded-xl text-sm w-64 outline-none focus:border-neutral-500"
           />
-          <div className="flex gap-2 text-sm">
-            <button
-              onClick={() => setLang('ko')}
-              className={`px-3 py-2 rounded-xl border transition-colors ${
-                lang === 'ko' ? 'bg-neutral-800 border-neutral-600' : 'border-neutral-800 hover:border-neutral-700'
-              }`}
-            >
-              KO
-            </button>
-            <button
-              onClick={() => setLang('en')}
-              className={`px-3 py-2 rounded-xl border transition-colors ${
-                lang === 'en' ? 'bg-neutral-800 border-neutral-600' : 'border-neutral-800 hover:border-neutral-700'
-              }`}
-            >
-              EN
-            </button>
-          </div>
+          {/* KO/EN 버튼 숨김 - 현재 영어 위주 */}
         </div>
       </header>
 
@@ -149,7 +129,7 @@ export default function NarrativesPage() {
               : 'bg-neutral-900 text-neutral-400 hover:text-white'
           }`}
         >
-          {lang === 'ko' ? `클러스터 (${data.clusters.length})` : `Clusters (${data.clusters.length})`}
+          Clusters ({data.clusters.length})
         </button>
         <button
           onClick={() => setActiveTab('segments')}
@@ -159,7 +139,7 @@ export default function NarrativesPage() {
               : 'bg-neutral-900 text-neutral-400 hover:text-white'
           }`}
         >
-          {lang === 'ko' ? `세그먼트 (${data.segments.length})` : `Segments (${data.segments.length})`}
+          Segments ({data.segments.length})
         </button>
       </div>
 
@@ -169,7 +149,7 @@ export default function NarrativesPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
             {filteredClusters.length === 0 ? (
               <div className="col-span-full text-center text-neutral-500 py-12">
-                {lang === 'ko' ? '검색 결과가 없습니다' : 'No results found'}
+                No results found
               </div>
             ) : (
               filteredClusters.map((c) => (
@@ -179,7 +159,7 @@ export default function NarrativesPage() {
                 >
                   <div className="flex items-center justify-between">
                     <div className="text-sm text-purple-400 font-medium">
-                      {lang === 'ko' ? `클러스터 #${c.cluster_id}` : `Cluster #${c.cluster_id}`}
+                      Cluster #{c.cluster_id}
                     </div>
                     {c.stats && (
                       <div className="text-[11px] text-neutral-500">
@@ -188,12 +168,12 @@ export default function NarrativesPage() {
                     )}
                   </div>
                   <p className="text-sm leading-6 whitespace-pre-wrap text-neutral-300">
-                    {lang === 'ko' ? c.narrative_ko : c.narrative_en}
+                    {c.narrative_en}
                   </p>
                   {c.stats?.dominant_parts && c.stats.dominant_parts.length > 0 && (
                     <div className="pt-2 border-t border-neutral-800">
                       <div className="text-xs text-neutral-500 mb-1">
-                        {lang === 'ko' ? '주요 파트' : 'Dominant Parts'}
+                        Dominant Parts
                       </div>
                       <div className="flex flex-wrap gap-1">
                         {c.stats.dominant_parts.map(([part, count]) => (
@@ -226,7 +206,7 @@ export default function NarrativesPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {filteredSegments.length === 0 ? (
               <div className="col-span-full text-center text-neutral-500 py-12">
-                {lang === 'ko' ? '검색 결과가 없습니다' : 'No results found'}
+                No results found
               </div>
             ) : (
               filteredSegments.map((s) => {
@@ -238,7 +218,7 @@ export default function NarrativesPage() {
                   >
                     <div className="flex items-center justify-between">
                       <div className="text-sm text-blue-400 font-medium">
-                        {lang === 'ko' ? `세그먼트 ${segId}` : `Segment ${segId}`} · mm. {s.measures[0]}–{s.measures[1]}
+                        Segment {segId} · mm. {s.measures[0]}–{s.measures[1]}
                       </div>
                       {typeof s.mean_tension === 'number' && (
                         <div className="text-[11px] text-orange-400">
@@ -247,7 +227,7 @@ export default function NarrativesPage() {
                       )}
                     </div>
                     <p className="text-sm leading-6 whitespace-pre-wrap text-neutral-300">
-                      {lang === 'ko' ? s.narrative_ko : s.narrative_en}
+                      {s.narrative_en}
                     </p>
                     {s.dominant_modules && s.dominant_modules.length > 0 && (
                       <div className="text-xs text-neutral-500">
@@ -265,9 +245,7 @@ export default function NarrativesPage() {
       {/* Footer */}
       <footer className="px-6 py-10 text-xs text-neutral-500 text-center">
         <p>
-          {lang === 'ko'
-            ? `총 ${data.clusters.length}개 클러스터, ${data.segments.length}개 세그먼트 | motif_narrative.py로 자동 생성`
-            : `${data.clusters.length} clusters, ${data.segments.length} segments total | Auto-generated by motif_narrative.py`}
+          {data.clusters.length} clusters, {data.segments.length} segments total | Auto-generated by motif_narrative.py
         </p>
       </footer>
     </main>
