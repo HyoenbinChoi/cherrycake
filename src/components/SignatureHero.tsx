@@ -28,20 +28,21 @@ export default function SignatureHero() {
         </div>
 
         {/* 데이터 비주얼 - 추상적 웨이브폼 */}
-        <div className="relative h-64 md:h-80 rounded-2xl border border-neutral-200 bg-gradient-to-br from-white to-ivory overflow-hidden group">
-          {/* 점선 그리드 배경 */}
+        <div className="relative h-64 md:h-80 rounded-2xl border border-neutral-200 bg-gradient-to-br from-white to-ivory overflow-hidden group shadow-soft hover:shadow-elevated transition-shadow duration-500">
+          {/* 점선 그리드 배경 - 무한 이동 */}
           <div 
-            className="absolute inset-0 opacity-[0.15]"
+            className="absolute inset-0 opacity-[0.15] animate-grid-drift"
             style={{
               backgroundImage: 'radial-gradient(circle, #E14A5C 1px, transparent 1px)',
               backgroundSize: '24px 24px',
             }}
           />
           
-          {/* 추상적 데이터 라인 */}
+          {/* 추상적 데이터 라인 - 웨이브 애니메이션 */}
           <svg className="absolute inset-0 w-full h-full opacity-30 group-hover:opacity-40 transition-opacity duration-700" viewBox="0 0 400 320" preserveAspectRatio="none">
             {/* 웨이브폼 라인 1 */}
             <path
+              className="animate-wave-flow"
               d="M 0 160 Q 50 120, 100 140 T 200 160 T 300 140 T 400 160"
               fill="none"
               stroke="url(#gradient1)"
@@ -50,6 +51,7 @@ export default function SignatureHero() {
             />
             {/* 웨이브폼 라인 2 */}
             <path
+              className="animate-wave-flow-delayed"
               d="M 0 180 Q 60 200, 120 180 T 240 180 T 360 200 T 400 180"
               fill="none"
               stroke="url(#gradient2)"
@@ -57,28 +59,38 @@ export default function SignatureHero() {
               strokeLinecap="round"
               opacity="0.6"
             />
-            {/* 그라데이션 정의 */}
+            {/* 그라데이션 정의 - 애니메이션 */}
             <defs>
               <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="0%">
-                <stop offset="0%" stopColor="#E14A5C" stopOpacity="0.3" />
-                <stop offset="50%" stopColor="#F6B79E" stopOpacity="0.5" />
-                <stop offset="100%" stopColor="#C1A9FF" stopOpacity="0.3" />
+                <stop offset="0%" stopColor="#E14A5C" stopOpacity="0.3">
+                  <animate attributeName="stop-opacity" values="0.3;0.5;0.3" dur="4s" repeatCount="indefinite" />
+                </stop>
+                <stop offset="50%" stopColor="#F6B79E" stopOpacity="0.5">
+                  <animate attributeName="stop-opacity" values="0.5;0.7;0.5" dur="4s" repeatCount="indefinite" />
+                </stop>
+                <stop offset="100%" stopColor="#C1A9FF" stopOpacity="0.3">
+                  <animate attributeName="stop-opacity" values="0.3;0.5;0.3" dur="4s" repeatCount="indefinite" />
+                </stop>
               </linearGradient>
               <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="0%">
-                <stop offset="0%" stopColor="#89E8E0" stopOpacity="0.3" />
-                <stop offset="100%" stopColor="#FFADC6" stopOpacity="0.4" />
+                <stop offset="0%" stopColor="#89E8E0" stopOpacity="0.3">
+                  <animate attributeName="stop-opacity" values="0.3;0.5;0.3" dur="5s" repeatCount="indefinite" />
+                </stop>
+                <stop offset="100%" stopColor="#FFADC6" stopOpacity="0.4">
+                  <animate attributeName="stop-opacity" values="0.4;0.6;0.4" dur="5s" repeatCount="indefinite" />
+                </stop>
               </linearGradient>
             </defs>
           </svg>
           
-          {/* 데이터 포인트 */}
-          <div className="absolute top-[35%] left-[15%] w-2 h-2 rounded-full bg-cherry opacity-60 animate-pulse" style={{ animationDuration: '3s' }} />
-          <div className="absolute top-[55%] right-[20%] w-2 h-2 rounded-full bg-violet opacity-50 animate-pulse" style={{ animationDuration: '4s', animationDelay: '0.5s' }} />
-          <div className="absolute bottom-[30%] left-[60%] w-1.5 h-1.5 rounded-full bg-peach opacity-70 animate-pulse" style={{ animationDuration: '3.5s', animationDelay: '1s' }} />
+          {/* 데이터 포인트 - 부드러운 이동 */}
+          <div className="absolute top-[35%] left-[15%] w-2 h-2 rounded-full bg-cherry opacity-60 animate-float-1 shadow-sm" />
+          <div className="absolute top-[55%] right-[20%] w-2 h-2 rounded-full bg-violet opacity-50 animate-float-2 shadow-sm" />
+          <div className="absolute bottom-[30%] left-[60%] w-1.5 h-1.5 rounded-full bg-peach opacity-70 animate-float-3 shadow-sm" />
           
           {/* 라벨 */}
           <div className="absolute bottom-4 right-4 text-xs font-mono text-neutral-400 flex items-center gap-2">
-            <span className="w-1.5 h-1.5 rounded-full bg-cherry animate-pulse"></span>
+            <span className="w-1.5 h-1.5 rounded-full bg-cherry animate-pulse shadow-sm"></span>
             Emotional Pattern
           </div>
         </div>
