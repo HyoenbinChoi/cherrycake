@@ -3,13 +3,6 @@
 import { useState } from "react";
 
 export default function HomePage() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: ""
-  });
-  const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
-  const [errorMessage, setErrorMessage] = useState("");
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const visualizations = [
@@ -42,29 +35,6 @@ export default function HomePage() {
   // 모바일: 4개, 데스크톱: 2개 슬라이드
   const maxSlide = visualizations.length - 1; // 모바일 기준
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setStatus("loading");
-    setErrorMessage("");
-
-    // Contact API가 제거되었으므로 간단한 성공 메시지만 표시
-    // 나중에 Cloudflare Workers나 외부 서비스로 대체 가능
-    setTimeout(() => {
-      setStatus("success");
-      setFormData({ name: "", email: "", message: "" });
-      
-      // 3초 후 상태 초기화
-      setTimeout(() => setStatus("idle"), 3000);
-    }, 1000);
-  };
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData(prev => ({
-      ...prev,
-      [e.target.name]: e.target.value
-    }));
-  };
-
   return (
     <>
       {/* Hero */}
@@ -76,7 +46,6 @@ export default function HomePage() {
           <p className="mt-4 max-w-prose text-neutral-600">패턴의 시대, 감각을 해석하다.</p>
           <div className="mt-6 flex gap-3 flex-wrap">
             <a href="#projects" className="rounded-xl bg-gradient-to-r from-cherry to-peach text-black px-5 py-3 font-medium hover:brightness-105">View Structures</a>
-            <a href="#contact" className="rounded-xl border border-neutral-300 px-5 py-3 font-medium hover:bg-white/60">Work with me</a>
           </div>
         </div>
         <div className="relative mt-10 h-px bg-cherry/60">
@@ -244,69 +213,6 @@ export default function HomePage() {
             <br />
             데이터를 감성으로, 데이터를 새로운 예술로 창조합니다.
           </blockquote>
-        </div>
-      </section>
-
-      {/* Contact */}
-      <section id="contact" className="py-24 bg-ivory text-textGraphite">
-        <div className="container mx-auto px-[4%] max-w-xl">
-          <h2 className="text-3xl md:text-4xl font-medium">Start a Project</h2>
-          
-          {status === "success" && (
-            <div className="mt-4 p-4 rounded-xl bg-green-50 border border-green-200 text-green-800">
-              ✅ 메시지가 성공적으로 전송되었습니다!
-            </div>
-          )}
-          
-          {status === "error" && (
-            <div className="mt-4 p-4 rounded-xl bg-red-50 border border-red-200 text-red-800">
-              ❌ {errorMessage}
-            </div>
-          )}
-
-          <form className="mt-6 space-y-4" onSubmit={handleSubmit}>
-            <label className="block">
-              <span className="text-sm font-medium text-neutral-700">이름</span>
-              <input 
-                name="name"
-                value={formData.name}
-                onChange={handleChange}
-                disabled={status === "loading"}
-                className="mt-1 w-full rounded-xl border border-neutral-300 px-3 py-3 focus:outline-none focus:ring-2 focus:ring-cyan bg-white disabled:opacity-50 disabled:cursor-not-allowed" 
-              />
-            </label>
-            <label className="block">
-              <span className="text-sm font-medium text-neutral-700">이메일*</span>
-              <input 
-                type="email" 
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                required 
-                disabled={status === "loading"}
-                className="mt-1 w-full rounded-xl border border-neutral-300 px-3 py-3 focus:outline-none focus:ring-2 focus:ring-cyan bg-white disabled:opacity-50 disabled:cursor-not-allowed" 
-              />
-            </label>
-            <label className="block">
-              <span className="text-sm font-medium text-neutral-700">프로젝트 메모*</span>
-              <textarea 
-                name="message"
-                value={formData.message}
-                onChange={handleChange}
-                required 
-                rows={5} 
-                disabled={status === "loading"}
-                className="mt-1 w-full rounded-xl border border-neutral-300 px-3 py-3 focus:outline-none focus:ring-2 focus:ring-cyan bg-white disabled:opacity-50 disabled:cursor-not-allowed" 
-              />
-            </label>
-            <button 
-              type="submit"
-              disabled={status === "loading"}
-              className="rounded-xl bg-gradient-to-r from-cherry to-peach text-black px-5 py-3 font-medium hover:brightness-105 disabled:opacity-50 disabled:cursor-not-allowed transition-all"
-            >
-              {status === "loading" ? "전송 중..." : "Send"}
-            </button>
-          </form>
         </div>
       </section>
     </>
