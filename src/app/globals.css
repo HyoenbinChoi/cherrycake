@@ -61,8 +61,8 @@
      TYPOGRAPHY
      ============================================ */
   --font-sans: var(--font-noto-sans-kr), "Apple SD Gothic Neo", "맑은 고딕", "Malgun Gothic", sans-serif;
-  --font-display: var(--font-noto-sans-kr), "Apple SD Gothic Neo", sans-serif;
-  --font-mono: var(--font-noto-sans-kr), "D2Coding", monospace;
+  --font-display: var(--font-noto-serif), "Noto Serif", Georgia, serif;
+  --font-mono: var(--font-ibm-plex-mono), "IBM Plex Mono", "D2Coding", monospace;
   
   /* ============================================
      SPACING & SHADOWS

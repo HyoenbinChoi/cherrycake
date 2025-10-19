@@ -58,9 +58,9 @@ const config: Config = {
         "human-2": "cubic-bezier(.15,.8,.25,1)",
       },
       fontFamily: {
-        sans: ["Noto Sans KR", "system-ui", "sans-serif"],
-        display: ["Noto Sans KR", "system-ui", "sans-serif"],
-        mono: ["Noto Sans KR", "ui-monospace", "monospace"],
+        sans: ["var(--font-noto-sans-kr)", "Noto Sans KR", "system-ui", "sans-serif"],
+        display: ["var(--font-noto-serif)", "Noto Serif", "Georgia", "serif"],
+        mono: ["var(--font-ibm-plex-mono)", "IBM Plex Mono", "ui-monospace", "monospace"],
       },
     },
   },

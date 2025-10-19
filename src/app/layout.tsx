@@ -1,13 +1,27 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import Header from "@/components/Header";
-import { Noto_Sans_KR } from "next/font/google";
+import { Noto_Sans_KR, Noto_Serif, IBM_Plex_Mono } from "next/font/google";
 
-// 폰트 설정 - Noto Sans KR 단일 폰트 사용
+// 폰트 설정 - 세리프(display), 산세리프(본문), 모노(코드)
 const notoSansKR = Noto_Sans_KR({ 
   subsets: ["latin"],
   weight: ["400", "500", "700", "900"],
   variable: "--font-noto-sans-kr",
+  display: "swap",
+});
+
+const notoSerif = Noto_Serif({ 
+  subsets: ["latin"],
+  weight: ["400", "600", "700"],
+  variable: "--font-noto-serif",
+  display: "swap",
+});
+
+const ibmPlexMono = IBM_Plex_Mono({ 
+  subsets: ["latin"],
+  weight: ["400", "500"],
+  variable: "--font-ibm-plex-mono",
   display: "swap",
 });
 
@@ -18,7 +32,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="ko" className={notoSansKR.variable}>
+    <html lang="ko" className={`${notoSansKR.variable} ${notoSerif.variable} ${ibmPlexMono.variable}`}>
       <body className="font-sans antialiased">
         <Header />
         <main id="main">{children}</main>
