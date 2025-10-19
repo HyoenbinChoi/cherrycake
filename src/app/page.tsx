@@ -39,7 +39,8 @@ export default function HomePage() {
     }
   ];
 
-  const maxSlide = Math.ceil(visualizations.length / 2) - 1;
+  // 모바일: 4개, 데스크톱: 2개 슬라이드
+  const maxSlide = visualizations.length - 1; // 모바일 기준
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -151,15 +152,15 @@ export default function HomePage() {
           <div className="relative">
             <div className="overflow-hidden">
               <div 
-                className="flex transition-transform duration-500 ease-in-out gap-6"
+                className="flex transition-transform duration-500 ease-in-out gap-4 md:gap-6"
                 style={{ transform: `translateX(-${currentSlide * 100}%)` }}
               >
                 {visualizations.map((item, i) => {
-                  // Only load iframes for current slide and adjacent slides
-                  const isVisible = Math.abs(i - currentSlide * 2) <= 2;
+                  // 현재 슬라이드와 인접 슬라이드만 로드
+                  const isVisible = Math.abs(i - currentSlide) <= 1;
                   
                   return (
-                    <div key={i} className="min-w-full md:min-w-[calc(50%-12px)] flex-shrink-0">
+                    <div key={i} className="min-w-full flex-shrink-0 px-2 md:px-0">
                       <a href={item.href} className="block">
                         <article className="rounded-2xl overflow-hidden bg-slate/70 ring-1 ring-white/5 hover:shadow-[0_0_0_1px_rgba(193,169,255,.9)] transition group h-full">
                           <div className="w-full aspect-video bg-black relative overflow-hidden">
