@@ -46,25 +46,25 @@ export default function HomePage() {
 
       {/* Main Hero Section */}
       <section className="relative min-h-[70vh] flex items-center justify-center bg-gradient-to-br from-ivory via-ivory to-rose/10">
-        {/* 기하학적 패턴 배경 - 무한 이동 */}
-        <div className="absolute inset-0 opacity-[0.08] pointer-events-none">
+        {/* 기하학적 패턴 배경 - 눈에 띄는 이동 */}
+        <div className="absolute inset-0 opacity-[0.12] pointer-events-none">
           <div 
             className="absolute inset-0 animate-grid-slow"
             style={{
               backgroundImage: `
-                linear-gradient(to right, #E14A5C 1px, transparent 1px),
-                linear-gradient(to bottom, #E14A5C 1px, transparent 1px)
+                linear-gradient(to right, #E14A5C 1.5px, transparent 1.5px),
+                linear-gradient(to bottom, #E14A5C 1.5px, transparent 1.5px)
               `,
               backgroundSize: '60px 60px',
             }}
           />
         </div>
         
-        {/* 추상적 색상 악센트 - 부드러운 회전/이동 */}
+        {/* 추상적 색상 악센트 - 눈에 띄는 회전/이동 */}
         <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-[20%] right-[10%] w-32 h-32 border-2 border-cherry/10 rounded-full animate-spin-slow shadow-sm" />
-          <div className="absolute bottom-[25%] left-[8%] w-24 h-24 border-2 border-violet/10 rounded-full animate-pulse-subtle shadow-sm" />
-          <div className="absolute top-[50%] right-[25%] w-16 h-16 bg-gradient-to-br from-peach/5 to-transparent rounded-lg rotate-12 animate-float-slow shadow-sm" />
+          <div className="absolute top-[20%] right-[10%] w-40 h-40 border-[3px] border-cherry/15 rounded-full animate-spin-slow shadow-md" />
+          <div className="absolute bottom-[25%] left-[8%] w-32 h-32 border-[3px] border-violet/15 rounded-full animate-pulse-subtle shadow-md" />
+          <div className="absolute top-[50%] right-[25%] w-20 h-20 bg-gradient-to-br from-peach/8 to-transparent rounded-lg rotate-12 animate-float-slow shadow-md" />
         </div>
 
         <div className={`container mx-auto px-[4%] relative z-10 text-center transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
@@ -197,8 +197,8 @@ export default function HomePage() {
 
       {/* Philosophy Section */}
       <section id="philosophy" className="py-20 md:py-28 bg-gradient-to-b from-graphite to-slate text-ivory relative">
-        {/* 대각선 패턴 - 무한 이동 */}
-        <div className="absolute inset-0 opacity-[0.03] pointer-events-none">
+        {/* 대각선 패턴 - 눈에 띄는 이동 */}
+        <div className="absolute inset-0 opacity-[0.06] pointer-events-none">
           <div 
             className="absolute inset-0 animate-stripe-drift"
             style={{
@@ -206,17 +206,17 @@ export default function HomePage() {
                 45deg,
                 transparent,
                 transparent 40px,
-                rgba(255, 173, 198, 0.5) 40px,
-                rgba(255, 173, 198, 0.5) 42px
+                rgba(255, 173, 198, 0.6) 40px,
+                rgba(255, 173, 198, 0.6) 43px
               )`,
             }}
           />
         </div>
         
-        {/* 추상적 도형 악센트 - 부드러운 애니메이션 */}
+        {/* 추상적 도형 악센트 - 눈에 띄는 애니메이션 */}
         <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-[15%] left-[5%] w-40 h-40 border border-rose/10 rounded-full animate-pulse-subtle" />
-          <div className="absolute bottom-[20%] right-[8%] w-32 h-32 border border-violet/10 rotate-45 animate-spin-very-slow" 
+          <div className="absolute top-[15%] left-[5%] w-48 h-48 border-2 border-rose/15 rounded-full animate-pulse-subtle" />
+          <div className="absolute bottom-[20%] right-[8%] w-40 h-40 border-2 border-violet/15 rotate-45 animate-spin-very-slow" 
                style={{ borderRadius: '20%' }} />
         </div>
         

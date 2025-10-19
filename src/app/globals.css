@@ -540,35 +540,35 @@ a:hover {
 }
 
 /* ============================================
-   CUSTOM ANIMATIONS - 미묘한 무한 애니메이션
+   CUSTOM ANIMATIONS - 눈에 띄는 무한 애니메이션
    ============================================ */
 
-/* 그리드 패턴 이동 */
+/* 그리드 패턴 이동 - 더 크고 빠르게 */
 @keyframes grid-drift {
   0%, 100% { transform: translate(0, 0); }
-  50% { transform: translate(10px, 10px); }
+  50% { transform: translate(30px, 30px); }
 }
 
 @keyframes grid-slow {
   0%, 100% { transform: translate(0, 0); }
-  50% { transform: translate(-20px, -20px); }
+  50% { transform: translate(-40px, -40px); }
 }
 
-/* 대각선 패턴 이동 */
+/* 대각선 패턴 이동 - 더 눈에 띄게 */
 @keyframes stripe-drift {
   0%, 100% { transform: translate(0, 0); }
-  50% { transform: translate(15px, -15px); }
+  50% { transform: translate(35px, -35px); }
 }
 
-/* 웨이브폼 흐름 */
+/* 웨이브폼 흐름 - 더 큰 움직임 */
 @keyframes wave-flow {
   0%, 100% { 
     transform: translateX(0) scaleY(1);
     opacity: 0.3;
   }
   50% { 
-    transform: translateX(-10px) scaleY(1.05);
-    opacity: 0.4;
+    transform: translateX(-30px) scaleY(1.15);
+    opacity: 0.6;
   }
 }
 
@@ -578,20 +578,28 @@ a:hover {
     opacity: 0.2;
   }
   50% { 
-    transform: translateX(10px) scaleY(0.95);
-    opacity: 0.35;
+    transform: translateX(30px) scaleY(0.85);
+    opacity: 0.5;
   }
 }
 
-/* 부드러운 떠다님 효과 */
+/* 떠다님 효과 - 더 크고 눈에 띄게 */
 @keyframes float-1 {
   0%, 100% { 
     transform: translate(0, 0);
     opacity: 0.6;
   }
+  25% {
+    transform: translate(20px, -25px);
+    opacity: 0.9;
+  }
   50% { 
-    transform: translate(8px, -12px);
-    opacity: 0.8;
+    transform: translate(35px, -15px);
+    opacity: 1;
+  }
+  75% {
+    transform: translate(20px, -30px);
+    opacity: 0.85;
   }
 }
 
@@ -600,9 +608,17 @@ a:hover {
     transform: translate(0, 0);
     opacity: 0.5;
   }
+  25% {
+    transform: translate(-15px, 20px);
+    opacity: 0.8;
+  }
   50% { 
-    transform: translate(-6px, 10px);
-    opacity: 0.7;
+    transform: translate(-30px, 30px);
+    opacity: 0.95;
+  }
+  75% {
+    transform: translate(-20px, 15px);
+    opacity: 0.75;
   }
 }
 
@@ -611,13 +627,21 @@ a:hover {
     transform: translate(0, 0);
     opacity: 0.7;
   }
+  25% {
+    transform: translate(25px, 20px);
+    opacity: 0.95;
+  }
   50% { 
-    transform: translate(10px, 8px);
+    transform: translate(40px, 25px);
+    opacity: 1;
+  }
+  75% {
+    transform: translate(30px, 10px);
     opacity: 0.9;
   }
 }
 
-/* 매우 느린 회전 */
+/* 회전 - 더 빠르게 */
 @keyframes spin-slow {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
@@ -628,71 +652,71 @@ a:hover {
   to { transform: rotate(405deg); }
 }
 
-/* 부드러운 펄스 */
+/* 펄스 - 더 강하게 */
 @keyframes pulse-subtle {
   0%, 100% { 
     opacity: 1;
     transform: scale(1);
   }
   50% { 
-    opacity: 0.7;
-    transform: scale(1.02);
+    opacity: 0.5;
+    transform: scale(1.08);
   }
 }
 
-/* 느린 떠다님 */
+/* 떠다님 - 더 크게 */
 @keyframes float-slow {
   0%, 100% { transform: translateY(0px) rotate(12deg); }
-  50% { transform: translateY(-8px) rotate(18deg); }
+  50% { transform: translateY(-20px) rotate(25deg); }
 }
 
-/* 애니메이션 클래스 */
+/* 애니메이션 클래스 - 속도 2-3배 빠르게 */
 .animate-grid-drift {
-  animation: grid-drift 30s ease-in-out infinite;
+  animation: grid-drift 12s ease-in-out infinite;
 }
 
 .animate-grid-slow {
-  animation: grid-slow 40s ease-in-out infinite;
+  animation: grid-slow 15s ease-in-out infinite;
 }
 
 .animate-stripe-drift {
-  animation: stripe-drift 35s ease-in-out infinite;
+  animation: stripe-drift 14s ease-in-out infinite;
 }
 
 .animate-wave-flow {
-  animation: wave-flow 8s ease-in-out infinite;
+  animation: wave-flow 3s ease-in-out infinite;
 }
 
 .animate-wave-flow-delayed {
-  animation: wave-flow-delayed 10s ease-in-out infinite;
+  animation: wave-flow-delayed 4s ease-in-out infinite;
 }
 
 .animate-float-1 {
-  animation: float-1 6s ease-in-out infinite;
+  animation: float-1 4s ease-in-out infinite;
 }
 
 .animate-float-2 {
-  animation: float-2 7s ease-in-out infinite 0.5s;
+  animation: float-2 4.5s ease-in-out infinite 0.3s;
 }
 
 .animate-float-3 {
-  animation: float-3 8s ease-in-out infinite 1s;
+  animation: float-3 5s ease-in-out infinite 0.6s;
 }
 
 .animate-spin-slow {
-  animation: spin-slow 60s linear infinite;
+  animation: spin-slow 25s linear infinite;
 }
 
 .animate-spin-very-slow {
-  animation: spin-very-slow 80s linear infinite;
+  animation: spin-very-slow 35s linear infinite;
 }
 
 .animate-pulse-subtle {
-  animation: pulse-subtle 4s ease-in-out infinite;
+  animation: pulse-subtle 2.5s ease-in-out infinite;
 }
 
 .animate-float-slow {
-  animation: float-slow 12s ease-in-out infinite;
+  animation: float-slow 6s ease-in-out infinite;
 }
 
 /* ============================================
