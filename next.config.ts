@@ -1,13 +1,16 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Cloudflare Pages는 .next 디렉토리 사용
-  // output: 'export', // 잠시 비활성화
+  // Cloudflare Pages - 정적 HTML export
+  output: 'export',
   
-  // 이미지 최적화 비활성화 (정적 export에서는 지원 안 됨)
+  // 이미지 최적화 비활성화 (정적 export 필수)
   images: {
     unoptimized: true,
   },
+  
+  // trailing slash (정적 호스팅 호환성)
+  trailingSlash: true,
   
   // 압축 활성화
   compress: true,

@@ -17,6 +17,10 @@
 /.next/
 /out/
 
+# next.js cache (Cloudflare Pages 업로드 방지)
+.next/cache/
+.next/trace
+
 # production
 /build
 

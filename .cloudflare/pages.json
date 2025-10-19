@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developers.cloudflare.com/pages/platform/build-configuration/schema.json",
+  "version": 1,
+  "build": {
+    "command": "npm run build",
+    "cwd": "/",
+    "watch_paths": [
+      "src/**",
+      "public/**",
+      "package.json",
+      "next.config.ts",
+      "tailwind.config.ts"
+    ]
+  },
+  "deploy": {
+    "exclude": [
+      ".next/cache/**",
+      ".next/trace",
+      "node_modules/**",
+      ".git/**"
+    ]
+  }
+}

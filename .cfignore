@@ -1,0 +1,24 @@
+# Cloudflare Pages 배포 시 제외할 파일
+
+# Next.js cache (25MB 제한 초과)
+.next/cache/
+.next/trace
+cache/
+
+# Node modules
+node_modules/
+
+# Git
+.git/
+.gitignore
+
+# 민감한 문서
+*.md
+*.sh
+ecosystem.config.js
+nginx.conf
+.env*
+
+# 개발 파일
+.vscode/
+.idea/
