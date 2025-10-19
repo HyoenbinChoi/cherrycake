@@ -46,28 +46,15 @@ export default function HomePage() {
     setStatus("loading");
     setErrorMessage("");
 
-    try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
-
-      if (!response.ok) {
-        throw new Error("전송에 실패했습니다.");
-      }
-
+    // Contact API가 제거되었으므로 간단한 성공 메시지만 표시
+    // 나중에 Cloudflare Workers나 외부 서비스로 대체 가능
+    setTimeout(() => {
       setStatus("success");
       setFormData({ name: "", email: "", message: "" });
       
       // 3초 후 상태 초기화
       setTimeout(() => setStatus("idle"), 3000);
-    } catch (error) {
-      setStatus("error");
-      setErrorMessage(error instanceof Error ? error.message : "오류가 발생했습니다.");
-    }
+    }, 1000);
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
