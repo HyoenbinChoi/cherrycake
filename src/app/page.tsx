@@ -198,7 +198,7 @@ export default function HomePage() {
                           </div>
                           <div className="p-6">
                             <h3 className="text-2xl font-display font-bold group-hover/card:text-cherry transition-colors duration-200">{item.title}</h3>
-                            <p className="text-sm opacity-70 mt-2 font-mono">{item.tags}</p>
+                            <p className="text-sm opacity-70 mt-2 font-sans">{item.tags}</p>
                             <div className="mt-4 h-0.5 w-8 bg-gradient-to-r from-cherry to-peach transition-all duration-300 group-hover/card:w-16" />
                           </div>
                         </article>
