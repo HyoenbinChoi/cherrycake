@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OG Image Preview - cherrycake.me</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #1a1a1a 0%, #2c2c2c 100%);
+      color: #fffbf5;
+      padding: 40px 20px;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 48px;
+      font-weight: 700;
+      margin-bottom: 16px;
+      background: linear-gradient(135deg, #FF6B9D 0%, #FF8C6B 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    p {
+      font-size: 18px;
+      color: #999;
+      margin-bottom: 48px;
+    }
+    .section {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 16px;
+      padding: 32px;
+      margin-bottom: 32px;
+      border: 1px solid rgba(255, 107, 157, 0.2);
+    }
+    .section h2 {
+      font-size: 32px;
+      margin-bottom: 8px;
+      color: #fffbf5;
+    }
+    .section p {
+      font-size: 16px;
+      color: #888;
+      margin-bottom: 24px;
+    }
+    .image-container {
+      background: #000;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    }
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .url {
+      font-family: 'Courier New', monospace;
+      background: rgba(255, 107, 157, 0.1);
+      padding: 12px 16px;
+      border-radius: 8px;
+      margin-top: 16px;
+      font-size: 14px;
+      color: #FF6B9D;
+      word-break: break-all;
+    }
+    .badge {
+      display: inline-block;
+      padding: 6px 12px;
+      background: linear-gradient(90deg, rgba(255, 107, 157, 0.2) 0%, rgba(255, 140, 107, 0.2) 100%);
+      border: 1px solid rgba(255, 107, 157, 0.3);
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      color: #FF6B9D;
+      margin-bottom: 16px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+      margin-top: 48px;
+    }
+    @media (max-width: 768px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+      h1 {
+        font-size: 36px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🖼️ SNS Preview Images</h1>
+    <p>cherrycake.me의 소셜 미디어 공유 미리보기 이미지</p>
+
+    <!-- Home OG Image -->
+    <div class="section">
+      <span class="badge">홈페이지</span>
+      <h2>Main OG Image</h2>
+      <p>Facebook, LinkedIn, 카카오톡 등에서 표시되는 메인 미리보기</p>
+      <div class="image-container">
+        <img src="/opengraph-image" alt="cherrycake.me OG Image" />
+      </div>
+      <div class="url">http://localhost:3000/opengraph-image</div>
+    </div>
+
+    <!-- Project OG Image -->
+    <div class="section">
+      <span class="badge">프로젝트 페이지</span>
+      <h2>Große Fuge Project OG Image</h2>
+      <p>프로젝트 상세 페이지 공유 시 표시되는 미리보기</p>
+      <div class="image-container">
+        <img src="/projects/grosse-fuge/opengraph-image" alt="Große Fuge OG Image" />
+      </div>
+      <div class="url">http://localhost:3000/projects/grosse-fuge/opengraph-image</div>
+    </div>
+
+    <!-- API OG Image -->
+    <div class="section">
+      <span class="badge">API</span>
+      <h2>Dynamic OG Image API</h2>
+      <p>범용 OG 이미지 생성 API (커스터마이징 가능)</p>
+      <div class="image-container">
+        <img src="/api/og" alt="API OG Image" />
+      </div>
+      <div class="url">http://localhost:3000/api/og</div>
+    </div>
+
+    <!-- Icons -->
+    <div class="grid">
+      <div class="section">
+        <span class="badge">Favicon</span>
+        <h2>Browser Icon</h2>
+        <p>브라우저 탭에 표시되는 아이콘</p>
+        <div class="image-container" style="background: white; padding: 40px; text-align: center;">
+          <img src="/favicon.svg" alt="Favicon" style="width: 128px; height: 128px; display: inline-block;" />
+        </div>
+        <div class="url">http://localhost:3000/favicon.svg</div>
+      </div>
+
+      <div class="section">
+        <span class="badge">Apple Touch</span>
+        <h2>Apple Touch Icon</h2>
+        <p>iOS 홈 화면에 추가 시 표시되는 아이콘</p>
+        <div class="image-container" style="background: white; padding: 40px; text-align: center;">
+          <img src="/apple-touch-icon.svg" alt="Apple Touch Icon" style="width: 180px; height: 180px; display: inline-block;" />
+        </div>
+        <div class="url">http://localhost:3000/apple-touch-icon.svg</div>
+      </div>
+    </div>
+
+    <!-- Testing Tools -->
+    <div class="section" style="margin-top: 64px;">
+      <span class="badge">테스트 도구</span>
+      <h2>SNS 미리보기 테스트</h2>
+      <p style="margin-bottom: 16px;">다음 도구들로 실제 SNS에서 어떻게 보이는지 확인하세요:</p>
+      <ul style="list-style: none; padding: 0;">
+        <li style="margin-bottom: 12px;">
+          <a href="https://developers.facebook.com/tools/debug/" target="_blank" 
+             style="color: #4ECDC4; text-decoration: none; font-size: 16px;">
+            📘 Facebook Sharing Debugger →
+          </a>
+        </li>
+        <li style="margin-bottom: 12px;">
+          <a href="https://cards-dev.twitter.com/validator" target="_blank"
+             style="color: #4ECDC4; text-decoration: none; font-size: 16px;">
+            🐦 Twitter Card Validator →
+          </a>
+        </li>
+        <li style="margin-bottom: 12px;">
+          <a href="https://www.opengraph.xyz/" target="_blank"
+             style="color: #4ECDC4; text-decoration: none; font-size: 16px;">
+            🔍 Open Graph Debugger →
+          </a>
+        </li>
+        <li style="margin-bottom: 12px;">
+          <a href="https://www.linkedin.com/post-inspector/" target="_blank"
+             style="color: #4ECDC4; text-decoration: none; font-size: 16px;">
+            💼 LinkedIn Post Inspector →
+          </a>
+        </li>
+      </ul>
+      <p style="margin-top: 24px; padding-top: 24px; border-top: 1px solid rgba(255, 255, 255, 0.1); color: #666; font-size: 14px;">
+        배포 후 실제 URL(https://cherrycake.me)로 테스트하세요. 로컬 URL은 외부 도구에서 접근할 수 없습니다.
+      </p>
+    </div>
+  </div>
+</body>
+</html>

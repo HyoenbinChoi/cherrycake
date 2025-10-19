@@ -125,6 +125,7 @@ public/
 - **무한 애니메이션**: 10종 커스텀 키프레임으로 생동감 있는 움직임
 - **프로젝트 그리드**: Featured 배지, 메트릭 표시
 - **Contact 섹션**: 이메일 연락처 제공
+- **SNS 미리보기**: Open Graph 이미지 (1200x630), 파비콘, Apple Touch Icon
 
 ### 디자인 시스템 v3.0
 - **Typography**: Pretendard Variable (한글) + Instrument Serif (영문 디스플레이) + IBM Plex Mono (코드)
@@ -132,6 +133,20 @@ public/
 - **Animations**: 10개 커스텀 키프레임 (grid-drift, wave-flow, float, spin, pulse)
 - **Shadows**: shadow-soft, shadow-elevated, shadow-md (복구 완료)
 - **Performance**: GPU 가속 (transform/opacity only), 60fps 유지
+
+### SNS 공유 최적화
+- **Open Graph 이미지**: 
+  - 홈페이지: `/opengraph-image` (1200x630)
+  - 프로젝트 페이지: `/projects/grosse-fuge/opengraph-image`
+  - 동적 생성: Next.js ImageResponse API (Edge Runtime)
+- **메타데이터**:
+  - Open Graph: Facebook, LinkedIn, 카카오톡 최적화
+  - Twitter Card: summary_large_image 지원
+  - SEO: keywords, description, robots
+- **아이콘**:
+  - Favicon: 32x32 SVG (브라우저 탭)
+  - Apple Touch Icon: 180x180 SVG (iOS 홈 화면)
+- **미리보기 테스트**: `/og-preview.html` 페이지 제공
 
 ### Große Fuge 시각화 도구
 
