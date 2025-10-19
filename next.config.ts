@@ -1,8 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Cloudflare Pages는 standalone 모드 불필요
-  // output: 'standalone', // ← 주석 처리
+  // Cloudflare Pages는 .next 디렉토리 사용
+  // output: 'export', // 잠시 비활성화
+  
+  // 이미지 최적화 비활성화 (정적 export에서는 지원 안 됨)
+  images: {
+    unoptimized: true,
+  },
   
   // 압축 활성화
   compress: true,
@@ -17,59 +22,16 @@ const nextConfig: NextConfig = {
     optimizePackageImports: ['react-force-graph-3d', 'three'],
   },
   
-  // 이미지 최적화
-  images: {
-    formats: ['image/webp', 'image/avif'],
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
-  },
-  
   // SWC 최소화
   swcMinify: true,
   reactStrictMode: true,
   
-  // ESLint & TypeScript 빌드 시 무시 (수정 필요)
+  // ESLint & TypeScript 빌드 시 무시
   eslint: {
     ignoreDuringBuilds: true,
   },
   typescript: {
     ignoreBuildErrors: true,
-  },
-  
-  // 캐시 헤더 설정
-  async headers() {
-    return [
-      {
-        source: '/_next/static/:path*',
-        headers: [
-          {
-            key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable',
-          },
-        ],
-      },
-      {
-        source: '/output/:path*',
-        headers: [
-          {
-            key: 'Cache-Control',
-            value: 'public, max-age=3600',
-          },
-        ],
-      },
-      {
-        source: '/:path*',
-        headers: [
-          {
-            key: 'X-DNS-Prefetch-Control',
-            value: 'on'
-          },
-          {
-            key: 'X-Frame-Options',
-            value: 'SAMEORIGIN'
-          },
-        ],
-      },
-    ];
   },
 };
 

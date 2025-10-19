@@ -35,7 +35,8 @@ interface NarrativesData {
   segments: Segment[];
 }
 
-export default function NarrativesPage({ src = '/output/narratives.json' }: { src?: string }) {
+export default function NarrativesPage() {
+  const src = '/output/narratives.json';
   const [data, setData] = useState<NarrativesData | null>(null);
   const [err, setErr] = useState<string | null>(null);
   const [lang, setLang] = useState<'ko' | 'en'>('ko');
