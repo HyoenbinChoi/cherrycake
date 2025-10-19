@@ -1,0 +1,1867 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Violin 2 n=3\n[0, 0, 0]",
+      "part": "Violin 2",
+      "count": 1709,
+      "n": 3,
+      "pattern": "[0, 0, 0]",
+      "index": 0,
+      "id": "Violin 2_0"
+    },
+    {
+      "label": "Violin 2 n=4\n[0, 0, 0, 0]",
+      "part": "Violin 2",
+      "count": 1513,
+      "n": 4,
+      "pattern": "[0, 0, 0, 0]",
+      "index": 1,
+      "id": "Violin 2_1"
+    },
+    {
+      "label": "Viola n=3\n[0, 0, 0]",
+      "part": "Viola",
+      "count": 1508,
+      "n": 3,
+      "pattern": "[0, 0, 0]",
+      "index": 2,
+      "id": "Viola_2"
+    },
+    {
+      "label": "Violin 1 n=3\n[0, 0, 0]",
+      "part": "Violin 1",
+      "count": 1376,
+      "n": 3,
+      "pattern": "[0, 0, 0]",
+      "index": 3,
+      "id": "Violin 1_3"
+    },
+    {
+      "label": "Violin 2 n=5\n[0, 0, 0, 0, 0]",
+      "part": "Violin 2",
+      "count": 1346,
+      "n": 5,
+      "pattern": "[0, 0, 0, 0, 0]",
+      "index": 4,
+      "id": "Violin 2_4"
+    },
+    {
+      "label": "Viola n=4\n[0, 0, 0, 0]",
+      "part": "Viola",
+      "count": 1329,
+      "n": 4,
+      "pattern": "[0, 0, 0, 0]",
+      "index": 5,
+      "id": "Viola_5"
+    },
+    {
+      "label": "Violin 2 n=6\n[0, 0, 0, 0, 0, 0]",
+      "part": "Violin 2",
+      "count": 1195,
+      "n": 6,
+      "pattern": "[0, 0, 0, 0, 0, 0]",
+      "index": 6,
+      "id": "Violin 2_6"
+    },
+    {
+      "label": "Violin 1 n=4\n[0, 0, 0, 0]",
+      "part": "Violin 1",
+      "count": 1193,
+      "n": 4,
+      "pattern": "[0, 0, 0, 0]",
+      "index": 7,
+      "id": "Violin 1_7"
+    },
+    {
+      "label": "Viola n=5\n[0, 0, 0, 0, 0]",
+      "part": "Viola",
+      "count": 1172,
+      "n": 5,
+      "pattern": "[0, 0, 0, 0, 0]",
+      "index": 8,
+      "id": "Viola_8"
+    },
+    {
+      "label": "Violoncello n=3\n[0, 0, 0]",
+      "part": "Violoncello",
+      "count": 1072,
+      "n": 3,
+      "pattern": "[0, 0, 0]",
+      "index": 9,
+      "id": "Violoncello_9"
+    },
+    {
+      "label": "Viola n=6\n[0, 0, 0, 0, 0, 0]",
+      "part": "Viola",
+      "count": 1043,
+      "n": 6,
+      "pattern": "[0, 0, 0, 0, 0, 0]",
+      "index": 10,
+      "id": "Viola_10"
+    },
+    {
+      "label": "Violin 1 n=5\n[0, 0, 0, 0, 0]",
+      "part": "Violin 1",
+      "count": 1034,
+      "n": 5,
+      "pattern": "[0, 0, 0, 0, 0]",
+      "index": 11,
+      "id": "Violin 1_11"
+    },
+    {
+      "label": "Violin 1 n=6\n[0, 0, 0, 0, 0, 0]",
+      "part": "Violin 1",
+      "count": 907,
+      "n": 6,
+      "pattern": "[0, 0, 0, 0, 0, 0]",
+      "index": 12,
+      "id": "Violin 1_12"
+    },
+    {
+      "label": "Violoncello n=4\n[0, 0, 0, 0]",
+      "part": "Violoncello",
+      "count": 899,
+      "n": 4,
+      "pattern": "[0, 0, 0, 0]",
+      "index": 13,
+      "id": "Violoncello_13"
+    },
+    {
+      "label": "Violoncello n=5\n[0, 0, 0, 0, 0]",
+      "part": "Violoncello",
+      "count": 770,
+      "n": 5,
+      "pattern": "[0, 0, 0, 0, 0]",
+      "index": 14,
+      "id": "Violoncello_14"
+    },
+    {
+      "label": "Violoncello n=6\n[0, 0, 0, 0, 0, 0]",
+      "part": "Violoncello",
+      "count": 665,
+      "n": 6,
+      "pattern": "[0, 0, 0, 0, 0, 0]",
+      "index": 15,
+      "id": "Violoncello_15"
+    },
+    {
+      "label": "Violin 2 n=3\n[0, 1, 0]",
+      "part": "Violin 2",
+      "count": 210,
+      "n": 3,
+      "pattern": "[0, 1, 0]",
+      "index": 16,
+      "id": "Violin 2_16"
+    },
+    {
+      "label": "Violin 2 n=3\n[0, 0, 1]",
+      "part": "Violin 2",
+      "count": 208,
+      "n": 3,
+      "pattern": "[0, 0, 1]",
+      "index": 17,
+      "id": "Violin 2_17"
+    },
+    {
+      "label": "Violin 1 n=3\n[0, 0, 1]",
+      "part": "Violin 1",
+      "count": 206,
+      "n": 3,
+      "pattern": "[0, 0, 1]",
+      "index": 18,
+      "id": "Violin 1_18"
+    },
+    {
+      "label": "Violin 1 n=3\n[0, 1, 0]",
+      "part": "Violin 1",
+      "count": 205,
+      "n": 3,
+      "pattern": "[0, 1, 0]",
+      "index": 19,
+      "id": "Violin 1_19"
+    },
+    {
+      "label": "Violin 2 n=3\n[1, 0, 0]",
+      "part": "Violin 2",
+      "count": 203,
+      "n": 3,
+      "pattern": "[1, 0, 0]",
+      "index": 20,
+      "id": "Violin 2_20"
+    },
+    {
+      "label": "Violin 1 n=3\n[1, 0, 0]",
+      "part": "Violin 1",
+      "count": 200,
+      "n": 3,
+      "pattern": "[1, 0, 0]",
+      "index": 21,
+      "id": "Violin 1_21"
+    },
+    {
+      "label": "Viola n=3\n[1, 0, 0]",
+      "part": "Viola",
+      "count": 199,
+      "n": 3,
+      "pattern": "[1, 0, 0]",
+      "index": 22,
+      "id": "Viola_22"
+    },
+    {
+      "label": "Viola n=3\n[0, 1, 0]",
+      "part": "Viola",
+      "count": 196,
+      "n": 3,
+      "pattern": "[0, 1, 0]",
+      "index": 23,
+      "id": "Viola_23"
+    },
+    {
+      "label": "Violoncello n=3\n[0, 0, 1]",
+      "part": "Violoncello",
+      "count": 194,
+      "n": 3,
+      "pattern": "[0, 0, 1]",
+      "index": 24,
+      "id": "Violoncello_24"
+    },
+    {
+      "label": "Viola n=3\n[0, 0, 1]",
+      "part": "Viola",
+      "count": 193,
+      "n": 3,
+      "pattern": "[0, 0, 1]",
+      "index": 25,
+      "id": "Viola_25"
+    },
+    {
+      "label": "Violoncello n=3\n[0, 1, 0]",
+      "part": "Violoncello",
+      "count": 186,
+      "n": 3,
+      "pattern": "[0, 1, 0]",
+      "index": 26,
+      "id": "Violoncello_26"
+    },
+    {
+      "label": "Violoncello n=3\n[1, 0, 0]",
+      "part": "Violoncello",
+      "count": 185,
+      "n": 3,
+      "pattern": "[1, 0, 0]",
+      "index": 27,
+      "id": "Violoncello_27"
+    },
+    {
+      "label": "Violin 2 n=4\n[0, 0, 1, 0]",
+      "part": "Violin 2",
+      "count": 184,
+      "n": 4,
+      "pattern": "[0, 0, 1, 0]",
+      "index": 28,
+      "id": "Violin 2_28"
+    },
+    {
+      "label": "Violin 2 n=4\n[0, 1, 0, 0]",
+      "part": "Violin 2",
+      "count": 184,
+      "n": 4,
+      "pattern": "[0, 1, 0, 0]",
+      "index": 29,
+      "id": "Violin 2_29"
+    },
+    {
+      "label": "Violin 2 n=4\n[1, 0, 0, 0]",
+      "part": "Violin 2",
+      "count": 175,
+      "n": 4,
+      "pattern": "[1, 0, 0, 0]",
+      "index": 30,
+      "id": "Violin 2_30"
+    },
+    {
+      "label": "Violin 2 n=4\n[0, 0, 0, 1]",
+      "part": "Violin 2",
+      "count": 174,
+      "n": 4,
+      "pattern": "[0, 0, 0, 1]",
+      "index": 31,
+      "id": "Violin 2_31"
+    },
+    {
+      "label": "Viola n=4\n[0, 1, 0, 0]",
+      "part": "Viola",
+      "count": 171,
+      "n": 4,
+      "pattern": "[0, 1, 0, 0]",
+      "index": 32,
+      "id": "Viola_32"
+    },
+    {
+      "label": "Violin 1 n=4\n[0, 1, 0, 0]",
+      "part": "Violin 1",
+      "count": 170,
+      "n": 4,
+      "pattern": "[0, 1, 0, 0]",
+      "index": 33,
+      "id": "Violin 1_33"
+    },
+    {
+      "label": "Violin 1 n=4\n[0, 0, 1, 0]",
+      "part": "Violin 1",
+      "count": 169,
+      "n": 4,
+      "pattern": "[0, 0, 1, 0]",
+      "index": 34,
+      "id": "Violin 1_34"
+    },
+    {
+      "label": "Violin 1 n=4\n[0, 0, 0, 1]",
+      "part": "Violin 1",
+      "count": 168,
+      "n": 4,
+      "pattern": "[0, 0, 0, 1]",
+      "index": 35,
+      "id": "Violin 1_35"
+    },
+    {
+      "label": "Viola n=4\n[0, 0, 1, 0]",
+      "part": "Viola",
+      "count": 166,
+      "n": 4,
+      "pattern": "[0, 0, 1, 0]",
+      "index": 36,
+      "id": "Viola_36"
+    },
+    {
+      "label": "Violin 2 n=5\n[0, 1, 0, 0, 0]",
+      "part": "Violin 2",
+      "count": 163,
+      "n": 5,
+      "pattern": "[0, 1, 0, 0, 0]",
+      "index": 37,
+      "id": "Violin 2_37"
+    },
+    {
+      "label": "Violin 1 n=4\n[1, 0, 0, 0]",
+      "part": "Violin 1",
+      "count": 163,
+      "n": 4,
+      "pattern": "[1, 0, 0, 0]",
+      "index": 38,
+      "id": "Violin 1_38"
+    },
+    {
+      "label": "Viola n=4\n[1, 0, 0, 0]",
+      "part": "Viola",
+      "count": 159,
+      "n": 4,
+      "pattern": "[1, 0, 0, 0]",
+      "index": 39,
+      "id": "Viola_39"
+    },
+    {
+      "label": "Viola n=4\n[0, 0, 0, 1]",
+      "part": "Viola",
+      "count": 159,
+      "n": 4,
+      "pattern": "[0, 0, 0, 1]",
+      "index": 40,
+      "id": "Viola_40"
+    },
+    {
+      "label": "Violoncello n=4\n[0, 0, 0, 1]",
+      "part": "Violoncello",
+      "count": 154,
+      "n": 4,
+      "pattern": "[0, 0, 0, 1]",
+      "index": 41,
+      "id": "Violoncello_41"
+    },
+    {
+      "label": "Violoncello n=4\n[0, 0, 1, 0]",
+      "part": "Violoncello",
+      "count": 153,
+      "n": 4,
+      "pattern": "[0, 0, 1, 0]",
+      "index": 42,
+      "id": "Violoncello_42"
+    },
+    {
+      "label": "Violoncello n=4\n[0, 1, 0, 0]",
+      "part": "Violoncello",
+      "count": 153,
+      "n": 4,
+      "pattern": "[0, 1, 0, 0]",
+      "index": 43,
+      "id": "Violoncello_43"
+    },
+    {
+      "label": "Viola n=5\n[0, 0, 1, 0, 0]",
+      "part": "Viola",
+      "count": 148,
+      "n": 5,
+      "pattern": "[0, 0, 1, 0, 0]",
+      "index": 44,
+      "id": "Viola_44"
+    },
+    {
+      "label": "Violoncello n=4\n[1, 0, 0, 0]",
+      "part": "Violoncello",
+      "count": 148,
+      "n": 4,
+      "pattern": "[1, 0, 0, 0]",
+      "index": 45,
+      "id": "Violoncello_45"
+    },
+    {
+      "label": "Violin 1 n=5\n[0, 0, 1, 0, 0]",
+      "part": "Violin 1",
+      "count": 147,
+      "n": 5,
+      "pattern": "[0, 0, 1, 0, 0]",
+      "index": 46,
+      "id": "Violin 1_46"
+    },
+    {
+      "label": "Violoncello n=5\n[0, 0, 1, 0, 0]",
+      "part": "Violoncello",
+      "count": 129,
+      "n": 5,
+      "pattern": "[0, 0, 1, 0, 0]",
+      "index": 47,
+      "id": "Violoncello_47"
+    }
+  ],
+  "links": [
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_0",
+      "target": "Viola_2"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_0",
+      "target": "Violin 1_3"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_0",
+      "target": "Violoncello_9"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violin 2_0",
+      "target": "Violin 2_16"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violin 2_0",
+      "target": "Violin 2_17"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violin 2_0",
+      "target": "Violin 1_18"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violin 2_0",
+      "target": "Violin 1_19"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violin 2_0",
+      "target": "Violin 2_20"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violin 2_0",
+      "target": "Violin 1_21"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violin 2_0",
+      "target": "Viola_22"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violin 2_0",
+      "target": "Viola_23"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violin 2_0",
+      "target": "Violoncello_24"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violin 2_0",
+      "target": "Viola_25"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violin 2_0",
+      "target": "Violoncello_26"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violin 2_0",
+      "target": "Violoncello_27"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_1",
+      "target": "Viola_5"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_1",
+      "target": "Violin 1_7"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_1",
+      "target": "Violoncello_13"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violin 2_1",
+      "target": "Violin 2_28"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violin 2_1",
+      "target": "Violin 2_29"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violin 2_1",
+      "target": "Violin 2_30"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violin 2_1",
+      "target": "Violin 2_31"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violin 2_1",
+      "target": "Viola_32"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violin 2_1",
+      "target": "Violin 1_33"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violin 2_1",
+      "target": "Violin 1_34"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violin 2_1",
+      "target": "Violin 1_35"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violin 2_1",
+      "target": "Viola_36"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violin 2_1",
+      "target": "Violin 1_38"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violin 2_1",
+      "target": "Viola_39"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violin 2_1",
+      "target": "Viola_40"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violin 2_1",
+      "target": "Violoncello_41"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violin 2_1",
+      "target": "Violoncello_42"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violin 2_1",
+      "target": "Violoncello_43"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violin 2_1",
+      "target": "Violoncello_45"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Viola_2",
+      "target": "Violin 1_3"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Viola_2",
+      "target": "Violoncello_9"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Viola_2",
+      "target": "Violin 2_16"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Viola_2",
+      "target": "Violin 2_17"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Viola_2",
+      "target": "Violin 1_18"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Viola_2",
+      "target": "Violin 1_19"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Viola_2",
+      "target": "Violin 2_20"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Viola_2",
+      "target": "Violin 1_21"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Viola_2",
+      "target": "Viola_22"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Viola_2",
+      "target": "Viola_23"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Viola_2",
+      "target": "Violoncello_24"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Viola_2",
+      "target": "Viola_25"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Viola_2",
+      "target": "Violoncello_26"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Viola_2",
+      "target": "Violoncello_27"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 1_3",
+      "target": "Violoncello_9"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violin 1_3",
+      "target": "Violin 2_16"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violin 1_3",
+      "target": "Violin 2_17"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violin 1_3",
+      "target": "Violin 1_18"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violin 1_3",
+      "target": "Violin 1_19"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violin 1_3",
+      "target": "Violin 2_20"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violin 1_3",
+      "target": "Violin 1_21"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violin 1_3",
+      "target": "Viola_22"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violin 1_3",
+      "target": "Viola_23"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violin 1_3",
+      "target": "Violoncello_24"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violin 1_3",
+      "target": "Viola_25"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violin 1_3",
+      "target": "Violoncello_26"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violin 1_3",
+      "target": "Violoncello_27"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_4",
+      "target": "Viola_8"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_4",
+      "target": "Violin 1_11"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_4",
+      "target": "Violoncello_14"
+    },
+    {
+      "weight": 0.8,
+      "similarity": 0.8,
+      "source": "Violin 2_4",
+      "target": "Violin 2_37"
+    },
+    {
+      "weight": 0.8,
+      "similarity": 0.8,
+      "source": "Violin 2_4",
+      "target": "Viola_44"
+    },
+    {
+      "weight": 0.8,
+      "similarity": 0.8,
+      "source": "Violin 2_4",
+      "target": "Violin 1_46"
+    },
+    {
+      "weight": 0.8,
+      "similarity": 0.8,
+      "source": "Violin 2_4",
+      "target": "Violoncello_47"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Viola_5",
+      "target": "Violin 1_7"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Viola_5",
+      "target": "Violoncello_13"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Viola_5",
+      "target": "Violin 2_28"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Viola_5",
+      "target": "Violin 2_29"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Viola_5",
+      "target": "Violin 2_30"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Viola_5",
+      "target": "Violin 2_31"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Viola_5",
+      "target": "Viola_32"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Viola_5",
+      "target": "Violin 1_33"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Viola_5",
+      "target": "Violin 1_34"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Viola_5",
+      "target": "Violin 1_35"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Viola_5",
+      "target": "Viola_36"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Viola_5",
+      "target": "Violin 1_38"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Viola_5",
+      "target": "Viola_39"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Viola_5",
+      "target": "Viola_40"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Viola_5",
+      "target": "Violoncello_41"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Viola_5",
+      "target": "Violoncello_42"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Viola_5",
+      "target": "Violoncello_43"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Viola_5",
+      "target": "Violoncello_45"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_6",
+      "target": "Viola_10"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_6",
+      "target": "Violin 1_12"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_6",
+      "target": "Violoncello_15"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 1_7",
+      "target": "Violoncello_13"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violin 1_7",
+      "target": "Violin 2_28"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violin 1_7",
+      "target": "Violin 2_29"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violin 1_7",
+      "target": "Violin 2_30"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violin 1_7",
+      "target": "Violin 2_31"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violin 1_7",
+      "target": "Viola_32"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violin 1_7",
+      "target": "Violin 1_33"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violin 1_7",
+      "target": "Violin 1_34"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violin 1_7",
+      "target": "Violin 1_35"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violin 1_7",
+      "target": "Viola_36"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violin 1_7",
+      "target": "Violin 1_38"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violin 1_7",
+      "target": "Viola_39"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violin 1_7",
+      "target": "Viola_40"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violin 1_7",
+      "target": "Violoncello_41"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violin 1_7",
+      "target": "Violoncello_42"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violin 1_7",
+      "target": "Violoncello_43"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violin 1_7",
+      "target": "Violoncello_45"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Viola_8",
+      "target": "Violin 1_11"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Viola_8",
+      "target": "Violoncello_14"
+    },
+    {
+      "weight": 0.8,
+      "similarity": 0.8,
+      "source": "Viola_8",
+      "target": "Violin 2_37"
+    },
+    {
+      "weight": 0.8,
+      "similarity": 0.8,
+      "source": "Viola_8",
+      "target": "Viola_44"
+    },
+    {
+      "weight": 0.8,
+      "similarity": 0.8,
+      "source": "Viola_8",
+      "target": "Violin 1_46"
+    },
+    {
+      "weight": 0.8,
+      "similarity": 0.8,
+      "source": "Viola_8",
+      "target": "Violoncello_47"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violoncello_9",
+      "target": "Violin 2_16"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violoncello_9",
+      "target": "Violin 2_17"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violoncello_9",
+      "target": "Violin 1_18"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violoncello_9",
+      "target": "Violin 1_19"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violoncello_9",
+      "target": "Violin 2_20"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violoncello_9",
+      "target": "Violin 1_21"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violoncello_9",
+      "target": "Viola_22"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violoncello_9",
+      "target": "Viola_23"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violoncello_9",
+      "target": "Violoncello_24"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violoncello_9",
+      "target": "Viola_25"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violoncello_9",
+      "target": "Violoncello_26"
+    },
+    {
+      "weight": 0.6666666666666666,
+      "similarity": 0.6666666666666666,
+      "source": "Violoncello_9",
+      "target": "Violoncello_27"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Viola_10",
+      "target": "Violin 1_12"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Viola_10",
+      "target": "Violoncello_15"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 1_11",
+      "target": "Violoncello_14"
+    },
+    {
+      "weight": 0.8,
+      "similarity": 0.8,
+      "source": "Violin 1_11",
+      "target": "Violin 2_37"
+    },
+    {
+      "weight": 0.8,
+      "similarity": 0.8,
+      "source": "Violin 1_11",
+      "target": "Viola_44"
+    },
+    {
+      "weight": 0.8,
+      "similarity": 0.8,
+      "source": "Violin 1_11",
+      "target": "Violin 1_46"
+    },
+    {
+      "weight": 0.8,
+      "similarity": 0.8,
+      "source": "Violin 1_11",
+      "target": "Violoncello_47"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 1_12",
+      "target": "Violoncello_15"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violoncello_13",
+      "target": "Violin 2_28"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violoncello_13",
+      "target": "Violin 2_29"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violoncello_13",
+      "target": "Violin 2_30"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violoncello_13",
+      "target": "Violin 2_31"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violoncello_13",
+      "target": "Viola_32"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violoncello_13",
+      "target": "Violin 1_33"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violoncello_13",
+      "target": "Violin 1_34"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violoncello_13",
+      "target": "Violin 1_35"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violoncello_13",
+      "target": "Viola_36"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violoncello_13",
+      "target": "Violin 1_38"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violoncello_13",
+      "target": "Viola_39"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violoncello_13",
+      "target": "Viola_40"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violoncello_13",
+      "target": "Violoncello_41"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violoncello_13",
+      "target": "Violoncello_42"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violoncello_13",
+      "target": "Violoncello_43"
+    },
+    {
+      "weight": 0.75,
+      "similarity": 0.75,
+      "source": "Violoncello_13",
+      "target": "Violoncello_45"
+    },
+    {
+      "weight": 0.8,
+      "similarity": 0.8,
+      "source": "Violoncello_14",
+      "target": "Violin 2_37"
+    },
+    {
+      "weight": 0.8,
+      "similarity": 0.8,
+      "source": "Violoncello_14",
+      "target": "Viola_44"
+    },
+    {
+      "weight": 0.8,
+      "similarity": 0.8,
+      "source": "Violoncello_14",
+      "target": "Violin 1_46"
+    },
+    {
+      "weight": 0.8,
+      "similarity": 0.8,
+      "source": "Violoncello_14",
+      "target": "Violoncello_47"
+    },
+    {
+      "weight": 0.16666666666666666,
+      "similarity": 0.3333333333333333,
+      "source": "Violin 2_16",
+      "target": "Violin 2_17"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_16",
+      "target": "Violin 1_19"
+    },
+    {
+      "weight": 0.16666666666666666,
+      "similarity": 0.3333333333333333,
+      "source": "Violin 2_16",
+      "target": "Violin 2_20"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_16",
+      "target": "Viola_23"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_16",
+      "target": "Violoncello_26"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_17",
+      "target": "Violin 1_18"
+    },
+    {
+      "weight": 0.16666666666666666,
+      "similarity": 0.3333333333333333,
+      "source": "Violin 2_17",
+      "target": "Violin 2_20"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_17",
+      "target": "Violoncello_24"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_17",
+      "target": "Viola_25"
+    },
+    {
+      "weight": 0.16666666666666666,
+      "similarity": 0.3333333333333333,
+      "source": "Violin 1_18",
+      "target": "Violin 1_19"
+    },
+    {
+      "weight": 0.16666666666666666,
+      "similarity": 0.3333333333333333,
+      "source": "Violin 1_18",
+      "target": "Violin 1_21"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 1_18",
+      "target": "Violoncello_24"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 1_18",
+      "target": "Viola_25"
+    },
+    {
+      "weight": 0.16666666666666666,
+      "similarity": 0.3333333333333333,
+      "source": "Violin 1_19",
+      "target": "Violin 1_21"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 1_19",
+      "target": "Viola_23"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 1_19",
+      "target": "Violoncello_26"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_20",
+      "target": "Violin 1_21"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_20",
+      "target": "Viola_22"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_20",
+      "target": "Violoncello_27"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 1_21",
+      "target": "Viola_22"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 1_21",
+      "target": "Violoncello_27"
+    },
+    {
+      "weight": 0.16666666666666666,
+      "similarity": 0.3333333333333333,
+      "source": "Viola_22",
+      "target": "Viola_23"
+    },
+    {
+      "weight": 0.16666666666666666,
+      "similarity": 0.3333333333333333,
+      "source": "Viola_22",
+      "target": "Viola_25"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Viola_22",
+      "target": "Violoncello_27"
+    },
+    {
+      "weight": 0.16666666666666666,
+      "similarity": 0.3333333333333333,
+      "source": "Viola_23",
+      "target": "Viola_25"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Viola_23",
+      "target": "Violoncello_26"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violoncello_24",
+      "target": "Viola_25"
+    },
+    {
+      "weight": 0.16666666666666666,
+      "similarity": 0.3333333333333333,
+      "source": "Violoncello_24",
+      "target": "Violoncello_26"
+    },
+    {
+      "weight": 0.16666666666666666,
+      "similarity": 0.3333333333333333,
+      "source": "Violoncello_24",
+      "target": "Violoncello_27"
+    },
+    {
+      "weight": 0.16666666666666666,
+      "similarity": 0.3333333333333333,
+      "source": "Violoncello_26",
+      "target": "Violoncello_27"
+    },
+    {
+      "weight": 0.25,
+      "similarity": 0.5,
+      "source": "Violin 2_28",
+      "target": "Violin 2_29"
+    },
+    {
+      "weight": 0.25,
+      "similarity": 0.5,
+      "source": "Violin 2_28",
+      "target": "Violin 2_30"
+    },
+    {
+      "weight": 0.25,
+      "similarity": 0.5,
+      "source": "Violin 2_28",
+      "target": "Violin 2_31"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_28",
+      "target": "Violin 1_34"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_28",
+      "target": "Viola_36"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_28",
+      "target": "Violoncello_42"
+    },
+    {
+      "weight": 0.25,
+      "similarity": 0.5,
+      "source": "Violin 2_29",
+      "target": "Violin 2_30"
+    },
+    {
+      "weight": 0.25,
+      "similarity": 0.5,
+      "source": "Violin 2_29",
+      "target": "Violin 2_31"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_29",
+      "target": "Viola_32"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_29",
+      "target": "Violin 1_33"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_29",
+      "target": "Violoncello_43"
+    },
+    {
+      "weight": 0.25,
+      "similarity": 0.5,
+      "source": "Violin 2_30",
+      "target": "Violin 2_31"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_30",
+      "target": "Violin 1_38"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_30",
+      "target": "Viola_39"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_30",
+      "target": "Violoncello_45"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_31",
+      "target": "Violin 1_35"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_31",
+      "target": "Viola_40"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 2_31",
+      "target": "Violoncello_41"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Viola_32",
+      "target": "Violin 1_33"
+    },
+    {
+      "weight": 0.25,
+      "similarity": 0.5,
+      "source": "Viola_32",
+      "target": "Viola_36"
+    },
+    {
+      "weight": 0.25,
+      "similarity": 0.5,
+      "source": "Viola_32",
+      "target": "Viola_39"
+    },
+    {
+      "weight": 0.25,
+      "similarity": 0.5,
+      "source": "Viola_32",
+      "target": "Viola_40"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Viola_32",
+      "target": "Violoncello_43"
+    },
+    {
+      "weight": 0.25,
+      "similarity": 0.5,
+      "source": "Violin 1_33",
+      "target": "Violin 1_34"
+    },
+    {
+      "weight": 0.25,
+      "similarity": 0.5,
+      "source": "Violin 1_33",
+      "target": "Violin 1_35"
+    },
+    {
+      "weight": 0.25,
+      "similarity": 0.5,
+      "source": "Violin 1_33",
+      "target": "Violin 1_38"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 1_33",
+      "target": "Violoncello_43"
+    },
+    {
+      "weight": 0.25,
+      "similarity": 0.5,
+      "source": "Violin 1_34",
+      "target": "Violin 1_35"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 1_34",
+      "target": "Viola_36"
+    },
+    {
+      "weight": 0.25,
+      "similarity": 0.5,
+      "source": "Violin 1_34",
+      "target": "Violin 1_38"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 1_34",
+      "target": "Violoncello_42"
+    },
+    {
+      "weight": 0.25,
+      "similarity": 0.5,
+      "source": "Violin 1_35",
+      "target": "Violin 1_38"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 1_35",
+      "target": "Viola_40"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 1_35",
+      "target": "Violoncello_41"
+    },
+    {
+      "weight": 0.25,
+      "similarity": 0.5,
+      "source": "Viola_36",
+      "target": "Viola_39"
+    },
+    {
+      "weight": 0.25,
+      "similarity": 0.5,
+      "source": "Viola_36",
+      "target": "Viola_40"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Viola_36",
+      "target": "Violoncello_42"
+    },
+    {
+      "weight": 0.6,
+      "similarity": 0.6,
+      "source": "Violin 2_37",
+      "target": "Viola_44"
+    },
+    {
+      "weight": 0.6,
+      "similarity": 0.6,
+      "source": "Violin 2_37",
+      "target": "Violin 1_46"
+    },
+    {
+      "weight": 0.6,
+      "similarity": 0.6,
+      "source": "Violin 2_37",
+      "target": "Violoncello_47"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 1_38",
+      "target": "Viola_39"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 1_38",
+      "target": "Violoncello_45"
+    },
+    {
+      "weight": 0.25,
+      "similarity": 0.5,
+      "source": "Viola_39",
+      "target": "Viola_40"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Viola_39",
+      "target": "Violoncello_45"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Viola_40",
+      "target": "Violoncello_41"
+    },
+    {
+      "weight": 0.25,
+      "similarity": 0.5,
+      "source": "Violoncello_41",
+      "target": "Violoncello_42"
+    },
+    {
+      "weight": 0.25,
+      "similarity": 0.5,
+      "source": "Violoncello_41",
+      "target": "Violoncello_43"
+    },
+    {
+      "weight": 0.25,
+      "similarity": 0.5,
+      "source": "Violoncello_41",
+      "target": "Violoncello_45"
+    },
+    {
+      "weight": 0.25,
+      "similarity": 0.5,
+      "source": "Violoncello_42",
+      "target": "Violoncello_43"
+    },
+    {
+      "weight": 0.25,
+      "similarity": 0.5,
+      "source": "Violoncello_42",
+      "target": "Violoncello_45"
+    },
+    {
+      "weight": 0.25,
+      "similarity": 0.5,
+      "source": "Violoncello_43",
+      "target": "Violoncello_45"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Viola_44",
+      "target": "Violin 1_46"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Viola_44",
+      "target": "Violoncello_47"
+    },
+    {
+      "weight": 1.0,
+      "similarity": 1.0,
+      "source": "Violin 1_46",
+      "target": "Violoncello_47"
+    }
+  ],
+  "metadata": {
+    "node_count": 48,
+    "edge_count": 236,
+    "parts": [
+      "Violoncello",
+      "Violin 2",
+      "Violin 1",
+      "Viola"
+    ]
+  }
+}

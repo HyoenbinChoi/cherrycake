@@ -39,3 +39,37 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# ========================================
+# 민감한 문서 및 내부 자료 (비공개)
+# ========================================
+
+# 개인 아이디어 및 분석 문서
+README.md
+CHECKLIST.md
+IMPROVEMENT_GUIDE.md
+QUICKSTART.md
+UPGRADE_STEPS.md
+ANALYSIS_REPORT.md
+
+# 배포 가이드 (민감 정보 포함)
+DEPLOYMENT.md
+DEPLOYMENT_STATUS.md
+DEPLOYMENT_COMPARISON.md
+CLOUDFLARE_DEPLOYMENT.md
+AWS_DEPLOYMENT.md
+PERFORMANCE_COMPARISON.md
+PERFORMANCE.md
+
+# 배포 스크립트 (서버 정보 포함)
+deploy*.sh
+build-production.sh
+monitor.sh
+ecosystem.config.js
+
+# Nginx 설정 (서버 구조 노출)
+nginx.conf
+
+# 환경 변수 예시 (보안)
+.env.example
+.env.local

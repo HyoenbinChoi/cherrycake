@@ -1,0 +1,5 @@
+# www → non-www 리다이렉트
+https://www.cherrycake.me/* https://cherrycake.me/:splat 301
+
+# 구버전 경로 리다이렉트 (필요 시 추가)
+# /old-path /new-path 301

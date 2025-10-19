@@ -1,0 +1,532 @@
+{
+  "motifs": [
+    {
+      "part": "Violin 2",
+      "n": 3,
+      "pattern": [
+        0,
+        0,
+        0
+      ],
+      "count": 1709
+    },
+    {
+      "part": "Violin 2",
+      "n": 4,
+      "pattern": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "count": 1513
+    },
+    {
+      "part": "Viola",
+      "n": 3,
+      "pattern": [
+        0,
+        0,
+        0
+      ],
+      "count": 1508
+    },
+    {
+      "part": "Violin 1",
+      "n": 3,
+      "pattern": [
+        0,
+        0,
+        0
+      ],
+      "count": 1376
+    },
+    {
+      "part": "Violin 2",
+      "n": 5,
+      "pattern": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "count": 1346
+    },
+    {
+      "part": "Viola",
+      "n": 4,
+      "pattern": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "count": 1329
+    },
+    {
+      "part": "Violin 2",
+      "n": 6,
+      "pattern": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "count": 1195
+    },
+    {
+      "part": "Violin 1",
+      "n": 4,
+      "pattern": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "count": 1193
+    },
+    {
+      "part": "Viola",
+      "n": 5,
+      "pattern": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "count": 1172
+    },
+    {
+      "part": "Violoncello",
+      "n": 3,
+      "pattern": [
+        0,
+        0,
+        0
+      ],
+      "count": 1072
+    },
+    {
+      "part": "Viola",
+      "n": 6,
+      "pattern": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "count": 1043
+    },
+    {
+      "part": "Violin 1",
+      "n": 5,
+      "pattern": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "count": 1034
+    },
+    {
+      "part": "Violin 1",
+      "n": 6,
+      "pattern": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "count": 907
+    },
+    {
+      "part": "Violoncello",
+      "n": 4,
+      "pattern": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "count": 899
+    },
+    {
+      "part": "Violoncello",
+      "n": 5,
+      "pattern": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "count": 770
+    },
+    {
+      "part": "Violoncello",
+      "n": 6,
+      "pattern": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "count": 665
+    },
+    {
+      "part": "Violin 2",
+      "n": 3,
+      "pattern": [
+        0,
+        1,
+        0
+      ],
+      "count": 210
+    },
+    {
+      "part": "Violin 2",
+      "n": 3,
+      "pattern": [
+        0,
+        0,
+        1
+      ],
+      "count": 208
+    },
+    {
+      "part": "Violin 1",
+      "n": 3,
+      "pattern": [
+        0,
+        0,
+        1
+      ],
+      "count": 206
+    },
+    {
+      "part": "Violin 1",
+      "n": 3,
+      "pattern": [
+        0,
+        1,
+        0
+      ],
+      "count": 205
+    },
+    {
+      "part": "Violin 2",
+      "n": 3,
+      "pattern": [
+        1,
+        0,
+        0
+      ],
+      "count": 203
+    },
+    {
+      "part": "Violin 1",
+      "n": 3,
+      "pattern": [
+        1,
+        0,
+        0
+      ],
+      "count": 200
+    },
+    {
+      "part": "Viola",
+      "n": 3,
+      "pattern": [
+        1,
+        0,
+        0
+      ],
+      "count": 199
+    },
+    {
+      "part": "Viola",
+      "n": 3,
+      "pattern": [
+        0,
+        1,
+        0
+      ],
+      "count": 196
+    },
+    {
+      "part": "Violoncello",
+      "n": 3,
+      "pattern": [
+        0,
+        0,
+        1
+      ],
+      "count": 194
+    },
+    {
+      "part": "Viola",
+      "n": 3,
+      "pattern": [
+        0,
+        0,
+        1
+      ],
+      "count": 193
+    },
+    {
+      "part": "Violoncello",
+      "n": 3,
+      "pattern": [
+        0,
+        1,
+        0
+      ],
+      "count": 186
+    },
+    {
+      "part": "Violoncello",
+      "n": 3,
+      "pattern": [
+        1,
+        0,
+        0
+      ],
+      "count": 185
+    },
+    {
+      "part": "Violin 2",
+      "n": 4,
+      "pattern": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "count": 184
+    },
+    {
+      "part": "Violin 2",
+      "n": 4,
+      "pattern": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "count": 184
+    },
+    {
+      "part": "Violin 2",
+      "n": 4,
+      "pattern": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "count": 175
+    },
+    {
+      "part": "Violin 2",
+      "n": 4,
+      "pattern": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "count": 174
+    },
+    {
+      "part": "Viola",
+      "n": 4,
+      "pattern": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "count": 171
+    },
+    {
+      "part": "Violin 1",
+      "n": 4,
+      "pattern": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "count": 170
+    },
+    {
+      "part": "Violin 1",
+      "n": 4,
+      "pattern": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "count": 169
+    },
+    {
+      "part": "Violin 1",
+      "n": 4,
+      "pattern": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "count": 168
+    },
+    {
+      "part": "Viola",
+      "n": 4,
+      "pattern": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "count": 166
+    },
+    {
+      "part": "Violin 2",
+      "n": 5,
+      "pattern": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "count": 163
+    },
+    {
+      "part": "Violin 1",
+      "n": 4,
+      "pattern": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "count": 163
+    },
+    {
+      "part": "Viola",
+      "n": 4,
+      "pattern": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "count": 159
+    },
+    {
+      "part": "Viola",
+      "n": 4,
+      "pattern": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "count": 159
+    },
+    {
+      "part": "Violoncello",
+      "n": 4,
+      "pattern": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "count": 154
+    },
+    {
+      "part": "Violoncello",
+      "n": 4,
+      "pattern": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "count": 153
+    },
+    {
+      "part": "Violoncello",
+      "n": 4,
+      "pattern": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "count": 153
+    },
+    {
+      "part": "Viola",
+      "n": 5,
+      "pattern": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "count": 148
+    },
+    {
+      "part": "Violoncello",
+      "n": 4,
+      "pattern": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "count": 148
+    },
+    {
+      "part": "Violin 1",
+      "n": 5,
+      "pattern": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "count": 147
+    },
+    {
+      "part": "Violoncello",
+      "n": 5,
+      "pattern": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "count": 129
+    }
+  ]
+}

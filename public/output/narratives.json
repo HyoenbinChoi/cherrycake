@@ -1,0 +1,828 @@
+{
+  "clusters": [
+    {
+      "cluster_id": 1,
+      "stats": {
+        "nodes": 20,
+        "links": 142,
+        "mean_count": 379.2,
+        "max_count": 1513,
+        "dominant_parts": [
+          [
+            "Violin 2",
+            5
+          ],
+          [
+            "Viola",
+            5
+          ],
+          [
+            "Violin 1",
+            5
+          ]
+        ],
+        "n_lengths": [
+          [
+            4,
+            20
+          ]
+        ],
+        "avg_weight": 0.8347417840375587
+      },
+      "narrative_ko": "Cluster 1: motifs 20, links 142. Mean count 379.20, max 1513. Dominant parts: Violin 2×5, Viola×5, Violin 1×5. Prevailing n-gram length(s): n=4 (×20). Representative interval patterns: [0, 0, 0, 0]×4; [0, 0, 1, 0]×4; [0, 1, 0, 0]×4. links 근거 빈도: similar:112, transpose:30 (avg similarity 0.83). Representative measures: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 15, 16, 18, 19 ... → Variation Hub",
+      "narrative_en": "Cluster 1: motifs 20, links 142. Mean count 379.20, max 1513. Dominant parts: Violin 2×5, Viola×5, Violin 1×5. Prevailing n-gram length(s): n=4 (×20). Representative interval patterns: [0, 0, 0, 0]×4; [0, 0, 1, 0]×4; [0, 1, 0, 0]×4. links 근거 빈도: similar:112, transpose:30 (avg similarity 0.83). Representative measures: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 15, 16, 18, 19 ... → Variation Hub",
+      "representative_measures": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        15,
+        16,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        29,
+        31
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "stats": {
+        "nodes": 12,
+        "links": 50,
+        "mean_count": 604.4166666666666,
+        "max_count": 1709,
+        "dominant_parts": [
+          [
+            "Violin 2",
+            3
+          ],
+          [
+            "Viola",
+            3
+          ],
+          [
+            "Violin 1",
+            3
+          ]
+        ],
+        "n_lengths": [
+          [
+            3,
+            12
+          ]
+        ],
+        "avg_weight": 0.7866666666666666
+      },
+      "narrative_ko": "Cluster 2: motifs 12, links 50. Mean count 604.42, max 1709. Dominant parts: Violin 2×3, Viola×3, Violin 1×3. Prevailing n-gram length(s): n=3 (×12). Representative interval patterns: [0, 0, 0]×4; [0, 0, 1]×4; [1, 0, 0]×4. links 근거 빈도: similar:32, transpose:18 (avg similarity 0.79). Representative measures: 1, 3, 5, 6, 7, 9, 10, 15, 16, 18, 19, 20, 22, 24, 29, 31 ... → Fragmented Cluster",
+      "narrative_en": "Cluster 2: motifs 12, links 50. Mean count 604.42, max 1709. Dominant parts: Violin 2×3, Viola×3, Violin 1×3. Prevailing n-gram length(s): n=3 (×12). Representative interval patterns: [0, 0, 0]×4; [0, 0, 1]×4; [1, 0, 0]×4. links 근거 빈도: similar:32, transpose:18 (avg similarity 0.79). Representative measures: 1, 3, 5, 6, 7, 9, 10, 15, 16, 18, 19, 20, 22, 24, 29, 31 ... → Fragmented Cluster",
+      "representative_measures": [
+        1,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10,
+        15,
+        16,
+        18,
+        19,
+        20,
+        22,
+        24,
+        29,
+        31,
+        33,
+        34,
+        35,
+        37,
+        39,
+        40,
+        41,
+        42
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "stats": {
+        "nodes": 4,
+        "links": 6,
+        "mean_count": 1080.5,
+        "max_count": 1346,
+        "dominant_parts": [
+          [
+            "Violin 2",
+            1
+          ],
+          [
+            "Viola",
+            1
+          ],
+          [
+            "Violin 1",
+            1
+          ]
+        ],
+        "n_lengths": [
+          [
+            5,
+            4
+          ]
+        ],
+        "avg_weight": 1.0
+      },
+      "narrative_ko": "Cluster 3: motifs 4, links 6. Mean count 1080.50, max 1346. Dominant parts: Violin 2×1, Viola×1, Violin 1×1. Prevailing n-gram length(s): n=5 (×4). Representative interval patterns: [0, 0, 0, 0, 0]×4. links 근거 빈도: transpose:6 (avg similarity 1.00). Representative measures: 39, 68, 74, 76, 116, 129, 135, 145, 153, 158, 159, 168, 170, 173, 174, 175 ... → Repetitive Foundation",
+      "narrative_en": "Cluster 3: motifs 4, links 6. Mean count 1080.50, max 1346. Dominant parts: Violin 2×1, Viola×1, Violin 1×1. Prevailing n-gram length(s): n=5 (×4). Representative interval patterns: [0, 0, 0, 0, 0]×4. links 근거 빈도: transpose:6 (avg similarity 1.00). Representative measures: 39, 68, 74, 76, 116, 129, 135, 145, 153, 158, 159, 168, 170, 173, 174, 175 ... → Repetitive Foundation",
+      "representative_measures": [
+        39,
+        68,
+        74,
+        76,
+        116,
+        129,
+        135,
+        145,
+        153,
+        158,
+        159,
+        168,
+        170,
+        173,
+        174,
+        175,
+        177,
+        189,
+        192,
+        193,
+        194,
+        196,
+        197,
+        212
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "stats": {
+        "nodes": 4,
+        "links": 6,
+        "mean_count": 952.5,
+        "max_count": 1195,
+        "dominant_parts": [
+          [
+            "Violin 2",
+            1
+          ],
+          [
+            "Viola",
+            1
+          ],
+          [
+            "Violin 1",
+            1
+          ]
+        ],
+        "n_lengths": [
+          [
+            6,
+            4
+          ]
+        ],
+        "avg_weight": 1.0
+      },
+      "narrative_ko": "Cluster 4: motifs 4, links 6. Mean count 952.50, max 1195. Dominant parts: Violin 2×1, Viola×1, Violin 1×1. Prevailing n-gram length(s): n=6 (×4). Representative interval patterns: [0, 0, 0, 0, 0, 0]×4. links 근거 빈도: transpose:6 (avg similarity 1.00). Representative measures: 74, 76, 78, 87, 90, 116, 129, 153, 156, 158, 159, 168, 170, 173, 175, 177 ... → Repetitive Foundation",
+      "narrative_en": "Cluster 4: motifs 4, links 6. Mean count 952.50, max 1195. Dominant parts: Violin 2×1, Viola×1, Violin 1×1. Prevailing n-gram length(s): n=6 (×4). Representative interval patterns: [0, 0, 0, 0, 0, 0]×4. links 근거 빈도: transpose:6 (avg similarity 1.00). Representative measures: 74, 76, 78, 87, 90, 116, 129, 153, 156, 158, 159, 168, 170, 173, 175, 177 ... → Repetitive Foundation",
+      "representative_measures": [
+        74,
+        76,
+        78,
+        87,
+        90,
+        116,
+        129,
+        153,
+        156,
+        158,
+        159,
+        168,
+        170,
+        173,
+        175,
+        177,
+        189,
+        192,
+        193,
+        194,
+        196,
+        197,
+        207,
+        218
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "stats": {
+        "nodes": 4,
+        "links": 6,
+        "mean_count": 199.25,
+        "max_count": 210,
+        "dominant_parts": [
+          [
+            "Violin 2",
+            1
+          ],
+          [
+            "Violin 1",
+            1
+          ],
+          [
+            "Viola",
+            1
+          ]
+        ],
+        "n_lengths": [
+          [
+            3,
+            4
+          ]
+        ],
+        "avg_weight": 1.0
+      },
+      "narrative_ko": "Cluster 5: motifs 4, links 6. Mean count 199.25, max 210. Dominant parts: Violin 2×1, Violin 1×1, Viola×1. Prevailing n-gram length(s): n=3 (×4). Representative interval patterns: [0, 1, 0]×4. links 근거 빈도: transpose:6 (avg similarity 1.00). Representative measures: 2, 4, 8, 12, 15, 19, 20, 21, 36, 38, 43, 45, 47, 48, 49, 50 ... → Fragmented Cluster",
+      "narrative_en": "Cluster 5: motifs 4, links 6. Mean count 199.25, max 210. Dominant parts: Violin 2×1, Violin 1×1, Viola×1. Prevailing n-gram length(s): n=3 (×4). Representative interval patterns: [0, 1, 0]×4. links 근거 빈도: transpose:6 (avg similarity 1.00). Representative measures: 2, 4, 8, 12, 15, 19, 20, 21, 36, 38, 43, 45, 47, 48, 49, 50 ... → Fragmented Cluster",
+      "representative_measures": [
+        2,
+        4,
+        8,
+        12,
+        15,
+        19,
+        20,
+        21,
+        36,
+        38,
+        43,
+        45,
+        47,
+        48,
+        49,
+        50,
+        51,
+        58,
+        59,
+        60,
+        61,
+        62,
+        64,
+        65
+      ]
+    },
+    {
+      "cluster_id": 6,
+      "stats": {
+        "nodes": 4,
+        "links": 6,
+        "mean_count": 146.75,
+        "max_count": 163,
+        "dominant_parts": [
+          [
+            "Violin 2",
+            1
+          ],
+          [
+            "Viola",
+            1
+          ],
+          [
+            "Violin 1",
+            1
+          ]
+        ],
+        "n_lengths": [
+          [
+            5,
+            4
+          ]
+        ],
+        "avg_weight": 1.0
+      },
+      "narrative_ko": "Cluster 6: motifs 4, links 6. Mean count 146.75, max 163. Dominant parts: Violin 2×1, Viola×1, Violin 1×1. Prevailing n-gram length(s): n=5 (×4). Representative interval patterns: [0, 0, 1, 0, 0]×3; [0, 1, 0, 0, 0]×1. links 근거 빈도: similar:3, transpose:3 (avg similarity 1.00). Representative measures: 10, 13, 20, 22, 24, 29, 33, 37, 43, 44, 51, 52, 53, 62, 63, 64 ... → Extended Phrases",
+      "narrative_en": "Cluster 6: motifs 4, links 6. Mean count 146.75, max 163. Dominant parts: Violin 2×1, Viola×1, Violin 1×1. Prevailing n-gram length(s): n=5 (×4). Representative interval patterns: [0, 0, 1, 0, 0]×3; [0, 1, 0, 0, 0]×1. links 근거 빈도: similar:3, transpose:3 (avg similarity 1.00). Representative measures: 10, 13, 20, 22, 24, 29, 33, 37, 43, 44, 51, 52, 53, 62, 63, 64 ... → Extended Phrases",
+      "representative_measures": [
+        10,
+        13,
+        20,
+        22,
+        24,
+        29,
+        33,
+        37,
+        43,
+        44,
+        51,
+        52,
+        53,
+        62,
+        63,
+        64,
+        65,
+        66,
+        69,
+        70,
+        73,
+        81,
+        84,
+        85
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "measures": [
+        1,
+        4
+      ],
+      "mean_tension": 0.20299877600979194,
+      "dominant_modules": [
+        1,
+        5
+      ],
+      "narrative_ko": "Segment 1 (mm. 1–4): mean tension 0.20. Dominant modules: #1, #5. → Developmental Discourse",
+      "narrative_en": "Segment 1 (mm. 1–4): mean tension 0.20. Dominant modules: #1, #5. → Developmental Discourse"
+    },
+    {
+      "segment_index": 2,
+      "measures": [
+        5,
+        8
+      ],
+      "mean_tension": 0.027906976744186046,
+      "dominant_modules": [
+        1,
+        5
+      ],
+      "narrative_ko": "Segment 2 (mm. 5–8): mean tension 0.03. Dominant modules: #1, #5. → Stable Exposition",
+      "narrative_en": "Segment 2 (mm. 5–8): mean tension 0.03. Dominant modules: #1, #5. → Stable Exposition"
+    },
+    {
+      "segment_index": 3,
+      "measures": [
+        9,
+        268
+      ],
+      "mean_tension": 0.20629032106204712,
+      "dominant_modules": [
+        1,
+        2
+      ],
+      "narrative_ko": "Segment 3 (mm. 9–268): mean tension 0.21. Dominant modules: #1, #2. → Developmental Discourse",
+      "narrative_en": "Segment 3 (mm. 9–268): mean tension 0.21. Dominant modules: #1, #2. → Developmental Discourse"
+    },
+    {
+      "segment_index": 4,
+      "measures": [
+        269,
+        344
+      ],
+      "mean_tension": 0.04957160342717258,
+      "dominant_modules": [
+        1,
+        2
+      ],
+      "narrative_ko": "Segment 4 (mm. 269–344): mean tension 0.05. Dominant modules: #1, #2. → Stable Exposition",
+      "narrative_en": "Segment 4 (mm. 269–344): mean tension 0.05. Dominant modules: #1, #2. → Stable Exposition"
+    },
+    {
+      "segment_index": 5,
+      "measures": [
+        345,
+        348
+      ],
+      "mean_tension": 0.037209302325581395,
+      "dominant_modules": [],
+      "narrative_ko": "Segment 5 (mm. 345–348): mean tension 0.04. → Sonic Pause",
+      "narrative_en": "Segment 5 (mm. 345–348): mean tension 0.04. → Sonic Pause"
+    },
+    {
+      "segment_index": 6,
+      "measures": [
+        349,
+        380
+      ],
+      "mean_tension": 0.08168604651162789,
+      "dominant_modules": [
+        1,
+        2
+      ],
+      "narrative_ko": "Segment 6 (mm. 349–380): mean tension 0.08. Dominant modules: #1, #2. → Stable Exposition",
+      "narrative_en": "Segment 6 (mm. 349–380): mean tension 0.08. Dominant modules: #1, #2. → Stable Exposition"
+    },
+    {
+      "segment_index": 7,
+      "measures": [
+        381,
+        392
+      ],
+      "mean_tension": 0.05271317829457365,
+      "dominant_modules": [
+        1,
+        3
+      ],
+      "narrative_ko": "Segment 7 (mm. 381–392): mean tension 0.05. Dominant modules: #1, #3. → Stable Exposition",
+      "narrative_en": "Segment 7 (mm. 381–392): mean tension 0.05. Dominant modules: #1, #3. → Stable Exposition"
+    },
+    {
+      "segment_index": 8,
+      "measures": [
+        393,
+        412
+      ],
+      "mean_tension": 0.08562423500611993,
+      "dominant_modules": [
+        1,
+        2
+      ],
+      "narrative_ko": "Segment 8 (mm. 393–412): mean tension 0.09. Dominant modules: #1, #2. → Stable Exposition",
+      "narrative_en": "Segment 8 (mm. 393–412): mean tension 0.09. Dominant modules: #1, #2. → Stable Exposition"
+    },
+    {
+      "segment_index": 9,
+      "measures": [
+        413,
+        416
+      ],
+      "mean_tension": 0.10168298653610772,
+      "dominant_modules": [
+        1,
+        6
+      ],
+      "narrative_ko": "Segment 9 (mm. 413–416): mean tension 0.10. Dominant modules: #1, #6. → Stable Exposition",
+      "narrative_en": "Segment 9 (mm. 413–416): mean tension 0.10. Dominant modules: #1, #6. → Stable Exposition"
+    },
+    {
+      "segment_index": 10,
+      "measures": [
+        417,
+        420
+      ],
+      "mean_tension": 0.037209302325581395,
+      "dominant_modules": [],
+      "narrative_ko": "Segment 10 (mm. 417–420): mean tension 0.04. → Sonic Pause",
+      "narrative_en": "Segment 10 (mm. 417–420): mean tension 0.04. → Sonic Pause"
+    },
+    {
+      "segment_index": 11,
+      "measures": [
+        421,
+        428
+      ],
+      "mean_tension": 0.07209302325581396,
+      "dominant_modules": [],
+      "narrative_ko": "Segment 11 (mm. 421–428): mean tension 0.07. → Sonic Pause",
+      "narrative_en": "Segment 11 (mm. 421–428): mean tension 0.07. → Sonic Pause"
+    },
+    {
+      "segment_index": 12,
+      "measures": [
+        429,
+        436
+      ],
+      "mean_tension": 0.10465116279069768,
+      "dominant_modules": [],
+      "narrative_ko": "Segment 12 (mm. 429–436): mean tension 0.10. → Sonic Pause",
+      "narrative_en": "Segment 12 (mm. 429–436): mean tension 0.10. → Sonic Pause"
+    },
+    {
+      "segment_index": 13,
+      "measures": [
+        437,
+        440
+      ],
+      "mean_tension": 0.169124847001224,
+      "dominant_modules": [],
+      "narrative_ko": "Segment 13 (mm. 437–440): mean tension 0.17. → Transitional Fragment",
+      "narrative_en": "Segment 13 (mm. 437–440): mean tension 0.17. → Transitional Fragment"
+    },
+    {
+      "segment_index": 14,
+      "measures": [
+        441,
+        464
+      ],
+      "mean_tension": 0.08011015911872706,
+      "dominant_modules": [
+        2,
+        1
+      ],
+      "narrative_ko": "Segment 14 (mm. 441–464): mean tension 0.08. Dominant modules: #2, #1. → Stable Exposition",
+      "narrative_en": "Segment 14 (mm. 441–464): mean tension 0.08. Dominant modules: #2, #1. → Stable Exposition"
+    },
+    {
+      "segment_index": 15,
+      "measures": [
+        465,
+        472
+      ],
+      "mean_tension": 0.07093023255813953,
+      "dominant_modules": [
+        2,
+        1
+      ],
+      "narrative_ko": "Segment 15 (mm. 465–472): mean tension 0.07. Dominant modules: #2, #1. → Stable Exposition",
+      "narrative_en": "Segment 15 (mm. 465–472): mean tension 0.07. Dominant modules: #2, #1. → Stable Exposition"
+    },
+    {
+      "segment_index": 16,
+      "measures": [
+        473,
+        484
+      ],
+      "mean_tension": 0.12670338637290898,
+      "dominant_modules": [
+        1,
+        2
+      ],
+      "narrative_ko": "Segment 16 (mm. 473–484): mean tension 0.13. Dominant modules: #1, #2. → Stable Exposition",
+      "narrative_en": "Segment 16 (mm. 473–484): mean tension 0.13. Dominant modules: #1, #2. → Stable Exposition"
+    },
+    {
+      "segment_index": 17,
+      "measures": [
+        485,
+        496
+      ],
+      "mean_tension": 0.1761015911872705,
+      "dominant_modules": [
+        1,
+        3
+      ],
+      "narrative_ko": "Segment 17 (mm. 485–496): mean tension 0.18. Dominant modules: #1, #3. → Developmental Discourse",
+      "narrative_en": "Segment 17 (mm. 485–496): mean tension 0.18. Dominant modules: #1, #3. → Developmental Discourse"
+    },
+    {
+      "segment_index": 18,
+      "measures": [
+        497,
+        600
+      ],
+      "mean_tension": 0.09912960696314434,
+      "dominant_modules": [
+        1,
+        2
+      ],
+      "narrative_ko": "Segment 18 (mm. 497–600): mean tension 0.10. Dominant modules: #1, #2. → Stable Exposition",
+      "narrative_en": "Segment 18 (mm. 497–600): mean tension 0.10. Dominant modules: #1, #2. → Stable Exposition"
+    },
+    {
+      "segment_index": 19,
+      "measures": [
+        601,
+        604
+      ],
+      "mean_tension": 0.058139534883720936,
+      "dominant_modules": [],
+      "narrative_ko": "Segment 19 (mm. 601–604): mean tension 0.06. → Sonic Pause",
+      "narrative_en": "Segment 19 (mm. 601–604): mean tension 0.06. → Sonic Pause"
+    },
+    {
+      "segment_index": 20,
+      "measures": [
+        605,
+        608
+      ],
+      "mean_tension": 0.10232558139534885,
+      "dominant_modules": [],
+      "narrative_ko": "Segment 20 (mm. 605–608): mean tension 0.10. → Sonic Pause",
+      "narrative_en": "Segment 20 (mm. 605–608): mean tension 0.10. → Sonic Pause"
+    },
+    {
+      "segment_index": 21,
+      "measures": [
+        609,
+        612
+      ],
+      "mean_tension": 0.23979498164014681,
+      "dominant_modules": [],
+      "narrative_ko": "Segment 21 (mm. 609–612): mean tension 0.24. → Transitional Fragment",
+      "narrative_en": "Segment 21 (mm. 609–612): mean tension 0.24. → Transitional Fragment"
+    },
+    {
+      "segment_index": 22,
+      "measures": [
+        613,
+        648
+      ],
+      "mean_tension": 0.06706106351149191,
+      "dominant_modules": [
+        2,
+        1
+      ],
+      "narrative_ko": "Segment 22 (mm. 613–648): mean tension 0.07. Dominant modules: #2, #1. → Stable Exposition",
+      "narrative_en": "Segment 22 (mm. 613–648): mean tension 0.07. Dominant modules: #2, #1. → Stable Exposition"
+    },
+    {
+      "segment_index": 23,
+      "measures": [
+        649,
+        664
+      ],
+      "mean_tension": 0.07616279069767441,
+      "dominant_modules": [],
+      "narrative_ko": "Segment 23 (mm. 649–664): mean tension 0.08. → Sonic Pause",
+      "narrative_en": "Segment 23 (mm. 649–664): mean tension 0.08. → Sonic Pause"
+    },
+    {
+      "segment_index": 24,
+      "measures": [
+        665,
+        672
+      ],
+      "mean_tension": 0.06046511627906979,
+      "dominant_modules": [],
+      "narrative_ko": "Segment 24 (mm. 665–672): mean tension 0.06. → Sonic Pause",
+      "narrative_en": "Segment 24 (mm. 665–672): mean tension 0.06. → Sonic Pause"
+    },
+    {
+      "segment_index": 25,
+      "measures": [
+        673,
+        680
+      ],
+      "mean_tension": 0.06511627906976745,
+      "dominant_modules": [],
+      "narrative_ko": "Segment 25 (mm. 673–680): mean tension 0.07. → Sonic Pause",
+      "narrative_en": "Segment 25 (mm. 673–680): mean tension 0.07. → Sonic Pause"
+    },
+    {
+      "segment_index": 26,
+      "measures": [
+        681,
+        688
+      ],
+      "mean_tension": 0.04186046511627907,
+      "dominant_modules": [],
+      "narrative_ko": "Segment 26 (mm. 681–688): mean tension 0.04. → Sonic Pause",
+      "narrative_en": "Segment 26 (mm. 681–688): mean tension 0.04. → Sonic Pause"
+    },
+    {
+      "segment_index": 27,
+      "measures": [
+        689,
+        696
+      ],
+      "mean_tension": 0.029069767441860465,
+      "dominant_modules": [
+        1,
+        2
+      ],
+      "narrative_ko": "Segment 27 (mm. 689–696): mean tension 0.03. Dominant modules: #1, #2. → Stable Exposition",
+      "narrative_en": "Segment 27 (mm. 689–696): mean tension 0.03. Dominant modules: #1, #2. → Stable Exposition"
+    },
+    {
+      "segment_index": 28,
+      "measures": [
+        697,
+        700
+      ],
+      "mean_tension": 0.11540697674418604,
+      "dominant_modules": [
+        1,
+        3
+      ],
+      "narrative_ko": "Segment 28 (mm. 697–700): mean tension 0.12. Dominant modules: #1, #3. → Stable Exposition",
+      "narrative_en": "Segment 28 (mm. 697–700): mean tension 0.12. Dominant modules: #1, #3. → Stable Exposition"
+    },
+    {
+      "segment_index": 29,
+      "measures": [
+        701,
+        704
+      ],
+      "mean_tension": 0.06279069767441861,
+      "dominant_modules": [],
+      "narrative_ko": "Segment 29 (mm. 701–704): mean tension 0.06. → Sonic Pause",
+      "narrative_en": "Segment 29 (mm. 701–704): mean tension 0.06. → Sonic Pause"
+    },
+    {
+      "segment_index": 30,
+      "measures": [
+        705,
+        708
+      ],
+      "mean_tension": 0.058139534883720936,
+      "dominant_modules": [],
+      "narrative_ko": "Segment 30 (mm. 705–708): mean tension 0.06. → Sonic Pause",
+      "narrative_en": "Segment 30 (mm. 705–708): mean tension 0.06. → Sonic Pause"
+    },
+    {
+      "segment_index": 31,
+      "measures": [
+        709,
+        712
+      ],
+      "mean_tension": 0.03953488372093023,
+      "dominant_modules": [],
+      "narrative_ko": "Segment 31 (mm. 709–712): mean tension 0.04. → Sonic Pause",
+      "narrative_en": "Segment 31 (mm. 709–712): mean tension 0.04. → Sonic Pause"
+    },
+    {
+      "segment_index": 32,
+      "measures": [
+        713,
+        720
+      ],
+      "mean_tension": 0.22197062423500613,
+      "dominant_modules": [],
+      "narrative_ko": "Segment 32 (mm. 713–720): mean tension 0.22. → Local Cohesion",
+      "narrative_en": "Segment 32 (mm. 713–720): mean tension 0.22. → Local Cohesion"
+    },
+    {
+      "segment_index": 33,
+      "measures": [
+        721,
+        728
+      ],
+      "mean_tension": 0.3072597919216646,
+      "dominant_modules": [
+        1,
+        4
+      ],
+      "narrative_ko": "Segment 33 (mm. 721–728): mean tension 0.31. Dominant modules: #1, #4. → Developmental Discourse",
+      "narrative_en": "Segment 33 (mm. 721–728): mean tension 0.31. Dominant modules: #1, #4. → Developmental Discourse"
+    },
+    {
+      "segment_index": 34,
+      "measures": [
+        729,
+        732
+      ],
+      "mean_tension": 0.2527641778865769,
+      "dominant_modules": [],
+      "narrative_ko": "Segment 34 (mm. 729–732): mean tension 0.25. → Transitional Fragment",
+      "narrative_en": "Segment 34 (mm. 729–732): mean tension 0.25. → Transitional Fragment"
+    },
+    {
+      "segment_index": 35,
+      "measures": [
+        733,
+        740
+      ],
+      "mean_tension": 0.30528355773153815,
+      "dominant_modules": [],
+      "narrative_ko": "Segment 35 (mm. 733–740): mean tension 0.31. → Local Cohesion",
+      "narrative_en": "Segment 35 (mm. 733–740): mean tension 0.31. → Local Cohesion"
+    },
+    {
+      "segment_index": 36,
+      "measures": [
+        741,
+        744
+      ],
+      "mean_tension": 0.2455086359309125,
+      "dominant_modules": [
+        4
+      ],
+      "narrative_ko": "Segment 36 (mm. 741–744): mean tension 0.25. Dominant modules: #4. → Transitional Fragment",
+      "narrative_en": "Segment 36 (mm. 741–744): mean tension 0.25. Dominant modules: #4. → Transitional Fragment"
+    },
+    {
+      "segment_index": 37,
+      "measures": [
+        745,
+        780
+      ],
+      "mean_tension": 0.0,
+      "dominant_modules": [
+        1,
+        2
+      ],
+      "narrative_ko": "Segment 37 (mm. 745–780): mean tension 0.00. Dominant modules: #1, #2. → Stable Exposition",
+      "narrative_en": "Segment 37 (mm. 745–780): mean tension 0.00. Dominant modules: #1, #2. → Stable Exposition"
+    },
+    {
+      "segment_index": 38,
+      "measures": [
+        781,
+        788
+      ],
+      "mean_tension": 0.0,
+      "dominant_modules": [],
+      "narrative_ko": "Segment 38 (mm. 781–788): mean tension 0.00. → Sonic Pause",
+      "narrative_en": "Segment 38 (mm. 781–788): mean tension 0.00. → Sonic Pause"
+    }
+  ]
+}

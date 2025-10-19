@@ -1,0 +1,5163 @@
+{
+  "measures": [
+    {
+      "measure": 1,
+      "tension": 0.35948592411260705,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.9473684210526315,
+      "tonal": 0.0
+    },
+    {
+      "measure": 2,
+      "tension": 0.3966952264381885,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.9473684210526315,
+      "tonal": 0.0
+    },
+    {
+      "measure": 3,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 4,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 5,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 6,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 7,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 8,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 9,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 10,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 11,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 12,
+      "tension": 0.13953488372093023,
+      "rhythm": 0.3488372093023256,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 13,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 14,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 15,
+      "tension": 0.13953488372093023,
+      "rhythm": 0.3488372093023256,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 16,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 17,
+      "tension": 0.0,
+      "rhythm": 0.0,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 18,
+      "tension": 0.037209302325581395,
+      "rhythm": 0.09302325581395349,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 19,
+      "tension": 0.037209302325581395,
+      "rhythm": 0.09302325581395349,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 20,
+      "tension": 0.31370869033047727,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.7368421052631577,
+      "tonal": 0.0
+    },
+    {
+      "measure": 21,
+      "tension": 0.3873929008567931,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.9473684210526315,
+      "tonal": 0.0
+    },
+    {
+      "measure": 22,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 23,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 24,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 25,
+      "tension": 0.009302325581395349,
+      "rhythm": 0.023255813953488372,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 26,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 27,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 28,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 29,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 30,
+      "tension": 0.037209302325581395,
+      "rhythm": 0.09302325581395349,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 31,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 32,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 33,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 34,
+      "tension": 0.14883720930232558,
+      "rhythm": 0.37209302325581395,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 35,
+      "tension": 0.1674418604651163,
+      "rhythm": 0.4186046511627907,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 36,
+      "tension": 0.13953488372093023,
+      "rhythm": 0.3488372093023256,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 37,
+      "tension": 0.13953488372093023,
+      "rhythm": 0.3488372093023256,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 38,
+      "tension": 0.2046511627906977,
+      "rhythm": 0.5116279069767442,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 39,
+      "tension": 0.23255813953488375,
+      "rhythm": 0.5813953488372093,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 40,
+      "tension": 0.21395348837209302,
+      "rhythm": 0.5348837209302325,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 41,
+      "tension": 0.21395348837209302,
+      "rhythm": 0.5348837209302325,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 42,
+      "tension": 0.2604651162790698,
+      "rhythm": 0.6511627906976745,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 43,
+      "tension": 0.23255813953488375,
+      "rhythm": 0.5813953488372093,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 44,
+      "tension": 0.21395348837209302,
+      "rhythm": 0.5348837209302325,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 45,
+      "tension": 0.21395348837209302,
+      "rhythm": 0.5348837209302325,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 46,
+      "tension": 0.26976744186046514,
+      "rhythm": 0.6744186046511628,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 47,
+      "tension": 0.2883720930232558,
+      "rhythm": 0.7209302325581395,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 48,
+      "tension": 0.22325581395348837,
+      "rhythm": 0.5581395348837209,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 49,
+      "tension": 0.21395348837209302,
+      "rhythm": 0.5348837209302325,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 50,
+      "tension": 0.25116279069767444,
+      "rhythm": 0.627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 51,
+      "tension": 0.25116279069767444,
+      "rhythm": 0.627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 52,
+      "tension": 0.25116279069767444,
+      "rhythm": 0.627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 53,
+      "tension": 0.26976744186046514,
+      "rhythm": 0.6744186046511628,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 54,
+      "tension": 0.2883720930232558,
+      "rhythm": 0.7209302325581395,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 55,
+      "tension": 0.26976744186046514,
+      "rhythm": 0.6744186046511628,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 56,
+      "tension": 0.27906976744186046,
+      "rhythm": 0.6976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 57,
+      "tension": 0.22325581395348837,
+      "rhythm": 0.5581395348837209,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 58,
+      "tension": 0.22325581395348837,
+      "rhythm": 0.5581395348837209,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 59,
+      "tension": 0.21395348837209302,
+      "rhythm": 0.5348837209302325,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 60,
+      "tension": 0.21395348837209302,
+      "rhythm": 0.5348837209302325,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 61,
+      "tension": 0.2604651162790698,
+      "rhythm": 0.6511627906976745,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 62,
+      "tension": 0.3534883720930233,
+      "rhythm": 0.8837209302325582,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 63,
+      "tension": 0.2883720930232558,
+      "rhythm": 0.7209302325581395,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 64,
+      "tension": 0.22325581395348837,
+      "rhythm": 0.5581395348837209,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 65,
+      "tension": 0.23255813953488375,
+      "rhythm": 0.5813953488372093,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 66,
+      "tension": 0.25116279069767444,
+      "rhythm": 0.627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 67,
+      "tension": 0.24186046511627907,
+      "rhythm": 0.6046511627906976,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 68,
+      "tension": 0.26976744186046514,
+      "rhythm": 0.6744186046511628,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 69,
+      "tension": 0.25116279069767444,
+      "rhythm": 0.627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 70,
+      "tension": 0.25116279069767444,
+      "rhythm": 0.627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 71,
+      "tension": 0.25116279069767444,
+      "rhythm": 0.627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 72,
+      "tension": 0.2604651162790698,
+      "rhythm": 0.6511627906976745,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 73,
+      "tension": 0.25116279069767444,
+      "rhythm": 0.627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 74,
+      "tension": 0.25116279069767444,
+      "rhythm": 0.627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 75,
+      "tension": 0.24186046511627907,
+      "rhythm": 0.6046511627906976,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 76,
+      "tension": 0.25116279069767444,
+      "rhythm": 0.627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 77,
+      "tension": 0.25116279069767444,
+      "rhythm": 0.627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 78,
+      "tension": 0.25116279069767444,
+      "rhythm": 0.627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 79,
+      "tension": 0.29767441860465116,
+      "rhythm": 0.7441860465116279,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 80,
+      "tension": 0.2883720930232558,
+      "rhythm": 0.7209302325581395,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 81,
+      "tension": 0.2883720930232558,
+      "rhythm": 0.7209302325581395,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 82,
+      "tension": 0.30697674418604654,
+      "rhythm": 0.7674418604651163,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 83,
+      "tension": 0.34418604651162793,
+      "rhythm": 0.8604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 84,
+      "tension": 0.34418604651162793,
+      "rhythm": 0.8604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 85,
+      "tension": 0.34418604651162793,
+      "rhythm": 0.8604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 86,
+      "tension": 0.3627906976744186,
+      "rhythm": 0.9069767441860465,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 87,
+      "tension": 0.3627906976744186,
+      "rhythm": 0.9069767441860465,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 88,
+      "tension": 0.31627906976744186,
+      "rhythm": 0.7906976744186046,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 89,
+      "tension": 0.5648714810281517,
+      "rhythm": 0.7674418604651163,
+      "roughness": 0.7368421052631577,
+      "tonal": 0.0
+    },
+    {
+      "measure": 90,
+      "tension": 0.30697674418604654,
+      "rhythm": 0.7674418604651163,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 91,
+      "tension": 0.26976744186046514,
+      "rhythm": 0.6744186046511628,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 92,
+      "tension": 0.30697674418604654,
+      "rhythm": 0.7674418604651163,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 93,
+      "tension": 0.29767441860465116,
+      "rhythm": 0.7441860465116279,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 94,
+      "tension": 0.24186046511627907,
+      "rhythm": 0.6046511627906976,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 95,
+      "tension": 0.1674418604651163,
+      "rhythm": 0.4186046511627907,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 96,
+      "tension": 0.24186046511627907,
+      "rhythm": 0.6046511627906976,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 97,
+      "tension": 0.2604651162790698,
+      "rhythm": 0.6511627906976745,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 98,
+      "tension": 0.21395348837209302,
+      "rhythm": 0.5348837209302325,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 99,
+      "tension": 0.2046511627906977,
+      "rhythm": 0.5116279069767442,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 100,
+      "tension": 0.24186046511627907,
+      "rhythm": 0.6046511627906976,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 101,
+      "tension": 0.25116279069767444,
+      "rhythm": 0.627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 102,
+      "tension": 0.23255813953488375,
+      "rhythm": 0.5813953488372093,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 103,
+      "tension": 0.23255813953488375,
+      "rhythm": 0.5813953488372093,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 104,
+      "tension": 0.2604651162790698,
+      "rhythm": 0.6511627906976745,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 105,
+      "tension": 0.2883720930232558,
+      "rhythm": 0.7209302325581395,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 106,
+      "tension": 0.2883720930232558,
+      "rhythm": 0.7209302325581395,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 107,
+      "tension": 0.2883720930232558,
+      "rhythm": 0.7209302325581395,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 108,
+      "tension": 0.2883720930232558,
+      "rhythm": 0.7209302325581395,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 109,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 110,
+      "tension": 0.17674418604651165,
+      "rhythm": 0.4418604651162791,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 111,
+      "tension": 0.23255813953488375,
+      "rhythm": 0.5813953488372093,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 112,
+      "tension": 0.2604651162790698,
+      "rhythm": 0.6511627906976745,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 113,
+      "tension": 0.27906976744186046,
+      "rhythm": 0.6976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 114,
+      "tension": 0.30697674418604654,
+      "rhythm": 0.7674418604651163,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 115,
+      "tension": 0.23255813953488375,
+      "rhythm": 0.5813953488372093,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 116,
+      "tension": 0.22325581395348837,
+      "rhythm": 0.5581395348837209,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 117,
+      "tension": 0.25116279069767444,
+      "rhythm": 0.627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 118,
+      "tension": 0.22325581395348837,
+      "rhythm": 0.5581395348837209,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 119,
+      "tension": 0.18604651162790697,
+      "rhythm": 0.46511627906976744,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 120,
+      "tension": 0.26976744186046514,
+      "rhythm": 0.6744186046511628,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 121,
+      "tension": 0.3627906976744186,
+      "rhythm": 0.9069767441860465,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 122,
+      "tension": 0.34418604651162793,
+      "rhythm": 0.8604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 123,
+      "tension": 0.4,
+      "rhythm": 1.0,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 124,
+      "tension": 0.30697674418604654,
+      "rhythm": 0.7674418604651163,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 125,
+      "tension": 0.3348837209302326,
+      "rhythm": 0.8372093023255814,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 126,
+      "tension": 0.34418604651162793,
+      "rhythm": 0.8604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 127,
+      "tension": 0.2604651162790698,
+      "rhythm": 0.6511627906976745,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 128,
+      "tension": 0.2883720930232558,
+      "rhythm": 0.7209302325581395,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 129,
+      "tension": 0.19534883720930232,
+      "rhythm": 0.4883720930232558,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 130,
+      "tension": 0.5083231334149327,
+      "rhythm": 0.4418604651162791,
+      "roughness": 0.9473684210526315,
+      "tonal": 0.0
+    },
+    {
+      "measure": 131,
+      "tension": 0.22325581395348837,
+      "rhythm": 0.5581395348837209,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 132,
+      "tension": 0.21395348837209302,
+      "rhythm": 0.5348837209302325,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 133,
+      "tension": 0.22325581395348837,
+      "rhythm": 0.5581395348837209,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 134,
+      "tension": 0.21395348837209302,
+      "rhythm": 0.5348837209302325,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 135,
+      "tension": 0.22325581395348837,
+      "rhythm": 0.5581395348837209,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 136,
+      "tension": 0.21395348837209302,
+      "rhythm": 0.5348837209302325,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 137,
+      "tension": 0.5090575275397796,
+      "rhythm": 0.627906976744186,
+      "roughness": 0.7368421052631577,
+      "tonal": 0.0
+    },
+    {
+      "measure": 138,
+      "tension": 0.33921664626682985,
+      "rhythm": 0.5348837209302325,
+      "roughness": 0.35789473684210527,
+      "tonal": 0.0
+    },
+    {
+      "measure": 139,
+      "tension": 0.1674418604651163,
+      "rhythm": 0.4186046511627907,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 140,
+      "tension": 0.19534883720930232,
+      "rhythm": 0.4883720930232558,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 141,
+      "tension": 0.2883720930232558,
+      "rhythm": 0.7209302325581395,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 142,
+      "tension": 0.30697674418604654,
+      "rhythm": 0.7674418604651163,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 143,
+      "tension": 0.647674418604651,
+      "rhythm": 0.7441860465116279,
+      "roughness": 0.9999999999999999,
+      "tonal": 0.0
+    },
+    {
+      "measure": 144,
+      "tension": 0.30697674418604654,
+      "rhythm": 0.7674418604651163,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 145,
+      "tension": 0.4,
+      "rhythm": 1.0,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 146,
+      "tension": 0.4,
+      "rhythm": 1.0,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 147,
+      "tension": 0.4,
+      "rhythm": 1.0,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 148,
+      "tension": 0.3813953488372093,
+      "rhythm": 0.9534883720930233,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 149,
+      "tension": 0.4,
+      "rhythm": 1.0,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 150,
+      "tension": 0.32558139534883723,
+      "rhythm": 0.813953488372093,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 151,
+      "tension": 0.3627906976744186,
+      "rhythm": 0.9069767441860465,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 152,
+      "tension": 0.3627906976744186,
+      "rhythm": 0.9069767441860465,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 153,
+      "tension": 0.3627906976744186,
+      "rhythm": 0.9069767441860465,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 154,
+      "tension": 0.26976744186046514,
+      "rhythm": 0.6744186046511628,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 155,
+      "tension": 0.5097919216646267,
+      "rhythm": 0.813953488372093,
+      "roughness": 0.5263157894736842,
+      "tonal": 0.0
+    },
+    {
+      "measure": 156,
+      "tension": 0.24186046511627907,
+      "rhythm": 0.6046511627906976,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 157,
+      "tension": 0.24186046511627907,
+      "rhythm": 0.6046511627906976,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 158,
+      "tension": 0.29767441860465116,
+      "rhythm": 0.7441860465116279,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 159,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 160,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 161,
+      "tension": 0.21395348837209302,
+      "rhythm": 0.5348837209302325,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 162,
+      "tension": 0.25116279069767444,
+      "rhythm": 0.627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 163,
+      "tension": 0.21395348837209302,
+      "rhythm": 0.5348837209302325,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 164,
+      "tension": 0.25116279069767444,
+      "rhythm": 0.627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 165,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 166,
+      "tension": 0.11162790697674418,
+      "rhythm": 0.27906976744186046,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 167,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 168,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 169,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 170,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 171,
+      "tension": 0.13953488372093023,
+      "rhythm": 0.3488372093023256,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 172,
+      "tension": 0.15813953488372093,
+      "rhythm": 0.3953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 173,
+      "tension": 0.15813953488372093,
+      "rhythm": 0.3953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 174,
+      "tension": 0.15813953488372093,
+      "rhythm": 0.3953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 175,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 176,
+      "tension": 0.12093023255813953,
+      "rhythm": 0.3023255813953488,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 177,
+      "tension": 0.2883720930232558,
+      "rhythm": 0.7209302325581395,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 178,
+      "tension": 0.2604651162790698,
+      "rhythm": 0.6511627906976745,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 179,
+      "tension": 0.2883720930232558,
+      "rhythm": 0.7209302325581395,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 180,
+      "tension": 0.2883720930232558,
+      "rhythm": 0.7209302325581395,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 181,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 182,
+      "tension": 0.11162790697674418,
+      "rhythm": 0.27906976744186046,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 183,
+      "tension": 0.1302325581395349,
+      "rhythm": 0.32558139534883723,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 184,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 185,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 186,
+      "tension": 0.1302325581395349,
+      "rhythm": 0.32558139534883723,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 187,
+      "tension": 0.17674418604651165,
+      "rhythm": 0.4418604651162791,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 188,
+      "tension": 0.11162790697674418,
+      "rhythm": 0.27906976744186046,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 189,
+      "tension": 0.11162790697674418,
+      "rhythm": 0.27906976744186046,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 190,
+      "tension": 0.12093023255813953,
+      "rhythm": 0.3023255813953488,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 191,
+      "tension": 0.18604651162790697,
+      "rhythm": 0.46511627906976744,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 192,
+      "tension": 0.21395348837209302,
+      "rhythm": 0.5348837209302325,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 193,
+      "tension": 0.19534883720930232,
+      "rhythm": 0.4883720930232558,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 194,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 195,
+      "tension": 0.11162790697674418,
+      "rhythm": 0.27906976744186046,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 196,
+      "tension": 0.12093023255813953,
+      "rhythm": 0.3023255813953488,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 197,
+      "tension": 0.12093023255813953,
+      "rhythm": 0.3023255813953488,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 198,
+      "tension": 0.13953488372093023,
+      "rhythm": 0.3488372093023256,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 199,
+      "tension": 0.1674418604651163,
+      "rhythm": 0.4186046511627907,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 200,
+      "tension": 0.1674418604651163,
+      "rhythm": 0.4186046511627907,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 201,
+      "tension": 0.1674418604651163,
+      "rhythm": 0.4186046511627907,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 202,
+      "tension": 0.1674418604651163,
+      "rhythm": 0.4186046511627907,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 203,
+      "tension": 0.1674418604651163,
+      "rhythm": 0.4186046511627907,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 204,
+      "tension": 0.1674418604651163,
+      "rhythm": 0.4186046511627907,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 205,
+      "tension": 0.1674418604651163,
+      "rhythm": 0.4186046511627907,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 206,
+      "tension": 0.2046511627906977,
+      "rhythm": 0.5116279069767442,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 207,
+      "tension": 0.19534883720930232,
+      "rhythm": 0.4883720930232558,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 208,
+      "tension": 0.19534883720930232,
+      "rhythm": 0.4883720930232558,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 209,
+      "tension": 0.17674418604651165,
+      "rhythm": 0.4418604651162791,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 210,
+      "tension": 0.1674418604651163,
+      "rhythm": 0.4186046511627907,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 211,
+      "tension": 0.1674418604651163,
+      "rhythm": 0.4186046511627907,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 212,
+      "tension": 0.1674418604651163,
+      "rhythm": 0.4186046511627907,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 213,
+      "tension": 0.18604651162790697,
+      "rhythm": 0.46511627906976744,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 214,
+      "tension": 0.18604651162790697,
+      "rhythm": 0.46511627906976744,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 215,
+      "tension": 0.18604651162790697,
+      "rhythm": 0.46511627906976744,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 216,
+      "tension": 0.5176254589963281,
+      "rhythm": 0.46511627906976744,
+      "roughness": 0.9473684210526315,
+      "tonal": 0.0
+    },
+    {
+      "measure": 217,
+      "tension": 0.15813953488372093,
+      "rhythm": 0.3953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 218,
+      "tension": 0.1302325581395349,
+      "rhythm": 0.32558139534883723,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 219,
+      "tension": 0.14883720930232558,
+      "rhythm": 0.37209302325581395,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 220,
+      "tension": 0.18604651162790697,
+      "rhythm": 0.46511627906976744,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 221,
+      "tension": 0.23255813953488375,
+      "rhythm": 0.5813953488372093,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 222,
+      "tension": 0.23255813953488375,
+      "rhythm": 0.5813953488372093,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 223,
+      "tension": 0.26976744186046514,
+      "rhythm": 0.6744186046511628,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 224,
+      "tension": 0.26976744186046514,
+      "rhythm": 0.6744186046511628,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 225,
+      "tension": 0.26976744186046514,
+      "rhythm": 0.6744186046511628,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 226,
+      "tension": 0.26976744186046514,
+      "rhythm": 0.6744186046511628,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 227,
+      "tension": 0.2883720930232558,
+      "rhythm": 0.7209302325581395,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 228,
+      "tension": 0.2883720930232558,
+      "rhythm": 0.7209302325581395,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 229,
+      "tension": 0.2883720930232558,
+      "rhythm": 0.7209302325581395,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 230,
+      "tension": 0.2883720930232558,
+      "rhythm": 0.7209302325581395,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 231,
+      "tension": 0.2883720930232558,
+      "rhythm": 0.7209302325581395,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 232,
+      "tension": 0.2883720930232558,
+      "rhythm": 0.7209302325581395,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 233,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 234,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 235,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 236,
+      "tension": 0.09302325581395349,
+      "rhythm": 0.23255813953488372,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 237,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 238,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 239,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 240,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 241,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 242,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 243,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 244,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 245,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 246,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 247,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 248,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 249,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 250,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 251,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 252,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 253,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 254,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 255,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 256,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 257,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 258,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 259,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 260,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 261,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 262,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 263,
+      "tension": 0.09302325581395349,
+      "rhythm": 0.23255813953488372,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 264,
+      "tension": 0.3044063647490819,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.7368421052631577,
+      "tonal": 0.0
+    },
+    {
+      "measure": 265,
+      "tension": 0.2493268053855569,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.5263157894736842,
+      "tonal": 0.0
+    },
+    {
+      "measure": 266,
+      "tension": 0.4152998776009792,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.9473684210526315,
+      "tonal": 0.0
+    },
+    {
+      "measure": 267,
+      "tension": 0.4339045287637699,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.9473684210526315,
+      "tonal": 0.0
+    },
+    {
+      "measure": 268,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 269,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 270,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 271,
+      "tension": 0.037209302325581395,
+      "rhythm": 0.09302325581395349,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 272,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 273,
+      "tension": 0.0,
+      "rhythm": 0.0,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 274,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 275,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 276,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 277,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 278,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 279,
+      "tension": 0.037209302325581395,
+      "rhythm": 0.09302325581395349,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 280,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 281,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 282,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 283,
+      "tension": 0.037209302325581395,
+      "rhythm": 0.09302325581395349,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 284,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 285,
+      "tension": 0.037209302325581395,
+      "rhythm": 0.09302325581395349,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 286,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 287,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 288,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 289,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 290,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 291,
+      "tension": 0.037209302325581395,
+      "rhythm": 0.09302325581395349,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 292,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 293,
+      "tension": 0.037209302325581395,
+      "rhythm": 0.09302325581395349,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 294,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 295,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 296,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 297,
+      "tension": 0.037209302325581395,
+      "rhythm": 0.09302325581395349,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 298,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 299,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 300,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 301,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 302,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 303,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 304,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 305,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 306,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 307,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 308,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 309,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 310,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 311,
+      "tension": 0.018604651162790697,
+      "rhythm": 0.046511627906976744,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 312,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 313,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 314,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 315,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 316,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 317,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 318,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 319,
+      "tension": 0.037209302325581395,
+      "rhythm": 0.09302325581395349,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 320,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 321,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 322,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 323,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 324,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 325,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 326,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 327,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 328,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 329,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 330,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 331,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 332,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 333,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 334,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 335,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 336,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 337,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 338,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 339,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 340,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 341,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 342,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 343,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 344,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 345,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 346,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 347,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 348,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 349,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 350,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 351,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 352,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 353,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 354,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 355,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 356,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 357,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 358,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 359,
+      "tension": 0.11162790697674418,
+      "rhythm": 0.27906976744186046,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 360,
+      "tension": 0.11162790697674418,
+      "rhythm": 0.27906976744186046,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 361,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 362,
+      "tension": 0.12093023255813953,
+      "rhythm": 0.3023255813953488,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 363,
+      "tension": 0.12093023255813953,
+      "rhythm": 0.3023255813953488,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 364,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 365,
+      "tension": 0.09302325581395349,
+      "rhythm": 0.23255813953488372,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 366,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 367,
+      "tension": 0.09302325581395349,
+      "rhythm": 0.23255813953488372,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 368,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 369,
+      "tension": 0.09302325581395349,
+      "rhythm": 0.23255813953488372,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 370,
+      "tension": 0.09302325581395349,
+      "rhythm": 0.23255813953488372,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 371,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 372,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 373,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 374,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 375,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 376,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 377,
+      "tension": 0.09302325581395349,
+      "rhythm": 0.23255813953488372,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 378,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 379,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 380,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 381,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 382,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 383,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 384,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 385,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 386,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 387,
+      "tension": 0.037209302325581395,
+      "rhythm": 0.09302325581395349,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 388,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 389,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 390,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 391,
+      "tension": 0.037209302325581395,
+      "rhythm": 0.09302325581395349,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 392,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 393,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 394,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 395,
+      "tension": 0.037209302325581395,
+      "rhythm": 0.09302325581395349,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 396,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 397,
+      "tension": 0.037209302325581395,
+      "rhythm": 0.09302325581395349,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 398,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 399,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 400,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 401,
+      "tension": 0.3687882496940024,
+      "rhythm": 0.09302325581395349,
+      "roughness": 0.9473684210526315,
+      "tonal": 0.0
+    },
+    {
+      "measure": 402,
+      "tension": 0.4059975520195838,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.9473684210526315,
+      "tonal": 0.0
+    },
+    {
+      "measure": 403,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 404,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 405,
+      "tension": 0.018604651162790697,
+      "rhythm": 0.046511627906976744,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 406,
+      "tension": 0.037209302325581395,
+      "rhythm": 0.09302325581395349,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 407,
+      "tension": 0.018604651162790697,
+      "rhythm": 0.046511627906976744,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 408,
+      "tension": 0.037209302325581395,
+      "rhythm": 0.09302325581395349,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 409,
+      "tension": 0.009302325581395349,
+      "rhythm": 0.023255813953488372,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 410,
+      "tension": 0.037209302325581395,
+      "rhythm": 0.09302325581395349,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 411,
+      "tension": 0.018604651162790697,
+      "rhythm": 0.046511627906976744,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 412,
+      "tension": 0.2307221542227662,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.5263157894736842,
+      "tonal": 0.0
+    },
+    {
+      "measure": 413,
+      "tension": 0.1938800489596083,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.42105263157894735,
+      "tonal": 0.0
+    },
+    {
+      "measure": 414,
+      "tension": 0.1570379436964504,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.3157894736842105,
+      "tonal": 0.0
+    },
+    {
+      "measure": 415,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 416,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 417,
+      "tension": 0.0,
+      "rhythm": 0.0,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 418,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 419,
+      "tension": 0.037209302325581395,
+      "rhythm": 0.09302325581395349,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 420,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 421,
+      "tension": 0.037209302325581395,
+      "rhythm": 0.09302325581395349,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 422,
+      "tension": 0.037209302325581395,
+      "rhythm": 0.09302325581395349,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 423,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 424,
+      "tension": 0.12093023255813953,
+      "rhythm": 0.3023255813953488,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 425,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 426,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 427,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 428,
+      "tension": 0.09302325581395349,
+      "rhythm": 0.23255813953488372,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 429,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 430,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 431,
+      "tension": 0.11162790697674418,
+      "rhythm": 0.27906976744186046,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 432,
+      "tension": 0.1302325581395349,
+      "rhythm": 0.32558139534883723,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 433,
+      "tension": 0.11162790697674418,
+      "rhythm": 0.27906976744186046,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 434,
+      "tension": 0.11162790697674418,
+      "rhythm": 0.27906976744186046,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 435,
+      "tension": 0.11162790697674418,
+      "rhythm": 0.27906976744186046,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 436,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 437,
+      "tension": 0.33231334149326797,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.7368421052631577,
+      "tonal": 0.0
+    },
+    {
+      "measure": 438,
+      "tension": 0.11162790697674418,
+      "rhythm": 0.27906976744186046,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 439,
+      "tension": 0.09302325581395349,
+      "rhythm": 0.23255813953488372,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 440,
+      "tension": 0.13953488372093023,
+      "rhythm": 0.3488372093023256,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 441,
+      "tension": 0.11162790697674418,
+      "rhythm": 0.27906976744186046,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 442,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 443,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 444,
+      "tension": 0.11162790697674418,
+      "rhythm": 0.27906976744186046,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 445,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 446,
+      "tension": 0.11162790697674418,
+      "rhythm": 0.27906976744186046,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 447,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 448,
+      "tension": 0.13953488372093023,
+      "rhythm": 0.3488372093023256,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 449,
+      "tension": 0.13953488372093023,
+      "rhythm": 0.3488372093023256,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 450,
+      "tension": 0.13953488372093023,
+      "rhythm": 0.3488372093023256,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 451,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 452,
+      "tension": 0.3598531211750306,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.8421052631578947,
+      "tonal": 0.0
+    },
+    {
+      "measure": 453,
+      "tension": 0.0,
+      "rhythm": 0.0,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 454,
+      "tension": 0.0,
+      "rhythm": 0.0,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 455,
+      "tension": 0.009302325581395349,
+      "rhythm": 0.023255813953488372,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 456,
+      "tension": 0.009302325581395349,
+      "rhythm": 0.023255813953488372,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 457,
+      "tension": 0.018604651162790697,
+      "rhythm": 0.046511627906976744,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 458,
+      "tension": 0.018604651162790697,
+      "rhythm": 0.046511627906976744,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 459,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 460,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 461,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 462,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 463,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 464,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 465,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 466,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 467,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 468,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 469,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 470,
+      "tension": 0.11162790697674418,
+      "rhythm": 0.27906976744186046,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 471,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 472,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 473,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 474,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 475,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 476,
+      "tension": 0.1302325581395349,
+      "rhythm": 0.32558139534883723,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 477,
+      "tension": 0.35091799265605866,
+      "rhythm": 0.23255813953488372,
+      "roughness": 0.7368421052631577,
+      "tonal": 0.0
+    },
+    {
+      "measure": 478,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 479,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 480,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 481,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 482,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 483,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 484,
+      "tension": 0.34161566707466334,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.7368421052631577,
+      "tonal": 0.0
+    },
+    {
+      "measure": 485,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 486,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 487,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 488,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 489,
+      "tension": 0.35091799265605866,
+      "rhythm": 0.23255813953488372,
+      "roughness": 0.7368421052631577,
+      "tonal": 0.0
+    },
+    {
+      "measure": 490,
+      "tension": 0.36952264381884936,
+      "rhythm": 0.27906976744186046,
+      "roughness": 0.7368421052631577,
+      "tonal": 0.0
+    },
+    {
+      "measure": 491,
+      "tension": 0.11162790697674418,
+      "rhythm": 0.27906976744186046,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 492,
+      "tension": 0.13953488372093023,
+      "rhythm": 0.3488372093023256,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 493,
+      "tension": 0.36022031823745404,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.7368421052631577,
+      "tonal": 0.0
+    },
+    {
+      "measure": 494,
+      "tension": 0.1674418604651163,
+      "rhythm": 0.4186046511627907,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 495,
+      "tension": 0.11162790697674418,
+      "rhythm": 0.27906976744186046,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 496,
+      "tension": 0.1674418604651163,
+      "rhythm": 0.4186046511627907,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 497,
+      "tension": 0.11162790697674418,
+      "rhythm": 0.27906976744186046,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 498,
+      "tension": 0.1674418604651163,
+      "rhythm": 0.4186046511627907,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 499,
+      "tension": 0.11162790697674418,
+      "rhythm": 0.27906976744186046,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 500,
+      "tension": 0.1674418604651163,
+      "rhythm": 0.4186046511627907,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 501,
+      "tension": 0.19534883720930232,
+      "rhythm": 0.4883720930232558,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 502,
+      "tension": 0.17674418604651165,
+      "rhythm": 0.4418604651162791,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 503,
+      "tension": 0.17674418604651165,
+      "rhythm": 0.4418604651162791,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 504,
+      "tension": 0.17674418604651165,
+      "rhythm": 0.4418604651162791,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 505,
+      "tension": 0.17674418604651165,
+      "rhythm": 0.4418604651162791,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 506,
+      "tension": 0.17674418604651165,
+      "rhythm": 0.4418604651162791,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 507,
+      "tension": 0.17674418604651165,
+      "rhythm": 0.4418604651162791,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 508,
+      "tension": 0.43463892288861683,
+      "rhythm": 0.4418604651162791,
+      "roughness": 0.7368421052631577,
+      "tonal": 0.0
+    },
+    {
+      "measure": 509,
+      "tension": 0.1674418604651163,
+      "rhythm": 0.4186046511627907,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 510,
+      "tension": 0.305140758873929,
+      "rhythm": 0.3023255813953488,
+      "roughness": 0.5263157894736842,
+      "tonal": 0.0
+    },
+    {
+      "measure": 511,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 512,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 513,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 515,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 516,
+      "tension": 0.037209302325581395,
+      "rhythm": 0.09302325581395349,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 517,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 519,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 520,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 521,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 523,
+      "tension": 0.018604651162790697,
+      "rhythm": 0.046511627906976744,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 524,
+      "tension": 0.037209302325581395,
+      "rhythm": 0.09302325581395349,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 525,
+      "tension": 0.037209302325581395,
+      "rhythm": 0.09302325581395349,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 527,
+      "tension": 0.018604651162790697,
+      "rhythm": 0.046511627906976744,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 528,
+      "tension": 0.037209302325581395,
+      "rhythm": 0.09302325581395349,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 529,
+      "tension": 0.037209302325581395,
+      "rhythm": 0.09302325581395349,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 531,
+      "tension": 0.018604651162790697,
+      "rhythm": 0.046511627906976744,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 532,
+      "tension": 0.037209302325581395,
+      "rhythm": 0.09302325581395349,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 533,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 534,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 535,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 536,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 537,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 538,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 539,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 540,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 541,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 542,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 543,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 544,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 545,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 546,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 547,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 548,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 549,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 550,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 551,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 552,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 553,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 554,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 555,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 556,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 557,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 558,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 559,
+      "tension": 0.09302325581395349,
+      "rhythm": 0.23255813953488372,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 560,
+      "tension": 0.3044063647490819,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.7368421052631577,
+      "tonal": 0.0
+    },
+    {
+      "measure": 561,
+      "tension": 0.2493268053855569,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.5263157894736842,
+      "tonal": 0.0
+    },
+    {
+      "measure": 562,
+      "tension": 0.4152998776009792,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.9473684210526315,
+      "tonal": 0.0
+    },
+    {
+      "measure": 563,
+      "tension": 0.4339045287637699,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.9473684210526315,
+      "tonal": 0.0
+    },
+    {
+      "measure": 564,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 565,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 566,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 567,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 568,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 569,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 570,
+      "tension": 0.11162790697674418,
+      "rhythm": 0.27906976744186046,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 571,
+      "tension": 0.11162790697674418,
+      "rhythm": 0.27906976744186046,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 572,
+      "tension": 0.12093023255813953,
+      "rhythm": 0.3023255813953488,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 573,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 574,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 575,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 576,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 577,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 578,
+      "tension": 0.4339045287637699,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.9473684210526315,
+      "tonal": 0.0
+    },
+    {
+      "measure": 579,
+      "tension": 0.11162790697674418,
+      "rhythm": 0.27906976744186046,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 580,
+      "tension": 0.11162790697674418,
+      "rhythm": 0.27906976744186046,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 581,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 582,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 583,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 584,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 585,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 586,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 587,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 588,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 589,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 590,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 591,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 592,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 593,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 594,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 595,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 596,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 597,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 598,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 599,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 600,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 601,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 602,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 603,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 604,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 605,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 606,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 607,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 608,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 609,
+      "tension": 0.1570379436964504,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.3157894736842105,
+      "tonal": 0.0
+    },
+    {
+      "measure": 610,
+      "tension": 0.1384332925336597,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.3157894736842105,
+      "tonal": 0.0
+    },
+    {
+      "measure": 611,
+      "tension": 0.37790697674418594,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.9999999999999999,
+      "tonal": 0.0
+    },
+    {
+      "measure": 612,
+      "tension": 0.28580171358629125,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.7368421052631577,
+      "tonal": 0.0
+    },
+    {
+      "measure": 613,
+      "tension": 0.28580171358629125,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.7368421052631577,
+      "tonal": 0.0
+    },
+    {
+      "measure": 614,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 615,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 616,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 617,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 618,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 619,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 620,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 621,
+      "tension": 0.0,
+      "rhythm": 0.0,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 622,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 623,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 624,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 625,
+      "tension": 0.0,
+      "rhythm": 0.0,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 626,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 627,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 628,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 629,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 630,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 631,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 632,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 633,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 634,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 635,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 636,
+      "tension": 0.2493268053855569,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.5263157894736842,
+      "tonal": 0.0
+    },
+    {
+      "measure": 637,
+      "tension": 0.07441860465116279,
+      "rhythm": 0.18604651162790697,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 638,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 639,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 640,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 641,
+      "tension": 0.12093023255813953,
+      "rhythm": 0.3023255813953488,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 642,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 643,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 644,
+      "tension": 0.1302325581395349,
+      "rhythm": 0.32558139534883723,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 645,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 646,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 647,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 648,
+      "tension": 0.12093023255813953,
+      "rhythm": 0.3023255813953488,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 649,
+      "tension": 0.09302325581395349,
+      "rhythm": 0.23255813953488372,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 650,
+      "tension": 0.11162790697674418,
+      "rhythm": 0.27906976744186046,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 651,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 652,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 653,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 654,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 655,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 656,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 657,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 658,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 659,
+      "tension": 0.0,
+      "rhythm": 0.0,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 660,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 661,
+      "tension": 0.12093023255813953,
+      "rhythm": 0.3023255813953488,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 662,
+      "tension": 0.009302325581395349,
+      "rhythm": 0.023255813953488372,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 663,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 664,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 665,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 666,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 667,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 668,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 669,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 670,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 671,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 672,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 673,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 674,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 675,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 676,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 677,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 678,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 679,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 680,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 681,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 682,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 683,
+      "tension": 0.09302325581395349,
+      "rhythm": 0.23255813953488372,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 684,
+      "tension": 0.05581395348837209,
+      "rhythm": 0.13953488372093023,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 685,
+      "tension": 0.037209302325581395,
+      "rhythm": 0.09302325581395349,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 686,
+      "tension": 0.018604651162790697,
+      "rhythm": 0.046511627906976744,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 687,
+      "tension": 0.018604651162790697,
+      "rhythm": 0.046511627906976744,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 688,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 689,
+      "tension": 0.037209302325581395,
+      "rhythm": 0.09302325581395349,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 690,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 691,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 692,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 693,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 694,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 695,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 696,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 697,
+      "tension": 0.37790697674418594,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.9999999999999999,
+      "tonal": 0.0
+    },
+    {
+      "measure": 698,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 699,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 700,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 701,
+      "tension": 0.046511627906976744,
+      "rhythm": 0.11627906976744186,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 702,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 703,
+      "tension": 0.018604651162790697,
+      "rhythm": 0.046511627906976744,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 704,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 705,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 706,
+      "tension": 0.08372093023255815,
+      "rhythm": 0.20930232558139536,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 707,
+      "tension": 0.018604651162790697,
+      "rhythm": 0.046511627906976744,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 708,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 709,
+      "tension": 0.0,
+      "rhythm": 0.0,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 710,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 711,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 712,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 713,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 714,
+      "tension": 0.027906976744186046,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 715,
+      "tension": 0.10232558139534885,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 716,
+      "tension": 0.06511627906976745,
+      "rhythm": 0.16279069767441862,
+      "roughness": 0.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 717,
+      "tension": 0.39742962056303544,
+      "rhythm": 0.3488372093023256,
+      "roughness": 0.7368421052631576,
+      "tonal": 0.0
+    },
+    {
+      "measure": 718,
+      "tension": 0.36022031823745415,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.736842105263158,
+      "tonal": 0.0
+    },
+    {
+      "measure": 719,
+      "tension": 0.36022031823745415,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.736842105263158,
+      "tonal": 0.0
+    },
+    {
+      "measure": 720,
+      "tension": 0.36022031823745415,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.736842105263158,
+      "tonal": 0.0
+    },
+    {
+      "measure": 721,
+      "tension": 0.45232558139534884,
+      "rhythm": 0.2558139534883721,
+      "roughness": 1.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 722,
+      "tension": 0.29881680946552425,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.5614035087719298,
+      "tonal": 0.0
+    },
+    {
+      "measure": 723,
+      "tension": 0.2865361077111383,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.5263157894736842,
+      "tonal": 0.0
+    },
+    {
+      "measure": 724,
+      "tension": 0.3479396164830681,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.7017543859649122,
+      "tonal": 0.0
+    },
+    {
+      "measure": 725,
+      "tension": 0.2128518971848225,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.3157894736842105,
+      "tonal": 0.0
+    },
+    {
+      "measure": 726,
+      "tension": 0.36022031823745415,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.736842105263158,
+      "tonal": 0.0
+    },
+    {
+      "measure": 727,
+      "tension": 0.2128518971848225,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.3157894736842105,
+      "tonal": 0.0
+    },
+    {
+      "measure": 728,
+      "tension": 0.2865361077111383,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.5263157894736842,
+      "tonal": 0.0
+    },
+    {
+      "measure": 729,
+      "tension": 0.2128518971848225,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.3157894736842105,
+      "tonal": 0.0
+    },
+    {
+      "measure": 730,
+      "tension": 0.29881680946552425,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.5614035087719298,
+      "tonal": 0.0
+    },
+    {
+      "measure": 731,
+      "tension": 0.2128518971848225,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.3157894736842105,
+      "tonal": 0.0
+    },
+    {
+      "measure": 732,
+      "tension": 0.2865361077111383,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.5263157894736842,
+      "tonal": 0.0
+    },
+    {
+      "measure": 733,
+      "tension": 0.45232558139534884,
+      "rhythm": 0.2558139534883721,
+      "roughness": 1.0,
+      "tonal": 0.0
+    },
+    {
+      "measure": 734,
+      "tension": 0.2995512035903713,
+      "rhythm": 0.4418604651162791,
+      "roughness": 0.3508771929824561,
+      "tonal": 0.0
+    },
+    {
+      "measure": 735,
+      "tension": 0.3241126070991432,
+      "rhythm": 0.4418604651162791,
+      "roughness": 0.4210526315789473,
+      "tonal": 0.0
+    },
+    {
+      "measure": 736,
+      "tension": 0.28727050183598535,
+      "rhythm": 0.4418604651162791,
+      "roughness": 0.3157894736842105,
+      "tonal": 0.0
+    },
+    {
+      "measure": 737,
+      "tension": 0.3241126070991432,
+      "rhythm": 0.4418604651162791,
+      "roughness": 0.4210526315789473,
+      "tonal": 0.0
+    },
+    {
+      "measure": 738,
+      "tension": 0.23390452876376988,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.37593984962406013,
+      "tonal": 0.0
+    },
+    {
+      "measure": 739,
+      "tension": 0.2870869033047735,
+      "rhythm": 0.3953488372093023,
+      "roughness": 0.3684210526315788,
+      "tonal": 0.0
+    },
+    {
+      "measure": 740,
+      "tension": 0.23390452876376988,
+      "rhythm": 0.2558139534883721,
+      "roughness": 0.37593984962406013,
+      "tonal": 0.0
+    },
+    {
+      "measure": 741,
+      "tension": 0.2870869033047735,
+      "rhythm": 0.3953488372093023,
+      "roughness": 0.3684210526315788,
+      "tonal": 0.0
+    },
+    {
+      "measure": 742,
+      "tension": 0.20393036855705152,
+      "rhythm": 0.06976744186046512,
+      "roughness": 0.5029239766081871,
+      "tonal": 0.0
+    }
+  ]
+}
