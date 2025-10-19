@@ -2,6 +2,9 @@
 
 /* Tailwind CSS 4.x - CSS 변수로 커스텀 색상 정의 */
 @theme {
+  /* ============================================
+     BASE PALETTE - 기본 팔레트
+     ============================================ */
   --color-graphite: #0F0F10;
   --color-slate: #2B2D33;
   --color-ivory: #F3EFEA;
@@ -12,10 +15,58 @@
   --color-rose: #FFADC6;
   --color-peach: #F6B79E;
   
+  /* ============================================
+     ACCESSIBILITY - 접근성 개선 (AA 4.5:1+)
+     ============================================ */
+  /* Brand colors on different surfaces */
+  --color-brandOnLight: #BF3F4E;   /* 아이보리 위 체리계 텍스트용 (AA 4.55:1) */
+  --color-brandOnDark: #FA5F71;    /* Slate/Graphite 위 라벨/아이콘용 (AA 4.55:1+) */
+  
+  /* Text roles */
+  --color-textStrong: #0E0E0F;     /* 본문 헤비 텍스트 */
+  --color-textDefault: #1A1B1C;    /* 기본 본문 (대비 15.07:1) */
+  --color-textOnDark: #F3EFEA;     /* 다크 배경 위 텍스트 (대비 16.74:1) */
+  --color-textMuted: rgba(26,27,28,0.6);
+  --color-textOnDarkMuted: rgba(243,239,234,0.7);
+  
+  /* ============================================
+     SURFACES - 서피스 계층
+     ============================================ */
+  --color-surface-0: #F3EFEA;      /* Light base */
+  --color-surface-1: #2B2D33;      /* Dark (mid) */
+  --color-surface-2: #0F0F10;      /* Dark (deep) */
+  
+  /* ============================================
+     BORDERS & STATES
+     ============================================ */
+  --color-borderSubtle: rgba(26,27,28,0.12);
+  --color-borderStrong: rgba(26,27,28,0.24);
+  --color-borderOnDark: rgba(243,239,234,0.12);
+  
+  --color-stateHoverOnLight: rgba(225,74,92,0.08);
+  --color-stateHoverOnDark: rgba(255,255,255,0.08);
+  --color-stateActive: rgba(225,74,92,0.2);
+  --color-stateFocus: #E14A5C;
+  
+  /* ============================================
+     SEMANTIC COLORS - 시맨틱 매핑
+     ============================================ */
+  --color-brandPrimary: #E14A5C;
+  --color-brandSecondary: #F6B79E;
+  --color-accentCool: #89E8E0;
+  --color-accentWarm: #FFADC6;
+  --color-accentMystic: #C1A9FF;
+  
+  /* ============================================
+     TYPOGRAPHY
+     ============================================ */
   --font-sans: var(--font-noto-sans-kr), "Apple SD Gothic Neo", "맑은 고딕", "Malgun Gothic", sans-serif;
   --font-display: var(--font-noto-sans-kr), "Apple SD Gothic Neo", sans-serif;
   --font-mono: var(--font-noto-sans-kr), "D2Coding", monospace;
   
+  /* ============================================
+     SPACING & SHADOWS
+     ============================================ */
   --radius-xl: 12px;
   --radius-2xl: 16px;
   
@@ -117,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* 포커스 스타일 개선 */
 :focus-visible {
-  outline: 2px solid theme('colors.cherry');
+  outline: 2px solid #E14A5C;
   outline-offset: 2px;
 }
 
@@ -126,14 +177,103 @@ a {
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* ============================================
+   ACCESSIBILITY UTILITIES - 접근성 개선
+   ============================================ */
+
+/* Brand text with proper contrast */
+.text-brand-on-light {
+  color: #BF3F4E;  /* AA 4.55:1 on ivory */
+}
+
+.text-brand-on-dark {
+  color: #FA5F71;  /* AA 4.55:1+ on slate/graphite */
+}
+
+/* Surface-based text colors */
+.text-on-light {
+  color: #1A1B1C;  /* 15.07:1 contrast */
+}
+
+.text-on-dark {
+  color: #F3EFEA;  /* 16.74:1 contrast */
+}
+
+.text-muted-on-light {
+  color: rgba(26,27,28,0.6);
+}
+
+.text-muted-on-dark {
+  color: rgba(243,239,234,0.7);
+}
+
+/* ============================================
+   BUTTON UTILITIES - 버튼 (AA 준수)
+   ============================================ */
+
+.btn-primary {
+  background: linear-gradient(to right, #E14A5C, #F6B79E);
+  color: #F3EFEA;  /* 아이보리 텍스트 고정 */
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-primary:hover {
+  filter: brightness(0.95);
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background: rgba(255,255,255,0.5);
+  backdrop-filter: blur(8px);
+  border: 2px solid rgba(26,27,28,0.24);
+  color: #1A1B1C;
+}
+
+.btn-secondary:hover {
+  background: rgba(255,255,255,0.8);
+  border-color: #E14A5C;
+}
+
+/* ============================================
+   CARD UTILITIES - 카드 호버 (outline 사용)
+   ============================================ */
+
+.card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-hover:hover {
+  outline: 2px solid rgba(225,74,92,0.6);
+  outline-offset: 2px;
+  box-shadow: 0 20px 40px -12px rgba(0,0,0,0.25);
+  transform: translateY(-4px);
+}
+
+/* ============================================
+   SELECTION - 선택 영역 가독성 강화
+   ============================================ */
+
+::selection {
+  background: rgba(225,74,92,0.24);
+  color: #0F0F10;  /* 더 높은 대비 */
+}
+
+/* ============================================
+   GRADIENT TEXT - 디스플레이 사이즈 전용
+   ============================================ */
+
 /* 그라디언트 텍스트 유틸리티 */
 .text-gradient {
-  @apply bg-clip-text text-transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   background-image: linear-gradient(135deg, #E14A5C 0%, #F6B79E 100%);
 }
 
 .text-gradient-cyan {
-  @apply bg-clip-text text-transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   background-image: linear-gradient(135deg, #89E8E0 0%, #C1A9FF 100%);
 }
 
