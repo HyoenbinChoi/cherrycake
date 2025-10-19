@@ -79,6 +79,16 @@
 :root { 
   color-scheme: light;
   scroll-behavior: smooth;
+  
+  /* 리듬 시스템 (불균형 여백) */
+  --rhythm-1: 5rem;   /* 80px */
+  --rhythm-2: 8rem;   /* 128px */
+  --rhythm-3: 12rem;  /* 192px */
+  
+  /* 다크모드 변수 */
+  --ink: 220 5% 10%;
+  --paper: 36 33% 96%;
+  --accent: 200 12% 34%;
 }
 
 body { 
@@ -86,6 +96,13 @@ body {
   font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  /* 종이 결 질감 (미묘하게) */
+  background-image: 
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' opacity='0.03'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"),
+    radial-gradient(1200px 800px at 30% 20%, rgba(243, 239, 234, 0.4) 0%, transparent 60%),
+    radial-gradient(1000px 600px at 70% 80%, rgba(243, 239, 234, 0.4) 0%, transparent 60%);
+  background-blend-mode: multiply;
 }
 
 /* 개선된 타이포그래피 */
@@ -288,4 +305,97 @@ a {
   backdrop-filter: blur(12px) saturate(180%);
   background-color: rgba(15, 15, 16, 0.75);
   border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* ============================================
+   RHYTHM SECTIONS - 불균형 여백 시스템
+   ============================================ */
+
+.section {
+  padding-top: var(--rhythm-2);    /* 8rem = 128px */
+  padding-bottom: var(--rhythm-1); /* 5rem = 80px */
+}
+
+.section--alt {
+  padding-top: var(--rhythm-3);    /* 12rem = 192px */
+  padding-bottom: var(--rhythm-2); /* 8rem = 128px */
+}
+
+/* ============================================
+   SIGNATURE BUTTONS - 손맛 나는 그림자
+   ============================================ */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.75rem; /* 28px */
+  padding: 0.75rem 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  transition: all 0.3s cubic-bezier(0.2, 0.7, 0.2, 1);
+  box-shadow: 
+    0 2px 0 rgba(15, 15, 16, 0.15),
+    0 12px 24px rgba(225, 74, 92, 0.12);
+}
+
+.btn--cherry {
+  background-image: linear-gradient(145deg, #E14A5C, #FF758C);
+  color: white;
+}
+
+.btn--cherry:hover {
+  transform: translateY(-2px);
+  box-shadow: 
+    0 3px 0 rgba(15, 15, 16, 0.2),
+    0 16px 32px rgba(225, 74, 92, 0.2);
+}
+
+.btn--cherry:active {
+  transform: translateY(1px);
+}
+
+.btn--ghost {
+  border: 1px solid rgba(26, 27, 28, 0.1);
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(8px);
+  color: #1A1B1C;
+}
+
+.btn--ghost:hover {
+  border-color: #E14A5C;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* ============================================
+   SIGNATURE CARDS
+   ============================================ */
+
+.card {
+  border-radius: 1.75rem; /* 28px */
+  border: 1px solid rgba(26, 27, 28, 0.05);
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 8px 24px rgba(15, 15, 16, 0.08);
+  transition: all 0.3s cubic-bezier(0.15, 0.8, 0.25, 1);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px -10px rgba(15, 15, 16, 0.15);
+}
+
+/* ============================================
+   MOTION PREFERENCES - 접근성
+   ============================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
 }

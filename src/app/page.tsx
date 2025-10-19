@@ -2,6 +2,8 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import SignatureHero from "@/components/SignatureHero";
+import { Card, CardTitle, CardText } from "@/components/ui/card";
 
 export default function HomePage() {
   const [isVisible, setIsVisible] = useState(false);
@@ -39,7 +41,10 @@ export default function HomePage() {
 
   return (
     <>
-      {/* Hero Section */}
+      {/* Signature Hero - 새 디자인 섹션 */}
+      <SignatureHero />
+
+      {/* Main Hero Section */}
       <section className="relative min-h-[70vh] flex items-center justify-center bg-gradient-to-br from-ivory via-ivory to-rose/10 overflow-hidden">
         <div className="absolute inset-0 opacity-30">
           <div className="absolute top-20 left-10 w-64 h-64 bg-cyan rounded-full blur-3xl animate-pulse" style={{ animationDuration: '4s' }} />
@@ -181,7 +186,7 @@ export default function HomePage() {
       </section>
 
       {/* Philosophy Section */}
-      <section id="philosophy" className="py-24 md:py-32 bg-gradient-to-b from-graphite to-slate text-ivory relative overflow-hidden">
+      <section id="philosophy" className="section--alt bg-gradient-to-b from-graphite to-slate text-ivory relative overflow-hidden">
         <div className="absolute inset-0 opacity-5">
           <div className="absolute top-20 left-10 w-64 h-64 bg-cherry rounded-full blur-3xl" />
           <div className="absolute bottom-20 right-10 w-96 h-96 bg-violet rounded-full blur-3xl" />
@@ -205,6 +210,24 @@ export default function HomePage() {
             </p>
             <div className="absolute -left-2 bottom-0 w-4 h-4 bg-peach rounded-full" />
           </blockquote>
+        </div>
+      </section>
+
+      {/* Signature Cards Section - 새 디자인 적용 */}
+      <section className="section bg-ivory">
+        <div className="container mx-auto px-5 grid md:grid-cols-3 gap-6">
+          <Card className="hover:shadow-elevated transition-all duration-300 hover:-translate-y-1">
+            <CardTitle>The Logic of Feeling</CardTitle>
+            <CardText>숫자 너머의 리듬과 톤, 패턴을 포착하는 연구 노트.</CardText>
+          </Card>
+          <Card className="hover:shadow-elevated transition-all duration-300 hover:-translate-y-1">
+            <CardTitle>Structures</CardTitle>
+            <CardText>3D 네트워크 / Tonnetz / 타임라인 — 대표 1–2개만 전면 강조.</CardText>
+          </Card>
+          <Card className="hover:shadow-elevated transition-all duration-300 hover:-translate-y-1">
+            <CardTitle>Start a Project</CardTitle>
+            <CardText>간단 메모 + 이메일 → 성공 토스트/감사 페이지로 전환.</CardText>
+          </Card>
         </div>
       </section>
 
