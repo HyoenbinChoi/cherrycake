@@ -1,5 +1,30 @@
 @import "tailwindcss";
 
+/* ============================================
+   TYPOGRAPHY PRESET - 마이크로타이포 시스템
+   ============================================ */
+
+/* 공통 렌더링 힌트 */
+html { 
+  text-rendering: optimizeLegibility; 
+  -webkit-font-smoothing: antialiased; 
+}
+:root { --opsz: 16; }
+
+/* 모드 스위치: data-typo="calm|expressive" */
+:root, html[data-typo="calm"] {
+  --ls-head: -0.003em;
+  --ls-body: 0.012em;
+  --lh-head: 1.15;
+  --lh-body: 1.8;
+}
+html[data-typo="expressive"] {
+  --ls-head: -0.006em;
+  --ls-body: 0.016em;
+  --lh-head: 1.12;
+  --lh-body: 1.84;
+}
+
 /* Tailwind CSS 4.x - CSS 변수로 커스텀 색상 정의 */
 @theme {
   /* ============================================
@@ -383,6 +408,135 @@ a {
 .card:hover {
   transform: translateY(-4px);
   box-shadow: 0 20px 40px -10px rgba(15, 15, 16, 0.15);
+}
+
+/* ============================================
+   TYPOGRAPHY UTILITIES - 타이포 유틸리티
+   ============================================ */
+
+/* 마이크로 타이포 유틸 (폰트 교체 이후 질감 확정) */
+.typo-display {
+  font-family: var(--font-display), serif;
+  letter-spacing: var(--ls-head);
+  line-height: var(--lh-head);
+  text-wrap: balance;
+  font-feature-settings: "liga" 1, "kern" 1, "calt" 1, "ss01" 0;
+}
+
+.typo-body {
+  font-family: var(--font-latin), var(--font-sans), system-ui, -apple-system, sans-serif;
+  letter-spacing: var(--ls-body);
+  line-height: var(--lh-body);
+  text-wrap: pretty;
+  font-feature-settings: "liga" 1, "kern" 1, "calt" 1, "ss01" 0;
+}
+
+.typo-ui {
+  letter-spacing: 0.02em;
+  line-height: 1.35;
+}
+
+.typo-mono {
+  font-family: var(--font-mono), ui-monospace, monospace;
+  letter-spacing: 0.01em;
+  font-feature-settings: "zero" 1, "calt" 0;
+}
+
+.typo-cap {
+  letter-spacing: 0.04em;
+  font-variant-caps: all-small-caps;
+}
+
+/* Heading 계층 프리셋 */
+.h1 {
+  font-family: var(--font-display), serif;
+  font-size: 3rem;
+  line-height: 1.1;
+  letter-spacing: -0.005em;
+  font-weight: 600;
+  text-wrap: balance;
+}
+
+@media (min-width: 768px) {
+  .h1 {
+    font-size: 3.75rem;
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+  }
+}
+
+.h2 {
+  font-family: var(--font-display), serif;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 600;
+  text-wrap: balance;
+}
+
+@media (min-width: 768px) {
+  .h2 {
+    font-size: 3rem;
+    line-height: 1.1;
+    letter-spacing: -0.005em;
+  }
+}
+
+.h3 {
+  font-family: var(--font-display), serif;
+  font-size: 2rem;
+  line-height: 1.15;
+  letter-spacing: -0.005em;
+}
+
+/* Body 계층 프리셋 */
+.p1 {
+  font-family: var(--font-latin), var(--font-sans), system-ui, sans-serif;
+  font-size: 1.0625rem; /* 17px */
+  line-height: 1.8;
+  letter-spacing: 0.015em;
+  text-wrap: pretty;
+}
+
+.p2 {
+  font-family: var(--font-latin), var(--font-sans), system-ui, sans-serif;
+  font-size: 0.9375rem; /* 15px */
+  line-height: 1.75;
+  text-wrap: pretty;
+}
+
+.cap {
+  font-family: var(--font-latin), var(--font-sans), system-ui, sans-serif;
+  font-size: 0.92rem;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  opacity: 0.8;
+}
+
+/* 리스트, 인용문, 링크 감성 */
+ul.human > li {
+  margin: 0.45em 0;
+  padding-left: 0.2em;
+}
+
+blockquote {
+  border-left: 4px solid currentColor;
+  padding-left: 1rem;
+  opacity: 0.9;
+  font-style: italic;
+}
+
+a {
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
+a:hover {
+  text-decoration-thickness: 0.1em;
+}
+
+/* 줄걸이 (한국어 따옴표 매달림) — 브라우저 지원 범위 내 */
+.typo-body {
+  hanging-punctuation: first allow-end;
 }
 
 /* ============================================

@@ -58,9 +58,31 @@ const config: Config = {
         "human-2": "cubic-bezier(.15,.8,.25,1)",
       },
       fontFamily: {
-        sans: ["var(--font-noto-sans-kr)", "Noto Sans KR", "system-ui", "sans-serif"],
-        display: ["var(--font-noto-serif)", "Noto Serif", "Georgia", "serif"],
-        mono: ["var(--font-ibm-plex-mono)", "IBM Plex Mono", "ui-monospace", "monospace"],
+        display: ["var(--font-display)", "serif"],
+        sans: ["var(--font-latin)", "var(--font-sans)", "system-ui", "sans-serif"],
+        mono: ["var(--font-mono)", "ui-monospace", "SFMono-Regular", "monospace"],
+      },
+      letterSpacing: {
+        human: "0.015em",
+        tightHuman: "-0.005em",
+        ui: "0.02em",
+      },
+      lineHeight: {
+        comfy: "1.8",
+        snug: "1.15",
+        ui: "1.35",
+      },
+      fontWeight: {
+        semid: "550",
+      },
+      fontSize: {
+        "d-1": ["3.75rem", { lineHeight: "1.05", letterSpacing: "-0.01em" }], // 60px
+        "d-2": ["3rem", { lineHeight: "1.1", letterSpacing: "-0.005em" }],    // 48px
+        "h-1": ["2rem", { lineHeight: "1.2" }],                               // 32px
+        "h-2": ["1.5rem", { lineHeight: "1.3" }],                             // 24px
+        "b-1": ["1.0625rem", { lineHeight: "1.8", letterSpacing: "0.015em" }],// 17px 본문
+        "b-2": ["0.9375rem", { lineHeight: "1.75" }],                         // 15px 보조
+        "cap": ["0.92rem", { lineHeight: "1.4", letterSpacing: "0.02em" }],
       },
     },
   },
