@@ -1,0 +1,17 @@
+# Cloudflare Pages Configuration
+name = "cherrycake"
+compatibility_date = "2025-10-19"
+
+[site]
+bucket = ".next"
+
+# 25MB 제한 초과 파일 제외
+[[rules]]
+type = "File"
+globs = [
+  ".next/cache/**",
+  ".next/trace",
+  "cache/**",
+  "*.log"
+]
+exclude = true
