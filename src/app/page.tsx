@@ -224,9 +224,9 @@ export default function HomePage() {
           <h2 className="text-4xl md:text-5xl font-display font-bold tracking-tight mb-4">
             The Logic of Feeling
           </h2>
-          <p className="text-xl text-ivory/70 mb-10">감성에도 패턴은 존재합니다.</p>
-          <blockquote className="relative pl-8 py-2 border-l-[3px] border-rose italic text-lg md:text-xl leading-relaxed max-w-3xl">
-            <div className="absolute -left-[7px] top-0 w-3 h-3 bg-rose rounded-full ring-2 ring-graphite" />
+          <p className="text-xl text-ivory/70 mb-8">감성에도 패턴은 존재합니다.</p>
+          <blockquote className="relative pl-8 py-4 border-l-4 border-rose italic text-lg md:text-xl leading-relaxed max-w-3xl">
+            <div className="absolute -left-[9px] top-0 w-[18px] h-[18px] bg-rose rounded-full" />
             <p className="mb-4">
               체리케이크는 그 패턴을 찾아내고,
             </p>
@@ -236,7 +236,7 @@ export default function HomePage() {
             <p>
               데이터를 감성으로, 데이터를 새로운 예술로 창조합니다.
             </p>
-            <div className="absolute -left-[7px] bottom-0 w-3 h-3 bg-peach rounded-full ring-2 ring-graphite" />
+            <div className="absolute -left-[9px] bottom-0 w-[18px] h-[18px] bg-peach rounded-full" />
           </blockquote>
         </div>
       </section>

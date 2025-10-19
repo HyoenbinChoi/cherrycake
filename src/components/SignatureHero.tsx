@@ -12,7 +12,7 @@ export default function SignatureHero() {
           </h1>
 
           <p className="mt-5 max-w-prose text-[17px] leading-8 text-textGraphite/90">
-            우리는 숫자 대신 리듬을, 데이터 대신 감정의 구조를 봅니다.
+            저는 숫자 대신 리듬을, 데이터 대신 감정의 구조를 봅니다.
             <br />
             체리케이크는 감정의 패턴을 시각화하는 스튜디오입니다.
           </p>

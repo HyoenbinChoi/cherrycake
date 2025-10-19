@@ -263,8 +263,8 @@ export default function HomePage() {
             The Logic of Feeling
           </h2>
           <p className="text-xl text-ivory/70 mb-8">감성에도 패턴은 존재합니다.</p>
-          <blockquote className="relative pl-6 py-4 border-l-4 border-gradient-to-b from-rose to-peach italic text-lg md:text-xl leading-relaxed max-w-3xl">
-            <div className="absolute -left-2 top-0 w-4 h-4 bg-rose rounded-full" />
+          <blockquote className="relative pl-8 py-4 border-l-4 border-rose italic text-lg md:text-xl leading-relaxed max-w-3xl">
+            <div className="absolute -left-[9px] top-0 w-[18px] h-[18px] bg-rose rounded-full" />
             <p className="mb-4">
               체리케이크는 그 패턴을 찾아내고,
             </p>
@@ -274,7 +274,7 @@ export default function HomePage() {
             <p>
               데이터를 감성으로, 데이터를 새로운 예술로 창조합니다.
             </p>
-            <div className="absolute -left-2 bottom-0 w-4 h-4 bg-peach rounded-full" />
+            <div className="absolute -left-[9px] bottom-0 w-[18px] h-[18px] bg-peach rounded-full" />
           </blockquote>
         </div>
       </section>
