@@ -265,8 +265,7 @@ a {
 }
 
 .btn-secondary {
-  background: rgba(255,255,255,0.5);
-  backdrop-filter: blur(8px);
+  background: rgba(255,255,255,0.9); /* backdrop-filter 제거, 불투명도 증가 */
   border: 2px solid rgba(26,27,28,0.24);
   color: #1A1B1C;
 }
@@ -287,7 +286,7 @@ a {
 .card-hover:hover {
   outline: 2px solid rgba(225,74,92,0.6);
   outline-offset: 2px;
-  box-shadow: 0 20px 40px -12px rgba(0,0,0,0.25);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1); /* 단순화: 1개 레이어로 축소 */
   transform: translateY(-4px);
 }
 
@@ -319,16 +318,14 @@ a {
   background-image: linear-gradient(135deg, #89E8E0 0%, #C1A9FF 100%);
 }
 
-/* 글래스모피즘 효과 */
+/* 글래스모피즘 효과 - backdrop-filter 제거로 성능 개선 */
 .glass {
-  backdrop-filter: blur(12px) saturate(180%);
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 0.95); /* 불투명도 증가 */
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .glass-dark {
-  backdrop-filter: blur(12px) saturate(180%);
-  background-color: rgba(15, 15, 16, 0.75);
+  background-color: rgba(15, 15, 16, 0.95); /* 불투명도 증가 */
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -359,9 +356,7 @@ a {
   font-weight: 500;
   letter-spacing: 0.01em;
   transition: all 0.3s cubic-bezier(0.2, 0.7, 0.2, 1);
-  box-shadow: 
-    0 2px 0 rgba(15, 15, 16, 0.15),
-    0 12px 24px rgba(225, 74, 92, 0.12);
+  box-shadow: 0 4px 12px rgba(225, 74, 92, 0.15); /* 단순화: 1개 레이어 */
 }
 
 .btn--cherry {
@@ -371,9 +366,7 @@ a {
 
 .btn--cherry:hover {
   transform: translateY(-2px);
-  box-shadow: 
-    0 3px 0 rgba(15, 15, 16, 0.2),
-    0 16px 32px rgba(225, 74, 92, 0.2);
+  box-shadow: 0 6px 16px rgba(225, 74, 92, 0.25); /* 단순화 */
 }
 
 .btn--cherry:active {
@@ -382,8 +375,7 @@ a {
 
 .btn--ghost {
   border: 1px solid rgba(26, 27, 28, 0.1);
-  background: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, 0.9); /* backdrop-filter 제거 */
   color: #1A1B1C;
 }
 
@@ -401,13 +393,13 @@ a {
   border: 1px solid rgba(26, 27, 28, 0.05);
   padding: 1.5rem;
   background: rgba(255, 255, 255, 0.8);
-  box-shadow: 0 8px 24px rgba(15, 15, 16, 0.08);
+  box-shadow: 0 4px 12px rgba(15, 15, 16, 0.06); /* 단순화 */
   transition: all 0.3s cubic-bezier(0.15, 0.8, 0.25, 1);
 }
 
 .card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 20px 40px -10px rgba(15, 15, 16, 0.15);
+  box-shadow: 0 8px 20px rgba(15, 15, 16, 0.12); /* 단순화 */
 }
 
 /* ============================================

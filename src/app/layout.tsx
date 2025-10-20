@@ -1,7 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import Header from "@/components/Header";
-import { display, sansKR, sansLAT, mono } from "./fonts";
+import { display, sansKR, mono } from "./fonts";
 
 export const metadata: Metadata = {
   title: "cherrycake.me — Data meets Emotion",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ko" className="dark" data-typo="expressive">
-      <body className={`${display.variable} ${sansKR.variable} ${sansLAT.variable} ${mono.variable} font-sans antialiased`}>
+      <body className={`${display.variable} ${sansKR.variable} ${mono.variable} font-sans antialiased`}>
         <Header />
         <main id="main">{children}</main>
         <footer className="py-12 bg-ivory border-t border-black/5">
