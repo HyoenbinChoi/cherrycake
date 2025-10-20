@@ -117,7 +117,9 @@ html[data-typo="expressive"] {
 }
 
 body { 
-  @apply bg-ivory text-textGraphite font-sans antialiased;
+  @apply bg-ivory text-textGraphite antialiased;
+  /* 모든 폰트를 system font로 기본 설정 - 즉시 렌더링 */
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
   font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -130,9 +132,9 @@ body {
   background-blend-mode: multiply;
 }
 
-/* 개선된 타이포그래피 */
+/* 개선된 타이포그래피 - 헤딩도 system font 우선 */
 h1, h2, h3, h4, h5, h6 {
-  @apply font-display;
+  font-family: ui-serif, Georgia, serif;
   letter-spacing: -0.02em;
   font-feature-settings: 'kern' 1;
 }

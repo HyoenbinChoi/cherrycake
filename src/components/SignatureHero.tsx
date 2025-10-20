@@ -7,11 +7,17 @@ export default function SignatureHero() {
       <div className="container mx-auto px-5 grid md:grid-cols-[1.2fr_.8fr] gap-10 items-end">
         {/* 비대칭 타이틀 (의도적 불균형) */}
         <div>
-          <h1 className="font-display text-5xl leading-tight md:text-6xl tracking-tight text-textGraphite max-w-[16ch]">
+          <h1 
+            className="font-display text-5xl leading-tight md:text-6xl tracking-tight text-textGraphite max-w-[16ch]"
+            style={{ fontFamily: 'ui-serif, Georgia, serif' }}
+          >
             Decoding Emotions.
           </h1>
 
-          <p className="mt-5 max-w-prose text-[17px] leading-8 text-textGraphite/90">
+          <p 
+            className="mt-5 max-w-prose text-[17px] leading-8 text-textGraphite/90"
+            style={{ fontFamily: 'ui-sans-serif, system-ui, -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif' }}
+          >
             저는 숫자 대신 리듬을, 데이터 대신 감정의 구조를 봅니다.
             <br />
             체리케이크는 감정의 패턴을 시각화하는 스튜디오입니다.
