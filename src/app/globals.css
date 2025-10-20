@@ -736,25 +736,8 @@ a:hover {
   .animate-float-1, .animate-float-2, .animate-float-3, .animate-float-slow { animation-duration: 4s !important; }
 }
 
-/* 접근성: 애니메이션 감소 선호 시 강도 낮추기 */
-@media (prefers-reduced-motion: reduce) {
-  .animate-grid-drift,
-  .animate-grid-slow,
-  .animate-stripe-drift,
-  .animate-wave-flow,
-  .animate-wave-flow-delayed,
-  .animate-float-1,
-  .animate-float-2,
-  .animate-float-3,
-  .animate-spin-slow,
-  .animate-spin-very-slow,
-  .animate-pulse-subtle,
-  .animate-float-slow {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-  }
-}
+/* 접근성: 애니메이션 감소 선호 시 - 제거됨 */
+/* 디자인의 핵심 요소이므로 항상 활성화 */
 
 /* ============================================
    MOTION PREFERENCES - 접근성
