@@ -672,64 +672,94 @@ a:hover {
 
 /* 애니메이션 클래스 - 속도 2-3배 빠르게 */
 /* !important를 추가하여 prefers-reduced-motion 무시 */
+/* will-change 제거하여 렌더링 비용 감소 */
 .animate-grid-drift {
   animation: grid-drift 12s ease-in-out infinite !important;
-  will-change: transform;
 }
 
 .animate-grid-slow {
   animation: grid-slow 15s ease-in-out infinite !important;
-  will-change: transform;
 }
 
 .animate-stripe-drift {
-  animation: stripe-drift 14s ease-in-out infinite !important;
-  will-change: transform;
+  animation: stripe-drift 10s linear infinite !important;
 }
 
 .animate-wave-flow {
-  animation: wave-flow 3s ease-in-out infinite !important;
-  will-change: transform, opacity;
+  animation: wave-flow 8s ease-in-out infinite !important;
 }
 
 .animate-wave-flow-delayed {
-  animation: wave-flow-delayed 4s ease-in-out infinite !important;
-  will-change: transform, opacity;
+  animation: wave-flow 8s ease-in-out infinite !important;
+  animation-delay: -4s !important;
 }
 
 .animate-float-1 {
-  animation: float-1 4s ease-in-out infinite !important;
-  will-change: transform, opacity;
+  animation: float-1 6s ease-in-out infinite !important;
 }
 
 .animate-float-2 {
-  animation: float-2 4.5s ease-in-out infinite 0.3s !important;
-  will-change: transform, opacity;
+  animation: float-2 7s ease-in-out infinite !important;
 }
 
 .animate-float-3 {
-  animation: float-3 5s ease-in-out infinite 0.6s !important;
-  will-change: transform, opacity;
+  animation: float-3 8s ease-in-out infinite !important;
 }
 
 .animate-spin-slow {
-  animation: spin-slow 25s linear infinite !important;
-  will-change: transform;
+  animation: spin-slow 20s linear infinite !important;
 }
 
 .animate-spin-very-slow {
   animation: spin-very-slow 35s linear infinite !important;
-  will-change: transform;
 }
 
 .animate-pulse-subtle {
-  animation: pulse-subtle 2.5s ease-in-out infinite !important;
-  will-change: opacity, transform;
+  animation: pulse-subtle 3s ease-in-out infinite !important;
 }
 
 .animate-float-slow {
   animation: float-slow 6s ease-in-out infinite !important;
-  will-change: transform;
+}
+
+/* 성능 최적화: 섹션 레이아웃 격리 및 지연 렌더링 */
+.section-container {
+  content-visibility: auto;
+  contain: layout style paint;
+}
+
+/* 모바일 최적화: 터치 타겟 최소 크기 */
+@media (max-width: 768px) {
+  a, button {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* 모바일에서 애니메이션 시간 단축 */
+  .animate-grid-drift { animation-duration: 8s !important; }
+  .animate-grid-slow { animation-duration: 10s !important; }
+  .animate-wave-flow, .animate-wave-flow-delayed { animation-duration: 5s !important; }
+  .animate-float-1, .animate-float-2, .animate-float-3, .animate-float-slow { animation-duration: 4s !important; }
+}
+
+/* 접근성: 애니메이션 감소 선호 시 강도 낮추기 */
+@media (prefers-reduced-motion: reduce) {
+  .animate-grid-drift,
+  .animate-grid-slow,
+  .animate-stripe-drift,
+  .animate-wave-flow,
+  .animate-wave-flow-delayed,
+  .animate-float-1,
+  .animate-float-2,
+  .animate-float-3,
+  .animate-spin-slow,
+  .animate-spin-very-slow,
+  .animate-pulse-subtle,
+  .animate-float-slow {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
 
 /* ============================================

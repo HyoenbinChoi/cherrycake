@@ -45,7 +45,7 @@ export default function HomePage() {
       <SignatureHero />
 
       {/* Main Hero Section */}
-      <section className="relative min-h-[70vh] flex items-center justify-center bg-gradient-to-br from-ivory via-ivory to-rose/10">
+      <section className="section-container relative min-h-[70vh] flex items-center justify-center bg-gradient-to-br from-ivory via-ivory to-rose/10">
         {/* 기하학적 패턴 배경 - 눈에 띄는 이동 */}
         <div className="absolute inset-0 opacity-[0.12] pointer-events-none">
           <div 
@@ -101,7 +101,7 @@ export default function HomePage() {
       </section>
 
       {/* Projects Grid */}
-      <section id="projects" className="py-20 md:py-28 bg-gradient-to-b from-slate via-slate to-graphite text-ivory">
+      <section id="projects" className="section-container py-20 md:py-28 bg-gradient-to-b from-slate via-slate to-graphite text-ivory">
         <div className="container mx-auto px-[4%]">
           <div className="mb-16 text-center">
             <h2 className="text-4xl md:text-5xl font-display font-bold mb-4 tracking-tight">Projects</h2>
@@ -196,7 +196,7 @@ export default function HomePage() {
       </section>
 
       {/* Philosophy Section */}
-      <section id="philosophy" className="py-20 md:py-28 bg-gradient-to-b from-graphite to-slate text-ivory relative">
+      <section id="philosophy" className="section-container py-20 md:py-28 bg-gradient-to-b from-graphite to-slate text-ivory relative">
         {/* 대각선 패턴 - 눈에 띄는 이동 */}
         <div className="absolute inset-0 opacity-[0.06] pointer-events-none">
           <div 
@@ -242,7 +242,7 @@ export default function HomePage() {
       </section>
 
       {/* Approach Section */}
-      <section className="py-20 md:py-28 bg-ivory">
+      <section className="section-container py-20 md:py-28 bg-ivory">
         <div className="container mx-auto px-[4%]">
           <div className="mb-12 text-center">
             <h2 className="text-4xl md:text-5xl font-display font-bold mb-4 tracking-tight text-textGraphite">Approach</h2>
@@ -269,7 +269,7 @@ export default function HomePage() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 md:py-28 bg-ivory">
+      <section id="contact" className="section-container py-20 md:py-28 bg-ivory">
         <div className="container mx-auto px-[4%]">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl md:text-5xl font-display font-bold mb-6 tracking-tight">
